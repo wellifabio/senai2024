@@ -1,0 +1,11 @@
+# Técnico em Desenvolvimento de Sistemas
+- 1DES
+    - LPA (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)
+    - REC (Levantamento de Requisitos)
+    - SOP (Fundamentos e Administração de Sistemas Operacionais)
+    - RIOT (Arquitetura de redes com IoT)
+- 2DES
+    - PWBE (Programação Web Back-End - NodeJS e/ou JSP e/ou PHP)
+    - PWFE (Programação Web Front-End - JavaScript + BootStrap e/ou React)
+    - BCD (Bancos de Dados Relacionais e Não relacionais - XAMPP MariaDB e/ou Postgres e/ou MongoDB e/ou CosmosDB)
+    - INDMO (Interface para dispositivos moveis - React Native + Expo e/ou noCode AppInventor)
