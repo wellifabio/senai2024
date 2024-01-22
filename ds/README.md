@@ -1,9 +1,4 @@
 # Técnico em Desenvolvimento de Sistemas
-- 1DES
-    - [LPA (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./1des_2024/01-lpa/)
-    - [REC (Levantamento de Requisitos)](./1des_2024/02-rec/)
-    - [RIOT (Arquitetura de redes com IoT)](./1des_2024/03-riot/)
-    - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./1des_2024/04-sop/)
 - 2DES
     - [PWBE (Programação Web Back-End - NodeJS e/ou JSP e/ou PHP)](./2des_2023/01-pwbe/)
     - [PWFE (Programação Web Front-End - JavaScript + BootStrap e/ou React)](./2des_2023/02-pwfe/)
