@@ -15,44 +15,61 @@
 			- Não Relacional
 		- SQL (Ex: Mysql, Oracle, SQL Server, Postgres, FireBird ...)
 			- Relacionais
+## Abiente de desenvolvimento
+- XAMPP
+- VSCode
+- Git
+- MySQL Workbanck
 
-# MER x DER
-- MER (Modelo Entidade Relacionamento)
-- DER (Diagrama Entidade Relacionamento)
-- Chave
+## Scripts SQL
+
+- DDL
+
+```sql
+-- Criar um banco de dados
+create database lojinha;
+
+-- Listar todos os bancos de dados
+show databases;
+
+-- Acessar o banco de dados
+use lojinha;
+
+-- Excluir um banco de dados
+drop database lojinha;
+```
+
+- Tabela
+
+```sql
+-- Exclui um banco de dados se existir (DEV)
+drop database if exists lojinha;
+create database lojinha;
+use lojinha;
+
+-- Criar uma tabela de Clientes
+create table Clientes(
+    id integer primary key not null auto_increment,
+    cpf varchar(20) not null unique,
+    nome varchar(50) not null,
+    sobrenome varchar(50) not null,
+    nascimento date not null
+);
+
+-- Ver a estrutura da tabela
+describe Clientes;
+
+-- Ver todas as tabelas
+show tables;
+
+-- Excluir uma tabela
+drop table Clientes;
+
+-- Ver todas as tabelas
+show tables;
+```
+
+## Chave
 	- Campo único que identifica o registro (A linha inteira de dados)
 	- Chave Primária (Não se repete na tabela)
 	- Chave Estrangeira (Se repete na tabela e sempre faz referência a uma chave primária em outra tabela)
-- <b>Conceitual</b>
-	- Mais próximo do problema,
-	- descreve as concistências dos dados através dos relacionamentos
-	- Não tem a necessidade de apresentar as chaves estrangeiras
-	- Possui cardinalidades
-		- 1 para 1
-		- 1 para N
-		- N para N
-		- Min x Max
-- <b>Lógico</b>
-	- Mais próximo da solução
-	- Possui apenas a cardinalidades
-		- I para N
-	- Chave primária e estrangeiras
-# MER
-- Exemplo:
-	- Banco de dados de cadastro de produtos e histórico de preços:
-	- Produtos (id[inteiro,4 dígitos, não nulo, autoincrementado], nome[40 caracteres, não nulo], volume[real,6.2 dígitos], peso[real, 6.2 dígitos]);
-	- Preços (produto[inteiro,4 dígitos, não nulo] referencia produto(id), data[data, não nulo], preço[real, 8.2 dígitos, não nulo	]);
-# DER
-- <img src="mer_der.png">
-
-# Exemplo:
-- Banco de dados de cadastro de produtos e histórico de preços:
-- <img src="exemplo_1_n.png">
-
-# Exercícios
-- <img src="exercicios.jpg">
-- Criar os diagramas utilizando <b>um dos</b> meios a seguir
-	- brModelo.jar (Neste repositório)
-	- http://draw.io
-	- mspaint
-	- Papel e caneta
