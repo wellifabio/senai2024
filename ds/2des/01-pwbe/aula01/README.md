@@ -44,4 +44,4 @@ node server.js
 - 7 Teste também via navegador no endereço: http://localhost:3000
 
 # Exemplo - Full-Stack
-Neste repositório está um projeto chamado "lojinha" com todas as 3 stacks (Banco de dados, Back-end e Front-End)
+Neste repositório está um projeto chamado "lojinha" com todas as 3 stacks (Banco de dados, Back-end e Front-End) somente com conceitos básicos.
