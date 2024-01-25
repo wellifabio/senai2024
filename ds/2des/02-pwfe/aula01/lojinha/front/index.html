@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icone.png" type="image/x-icon">
+    <title>Lojinha</title>
+</head>
+
+<body>
+    <header>
+        <h1>Interface de Gestão de Clientes</h1>
+    </header>
+    <main>
+        <nav>
+            <button onclick="cadastro.classList.remove('oculto')">Novo</button>
+        </nav>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>CPF</th>
+                    <th>Nome completo</th>
+                    <th>Nascimento</th>
+                </tr>
+            </thead>
+            <tbody id="dados">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>By prof. Wellington</h2>
+    </footer>
+    <div class="modal oculto" id="cadastro">
+        <div class="janela">
+            <h2>Cadastrar novo cliente</h2>
+            <form action="http://localhost:3000/clientes" method="post">
+                <input type="text" name="cpf" placeholder="cpf" required>
+                <input type="text" name="nome" placeholder="nome" required>
+                <input type="text" name="sobrenome" placeholder="sobrenome" required>
+                <input type="date" name="nascimento" placeholder="nascimento" required>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar" onclick="cadastro.classList.add('oculto')">
+            </form>
+        </div>
+    </div>
+    <div class="modal oculto" id="msgs">
+        <div class="janela">
+            <h2>Resposta do servidor</h2>
+            <br>
+            <h3 id="msg"> </h3>
+            <br>
+            <button onclick="window.location.href='./'">Fechar</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
