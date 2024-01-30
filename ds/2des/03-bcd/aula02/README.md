@@ -48,22 +48,29 @@
 ### Exemplo:
 |MER - Modelo Entidade Relacionamento - Dicionário de dados - Projéto: Banco R$|
 |-|
-|**Clientes** (<U>cpf</U>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50), telefone: texto (20) - nulo, nascimento: data);|
+|**Clientes** (<U>cpf</U>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50) - nulo, telefone: texto (20) - nulo, nascimento: data);|
 |**Contas** (<U>numero_conta</U>: inteiro, tipo: texto(20), cpf: texto (20) – Referencia [Clientes: cpf]);|
 |**Movimentacoes** (<U>id</U>: inteiro – auto incremento, tipo: texto(15), valor: moeda, origem: texto(50), destino: texto(50), numero_conta: inteiro – Referencia [Conta: numero_conta]);|
 #### Representação dos dados
 <table>
 <tr>
-	<td>Clientes</td><td>Contas</td>		
+<td>Clientes</td>		
 </tr>
-<tr><td>
+<tr>
+<td>
 
 |cpf|nome_completo|cep|numero|complemento|telefone|nascimento|
 |-|-|-|-|-|-|-|
-|111.111.111-11|Arnaldo Coelho|13914-552|null|1960-10-03|
-|888.888.888-88|Solange Gomes|13914-553|19-98788-8789|1980-08-13|
-|555.555.555-55|Ivone Silva Santos|13914-554|19-99878-8888|2001-05-26|
-</td><td>
+|111.111.111-11|Arnaldo Coelho|13914-552||||1960-10-03|
+|888.888.888-88|Solange Gomes|13914-553|23|BL14 AP44|19-98788-8789|1980-08-13|
+|555.555.555-55|Ivone Silva Santos|13914-554|456A|Fundos|19-99878-8888|2001-05-26|
+</td>
+</tr>
+<tr>
+<td>Contas</td>
+</tr>
+<tr>
+<td>
 
 |numero_conta|tipo|cpf|
 |-|-|-|
@@ -75,10 +82,10 @@
 </td>
 </tr>
 <tr>
-<td colspan=2>Movimentacoes</td>
+<td>Movimentacoes</td>
 </tr>
 <tr>
-<td colspan=2>
+<td>
 
 |id|tipo|valor|origem|destino|numero_conta|
 |-|-|-|-|-|-|
