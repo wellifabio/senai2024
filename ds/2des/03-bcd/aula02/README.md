@@ -103,6 +103,9 @@
 </tr>
 </table>
 
+#### Desafio
+Faça uma análise dos dados de teste no banco de dados do **Banco R$** e responda qual o saldo de cada conta após as movimentações.
+
 ### Atividades
 
 Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos temas a seguir:
