@@ -51,7 +51,7 @@
 |**Clientes** (<U>cpf</U>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50) - nulo, telefone: texto (20) - nulo, nascimento: data);|
 |**Contas** (<U>numero_conta</U>: inteiro, tipo: texto(20), cpf: texto (20) – Referencia [Clientes: cpf]);|
 |**Movimentacoes** (<U>id</U>: inteiro – auto incremento, tipo: texto(15), valor: moeda, origem: texto(50), destino: texto(50), numero_conta: inteiro – Referencia [Conta: numero_conta]);|
-#### Representação dos dados
+#### Representação dos dados (Dados de teste)
 <table>
 <tr>
 <td>Clientes</td>		
@@ -111,3 +111,5 @@ Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos t
 - **Projeto Varegista** (Loja grande ou pequena como Casas Bahia, Magazine Luiza, sistema de vendas)
 - **Projeto Academia** (Sistema de matrícula de alunos, pagamentos e frequência)
 - **Projeto Escola** (Sitema de matrícula de alunos, turmas e cursos)
+
+Faça o dicionário de dados com as chaves primárias e estrangeiras, os atributos, tipos de dados e modificadores e preencha as tabelas com fazendo uma **representação** com **dados de teste** conforme o exemplo **Banco R$**
