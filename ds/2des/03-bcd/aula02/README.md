@@ -16,7 +16,8 @@
 		- SQL (Ex: Mysql, Oracle, SQL Server, Postgres, FireBird ...)
 			- Relacionais
 
-# MER x DER
+# Bancos de dados Relacionais
+## MER x DER
 - MER (Modelo Entidade Relacionamento)
 - DER (Diagrama Entidade Relacionamento)
 - Chave
@@ -27,32 +28,33 @@
 	- Mais próximo do problema,
 	- descreve as concistências dos dados através dos relacionamentos
 	- Não tem a necessidade de apresentar as chaves estrangeiras
-	- Possui cardinalidades
+	- Possui vários tipos de **cardinalidades**
 		- 1 para 1
 		- 1 para N
 		- N para N
 		- Min x Max
 - <b>Lógico</b>
 	- Mais próximo da solução
-	- Possui apenas a cardinalidades
+	- Possui **apenas** a **cardinalidades**
 		- I para N
 	- Chave primária e estrangeiras
-# MER
-- Exemplo:
-	- Banco de dados de cadastro de produtos e histórico de preços:
-	- Produtos (id[inteiro,4 dígitos, não nulo, autoincrementado], nome[40 caracteres, não nulo], volume[real,6.2 dígitos], peso[real, 6.2 dígitos]);
-	- Preços (produto[inteiro,4 dígitos, não nulo] referencia produto(id), data[data, não nulo], preço[real, 8.2 dígitos, não nulo	]);
-# DER
-- <img src="mer_der.png">
 
-# Exemplo:
-- Banco de dados de cadastro de produtos e histórico de preços:
-- <img src="exemplo_1_n.png">
+## MER
+|MER - Modelo Entidade Relacionamento|
+|-|
+|**Entidade1** (<u>Atributo chave primária</u>: tipo, Atributo: tipo, Atributo: tipo - modificador);|
+|**Entidade2** (<u>Atributo chave primária</u>: tipo, Atributo: tipo, Atributo chave estrangeira: tipo – Referência [Entidade: chave primária]);|
 
-# Exercícios
-- <img src="exercicios.jpg">
-- Criar os diagramas utilizando <b>um dos</b> meios a seguir
-	- brModelo.jar (Neste repositório)
-	- http://draw.io
-	- mspaint
-	- Papel e caneta
+### Exemplo: $Banco - Genérico
+|MER - Modelo Entidade Relacionamento|
+|-|
+|**Clientes** (<u>cpf</u>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50), telefone: texto (20) - nulo, nascimento: data);|
+|**Conta** (<u>numero_da_conta</u>: inteiro, tipo: texto(20), cpf: texto (20) – Referencia [Clientes: cpf]);|
+|**Movimentacoes** (<u>id</u>: inteiro – auto incremento, tipo: texto(15), valor: moeda, numero da conta: inteiro – Referencia [Conta: numero_da_conta]);|
+
+### Atividades
+Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos temas a seguir:
+- **Transportadora** (Gestão de frotas e fretes [viagens])
+- **Varegista** (Loja grande ou pequena como Casas Bahia, Magazine Luiza, sistema de vendas)
+- **Academia** (Sistema de matrícula de alunos, pagamentos e frequência)
+- **Escola** (Sitema de matrícula de alunos, turmas e cursos)
