@@ -61,7 +61,7 @@
 
 |cpf|nome_completo|cep|numero|complemento|telefone|nascimento|
 |-|-|-|-|-|-|-|
-|111.111.111-11|Arnaldo Coelho|13914-552||||1960-10-03|
+|111.111.111-11|Arnaldo Coelho|13914-552| | | |1960-10-03|
 |888.888.888-88|Solange Gomes|13914-553|23|BL14 AP44|19-98788-8789|1980-08-13|
 |555.555.555-55|Ivone Silva Santos|13914-554|456A|Fundos|19-99878-8888|2001-05-26|
 </td>
