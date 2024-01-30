@@ -42,15 +42,15 @@
 ## MER
 |MER - Modelo Entidade Relacionamento|
 |-|
-|**Entidade1** (<u>Atributo chave primária</u>: tipo, Atributo: tipo, Atributo: tipo - modificador);|
-|**Entidade2** (<u>Atributo chave primária</u>: tipo, Atributo: tipo, Atributo chave estrangeira: tipo – Referência [Entidade: chave primária]);|
+|**Entidade1** (<U>Atributo chave primária</U>: tipo, Atributo: tipo, Atributo: tipo - modificador);|
+|**Entidade2** (<U>Atributo chave primária</U>: tipo, Atributo: tipo, Atributo chave estrangeira: tipo – Referência [Entidade: chave primária]);|
 
 ### Exemplo: $Banco - Genérico
 |MER - Modelo Entidade Relacionamento|
 |-|
-|**Clientes** (<u>cpf</u>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50), telefone: texto (20) - nulo, nascimento: data);|
-|**Conta** (<u>numero_da_conta</u>: inteiro, tipo: texto(20), cpf: texto (20) – Referencia [Clientes: cpf]);|
-|**Movimentacoes** (<u>id</u>: inteiro – auto incremento, tipo: texto(15), valor: moeda, numero da conta: inteiro – Referencia [Conta: numero_da_conta]);|
+|**Clientes** (<U>cpf</U>: texto (20), nome_completo: texto (100), cep: texto (10), numero: texto (5) - nulo, complemento: texto (50), telefone: texto (20) - nulo, nascimento: data);|
+|**Conta** (<U>numero_da_conta</U>: inteiro, tipo: texto(20), cpf: texto (20) – Referencia [Clientes: cpf]);|
+|**Movimentacoes** (<U>id</U>: inteiro – auto incremento, tipo: texto(15), valor: moeda, numero da conta: inteiro – Referencia [Conta: numero_da_conta]);|
 
 ### Atividades
 Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos temas a seguir:
