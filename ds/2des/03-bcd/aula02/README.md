@@ -102,8 +102,11 @@
 </td>
 </tr>
 </table>
+
 ### Atividades
+
 Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos temas a seguir:
+
 - **Projeto Transportadora** (Gestão de frotas e fretes [viagens])
 - **Projeto Varegista** (Loja grande ou pequena como Casas Bahia, Magazine Luiza, sistema de vendas)
 - **Projeto Academia** (Sistema de matrícula de alunos, pagamentos e frequência)
