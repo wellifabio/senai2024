@@ -106,13 +106,29 @@
 #### Desafio
 Faça uma análise dos dados de teste no banco de dados do **Banco R$** e responda qual o saldo de cada conta após as movimentações.
 
+## DER - Diagrama Entidade e Relacionamento
+![Modelo conceitual](./mer_der.png)
+- [Notação de Peter Chen](./notacao_de_peter_chen.pdf)
+- A seguir um exemplo de DER conceitual do **projeto Banco R$** feito na lousa desta aula:
+- ![Lousa](./lousa.jpg)
+- O mesmo exemplo feito com draw.io
+- ![Lousa](./der-conceitual-banco.png)
+
 ### Atividades
 
-Em grupos de no máximo 3 pessoas modele um bancos de dados escolnhendo um dos temas a seguir:
+#### Contextualização:
+Em grupos de no máximo 3 pessoas modele um bancos de dados escolhendo um dos temas a seguir:
 
 - **Projeto Transportadora** (Gestão de frotas e fretes [viagens])
 - **Projeto Varegista** (Loja grande ou pequena como Casas Bahia, Magazine Luiza, sistema de vendas)
 - **Projeto Academia** (Sistema de matrícula de alunos, pagamentos e frequência)
 - **Projeto Escola** (Sitema de matrícula de alunos, turmas e cursos)
 
-Faça o dicionário de dados com as chaves primárias e estrangeiras, os atributos, tipos de dados e modificadores e preencha as tabelas com fazendo uma **representação** com **dados de teste** conforme o exemplo **Banco R$**
+#### Desafios:
+- Faça o dicionário de dados com as chaves primárias e estrangeiras, os atributos, tipos de dados e modificadores
+- Preencha as tabelas com fazendo uma **representação** com **dados de teste** - Faça o DER Conceitual
+
+#### Entregas
+- MER - Dicionário de dados
+- Tabelas com dados de teste
+- MER - DER Conceitual
