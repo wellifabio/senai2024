@@ -19,16 +19,28 @@ Trabalhando com o projeto **Lojinha** utilizaremos os verbos corretos **GET** pa
 O projeto está neste repositório na pasta ./lojinha com as instruções para testar em ./lojinha/README.md
 
 ## Atividade 01 - EAD
-Utilizando como modelo o projeto **Lojinha**, em duplas, escolha um dos temas a seguir e desenvolva um projeto full-stack.
+
+### Contextualização:
+
+Utilizando como modelo o projeto Lojinha (https://github.com/wellifabio/lojinha.git).
+
 - Patrimônio/Inventário
 - Produtos da cantina
 - Livros em uma Biblioteca
 - Produtos em uma papelaria
 - Cadastro de Filmes preferidos
 - Cadastro de Músicas preferidas
-- Outro conforme sua criatividade, desde que envolva apena uma tabela em um banco dedados.
+- Outro conforme sua criatividade, desde que envolva apena uma tabela em um banco de dados.
 
-### Entrega:
-- 01/02/2024 em um repositório público do github
-- O link do forms para a entrega estará aqui:
+### Desafio:
+Em duplas, escolha um dos temas a seguir e desenvolva um projeto full-stack com apenas uma tabela no banco de dados, o front-end pode conter três páginas como no modelo ou uma só com modais como no modelo da aula01 de front-end.
+#### OBS: Aplique uma estilização criativa no front-end.
 
+### Entregas:
+- Repositório do github com:
+    - Arquivo README.md com instruções das tecnologias utilizadas e como testar, opcional (print das telas)
+    - Pastas back, front e banco com os códigos e scripts
+
+### Data e meio de entrega:
+- 02/02/2024 em um repositório público do github
+- [Link do forms para a entrega](https://forms.gle/fqXrJcJ49KbUMyg27)
