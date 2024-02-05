@@ -1,0 +1,44 @@
+DataPedido,Regiao,Estado,Vendedor,Item,Unidades,PrecoUnidade
+7-Jun-2016,Nordeste,Pernambuco,Tobias,Geladeira,62,400.99
+11-Jul-2016,Nordeste,Paraíba,Nadia,Microondas,29,100.99
+20-Jul-2016,Sudeste,Minas Gerais,Carlos,Geladeira,55,1200.49
+19-Jul-2016,Nordeste,Bahia,Tania,Microondas,81,1900.99
+16-Aug-2016,Sudeste,Rio de Janeiro,Pedro,Geladeira,42,2300.95
+22-Aug-2016,Nordeste,Alagoas,Tobias,Fogao,35,400.99
+24-Aug-2016,Sul,Santa Catarina,Mauricio,Lavadora,3,2750
+10-Sep-2016,Sudeste,Minas Gerais,Smith,Lavadora,2,1250
+10-Sep-2016,Sudeste,Rio de Janeiro,Alan,Fogao,7,1000.29
+12-Sep-2016,Nordeste,Pernambuco,Tobias,Geladeira,16,1500.99
+26-Sep-2016,Sul,Rio Grande do Sul,Mauricio,Fogao,76,1450.99
+15-Oct-2016,Sudeste,Minas Gerais,Carlos,Microondas,28,890.99
+14-Oct-2016,Sul,Rio Grande do Sul,Thomas,Microondas,57,1900.99
+22-Oct-2016,Nordeste,Sergipe,Tobias,Fogao,64,800.99
+31-Oct-2016,Sudeste,Rio de Janeiro,Raquel,Fogao,14,1340.29
+18-Nov-2016,Nordeste,Bahia,Tania,Fogao,15,1900.99
+17-Nov-2016,Sudeste,Rio de Janeiro,Alex,Microondas,11,1400.99
+22-Nov-2016,Sudeste,Minas Gerais,Pedro,Geladeira,96,1450.99
+14-Dec-2016,Sudeste,Rio de Janeiro,Alex,Microondas,94,1900.99
+12-Dec-2016,Sudeste,Rio de Janeiro,Smith,Fogao,67,1900.29
+21-Dec-2016,Sudeste,Rio de Janeiro,Raquel,Microondas,28,2400.99
+29-Dec-2016,Nordeste,Pernambuco,Tania,Geladeira,74,1500.99
+16-Jan-2017,Nordeste,Ceará,Tobias,Fogao,95,1350.99
+5-Jan-2017,Sudeste,São Paulo,Alan,Microondas,46,800.99
+23-Jan-2017,Sudeste,São Paulo,Pedro,Microondas,50,1900.99
+1-Feb-2017,Sudeste,São Paulo,Smith,Microondas,87,1500
+9-Feb-2017,Sudeste,São Paulo,Alex,Fogao,36,400.99
+18-Feb-2017,Nordeste,Ceará,Tobias,Microondas,4,1420.99
+26-Feb-2017,Sudeste,São Paulo,Alan,Fogao,27,1999.99
+7-Mar-2017,Sul,Paraná,Mauricio,Microondas,7,1900.99
+15-Mar-2017,Sul,Santa Catarina,Mauricio,Fogao,56,2340.99
+24-Mar-2017,Sudeste,São Paulo,Alex,Geladeira,50,1433.99
+1-Apr-2017,Nordeste,Pernanbumco,Tobias,Microondas,60,2400.99
+10-Apr-2017,Sudeste,São Paulo,Raquel,Fogao,66,1900.99
+18-Apr-2017,Sudeste,São Paulo,Raquel,Fogao,75,1800.99
+27-Apr-2017,Nordeste,Bahia,Nadia,Fogao,96,400.99
+5-May-2017,Sudeste,São Paulo,Alex,Fogao,90,1422.99
+14-May-2017,Sudeste,São Paulo,Alan,Fogao,53,1340.29
+22-May-2017,Sul,Rio Grande do Sul,Thomas,Fogao,32,1700.99
+31-May-2017,Sudeste,São Paulo,Alan,Microondas,80,800.99
+8-Jun-2017,Nordeste,Rio Grande do Norte,Tobias,Microondas,60,800.99
+10-Jun-2017,Sudeste,São Paulo,Pedro,Lavadora,5,1250
+11-Jun-2017,Sudeste,São Paulo,Carlos,Fogao,90,400.99

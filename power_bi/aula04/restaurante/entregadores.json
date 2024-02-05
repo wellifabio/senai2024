@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"nome": "Sem entrega",
+		"placa": "AAA-0A00",
+		"modelo": "Sem veículo",
+        "foto": "https://cdn-icons-png.flaticon.com/512/2815/2815428.png"
+	},
+	{
+		"id": 2,
+		"nome": "Gilberto Martins",
+		"placa": "JQT-7I87",
+		"modelo": "CG Titan KS 150 Honda",
+        "foto": "https://raw.githubusercontent.com/wellifabio/senai2023/main/2des/projetos/assets/avatares/cli2.png"
+	},
+	{
+		"id": 3,
+		"nome": "Luciana Silva",
+		"placa": "FZC-9X29",
+		"modelo": "Faser 250 Yamaha",
+        "foto": "https://raw.githubusercontent.com/wellifabio/senai2023/main/2des/projetos/assets/avatares/cli4.png"
+	},
+	{
+		"id": 4,
+		"nome": "Simone Martim",
+		"placa": "LHW-1J81",
+		"modelo": "Ginerae",
+        "foto": "https://raw.githubusercontent.com/wellifabio/senai2023/main/2des/projetos/assets/avatares/cli1.png"
+	}
+]
