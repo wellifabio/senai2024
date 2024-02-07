@@ -14,7 +14,7 @@
 Os códigos fonte, exemplos e materiais didáticos serão adicionados a este repositório ao longo do ano de 2024, consulte também os repositórios senai2023, senai2022 e senai2021 pois estão repletos de materiais dos anos passados.
 
 ## Biblioteca SENAI
-- [Conecta SENAI)[https://www.conectasenai.com.br/login/]
+- [Conecta SENAI](https://www.conectasenai.com.br/login/)
 - [Passo a passo para acessar o conecta SENAI](./conecta-passo-a-passo.pdf)
 
 ## Calendário
