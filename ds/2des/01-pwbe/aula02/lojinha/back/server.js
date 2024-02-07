@@ -11,6 +11,7 @@ const con = mysql.createConnection({
     database: 'lojinha'
 });
 
+
 //Rota de teste
 const teste = (req, res) => {
     res.send("Back-end respondendo ");
