@@ -132,3 +132,4 @@ Em grupos de no máximo 3 pessoas modele um bancos de dados escolhendo um dos te
 - MER - Dicionário de dados
 - Tabelas com dados de teste
 - MER - DER Conceitual
+<br>[Formulário para entrega da atividade](https://forms.gle/b1ZSWyksKnFHPPCj8)
