@@ -46,3 +46,14 @@ create table Movimentacoes(
 );
 
 ```
+
+# Para testar o script
+- 1 Abra o XAMPP e clique em start nos serviços Apache e MySQL
+- 2 Abra um terminal "cmd" e acesse o mysql.
+```bash
+mysql -u root
+```
+- 3 Copie o script e cole no terminal
+- 4 No XAMPP clique em **Admin** a frente do serviço **MySQL** para abrir o PHPMyAdmin
+- 5 No ambiente gráfico do PHPMyAdmin clique no nome do banco de dados e em seguida procure o ítem do menú **Desenhador" para ve o **DER Lógico**.
+
