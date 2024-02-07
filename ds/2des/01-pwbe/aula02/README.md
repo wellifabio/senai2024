@@ -44,3 +44,7 @@ Em duplas, escolha um dos temas a seguir e desenvolva um projeto full-stack com 
 ### Data e meio de entrega:
 - 02/02/2024 em um repositório público do github
 - [Link do forms para a entrega](https://forms.gle/fqXrJcJ49KbUMyg27)
+
+#### Critérios
+![Criterios](./criterios.png)
+[Arquivo para avaliacao](./2DES_PWBE.json)
