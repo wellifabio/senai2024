@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    padding: 20px 0;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    padding: 20px 0;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 5vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a,
+button {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+table {
+    max-width: 800px;
+    display: block;
+    max-height: 70vh;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+thead {
+    width: 100%;
+    display: block;
+    background: #000;
+    color: #fff;
+}
+
+thead tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+tbody {
+    max-height: 60vh;
+    display: block;
+    overflow-y: scroll;
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15vh;
+    z-index: 10;
+}
+
+.janela{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.oculto {
+    display: none;
+}
