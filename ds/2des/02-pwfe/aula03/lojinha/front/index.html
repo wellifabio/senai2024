@@ -12,11 +12,11 @@
 <body onload="loadClientes()">
     <header>
         <h1>Interface de Gestão de Clientes</h1>
-    </header>
-    <main>
         <nav>
             <button onclick="cadastro.classList.remove('oculto')">Novo</button>
         </nav>
+    </header>
+    <main>
         <table>
             <thead>
                 <tr>
@@ -24,6 +24,7 @@
                     <th>CPF</th>
                     <th>Nome completo</th>
                     <th>Nascimento</th>
+                    <th>Idade</th>
                     <th>Opções</th>
                 </tr>
             </thead>
@@ -32,7 +33,7 @@
         </table>
     </main>
     <footer>
-        <h2>By prof. Wellington</h2>
+        <h2>By prof. Wellington & github Copilot</h2>
     </footer>
     <div class="modal oculto" id="cadastro">
         <div class="janela">
@@ -49,11 +50,14 @@
     </div>
     <div class="modal oculto" id="msgs">
         <div class="janela">
-            <h2>Resposta do servidor</h2>
+            <h2 id="errTit"></h2>
             <br>
             <h3 id="msg"> </h3>
             <br>
-            <button onclick="window.location.href='./'">Fechar</button>
+            <div>
+                <button onclick="window.location.href='./'">Fechar</button>
+                <button id="confirma" class="oculto">Confirma</button>
+            </div>
         </div>
     </div>
 </body>
