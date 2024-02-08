@@ -1,4 +1,4 @@
-# Aula02
+# Aula02 - API Previsão do Tempo
 
 # Programação Front-End
 Interfaçe de usuário - Parte visual onde o usuário interage com a aplicação Web.
@@ -27,11 +27,7 @@ Interfaçe de usuário - Parte visual onde o usuário interage com a aplicação
 
 # Exemplo
 Elaboração de uma tela onde por pesquisa via cidade o mostra as condições climaticas previstas de acordo com a API listada
-
 ![image](https://github.com/wellifabio/senai2024/assets/156427878/0d7eba57-187f-4b2c-96ae-4db0725fab30)
 
 # Atividade
-Criar um site para pesquisa de CEP, utilizando a API para realizar a busca do endereço via CEP, atividade em sala com continuação em Casa
-
-
-
+Criar um site para pesquisa de CEP, utilizando a API para realizar a busca do endereço via CEP, atividade em sala com continuação em casa.
