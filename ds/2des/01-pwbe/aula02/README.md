@@ -1,6 +1,6 @@
 # Aula02
 
-## Vernos HTTP (POST e GET)
+## Verbos HTTP (POST e GET)
 Trabalhando com o projeto **Lojinha** utilizaremos os verbos corretos **GET** para listar todos e **POST** para criar, para isso precisaremos da biblioteca body-parser.
 
 ## Conhecimentos NodeJS

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lojinha</title>
+</head>
+<body>
+    <header>
+        <h1>Atualiza Cliente</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Listar todos</a>
+        <a href="./form.html">Cadastrar</a>
+    </nav>
+    <main>
+        <form id="update">
+            <input type="text" name="id" id="id" disabled>
+            <input type="text" name="cpf" id="cpf" required>
+            <input type="text" name="nome" id="nome" required>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            <input type="date" name="nascimento" id ="nascimento" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <h2>By Wellington</h2>
+    </footer>
+</body>
+<script>
+    //Obter os dados da URL (via query string)
+    const url = window.location.search
+    const params = new URLSearchParams(url)
+    document.querySelector("#id").value = params.get('id');
+    document.querySelector("#cpf").value = params.get('cpf');
+    document.querySelector("#nome").value = params.get('nome');
+    document.querySelector("#sobrenome").value = params.get('sobrenome');
+    document.querySelector("#nascimento").value = params.get('nascimento').split("T")[0]; 
+    
+    const update = document.getElementById('update');
+    update.addEventListener('submit', function(e){
+        e.preventDefault();
+        const id = document.querySelector("#id").value;
+        const cpf = document.querySelector("#cpf").value;
+        const nome = document.querySelector("#nome").value;
+        const sobrenome = document.querySelector("#sobrenome").value;
+        const nascimento = document.querySelector("#nascimento").value;
+        fetch('http://localhost:3000/clientes/'+id, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({cpf, nome, sobrenome, nascimento})
+        })
+        .then(res => res.json())
+        .then(res => {
+            if(res.erro){
+                window.location.href = './erro.html?erro='+res.erro+'&err='+res.err;
+            }else{
+                window.location.href = './index.html';
+            }
+        });
+    });
+
+</script>
+</html>
