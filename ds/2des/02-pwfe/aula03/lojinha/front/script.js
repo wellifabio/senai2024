@@ -1,5 +1,6 @@
 const uri = "http://localhost:3000/clientes";
 const clientes = [];
+const msgs = document.getElementById('msgs');
 const criar = document.getElementById('criar');
 const dados = document.getElementById('dados');
 const cadastro = document.getElementById('cadastro');
@@ -50,10 +51,16 @@ criar.addEventListener('submit', e => {
     })
         .then(res => res.json())
         .then(res => {
-            clientes.push(res);
-            dados.innerHTML = "";
-            preencherTabela();
-            cadastro.classList.add('oculto');
+            if (res.sqlMessage == undefined) {
+                clientes.push(res);
+                dados.innerHTML = "";
+                preencherTabela();
+                cadastro.classList.add('oculto');
+            } else {
+                cadastro.classList.add('oculto');
+                msgs.classList.remove('oculto');
+                document.querySelector('#msg').innerHTML = res.sqlMessage;
+            }
         });
 });
 
@@ -67,13 +74,4 @@ function del(id) {
             dados.innerHTML = "";
             preencherTabela();
         });
-}
-//Obter dados da URL
-const url = window.location.search
-const params = new URLSearchParams(url)
-const erro = params.get('erro');
-const cod = params.get('err');
-if (erro) {
-    document.querySelector('#msgs').classList.remove('oculto');
-    document.querySelector('#msg').innerHTML = erro + "<br>Código do erro:" + cod
 }
