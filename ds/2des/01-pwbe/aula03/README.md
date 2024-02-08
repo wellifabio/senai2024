@@ -1,4 +1,4 @@
-# Aula02
+# Aula03
 
 ## Verbos HTTP (PUT e DELETE)
 Trabalhando com o projeto **Lojinha** utilizaremos os verbos corretos **DELETE** para excluir e **PUT** para atualizar.
