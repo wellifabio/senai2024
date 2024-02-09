@@ -73,5 +73,6 @@ No final colocar um link para o Github
 
 
 # Atividade
-Cr
+Criar um aplicativo chamado de MyPage onde o mesmo deve conter seu portifolio e um link dereto para seu GitHub, enviar o trabalho pronto via forms
+https://forms.gle/Wwcnfnupv4SJKBYdA
 
