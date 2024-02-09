@@ -52,6 +52,7 @@ instala as dependencias da expo
 npx create-expo-app my-app
 ```
 Dentro da pasta do aplicativo inicia e baixa os modulos dentro do projeto ficando assim
+
 ![image](https://github.com/wellifabio/senai2024/assets/156427878/9d053b4c-8ddf-481a-9ca7-6e6d840ab7bc)
 
 Pode acontecer o seguinte erro
