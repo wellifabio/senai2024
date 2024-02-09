@@ -52,10 +52,10 @@ instala as dependencias da expo
 npx create-expo-app my-app
 ```
 Dentro da pasta do aplicativo inicia e baixa os modulos dentro do projeto ficando assim
-![alt text](image-1.png)
+![image](https://github.com/wellifabio/senai2024/assets/156427878/9d053b4c-8ddf-481a-9ca7-6e6d840ab7bc)
 
 Pode acontecer o seguinte erro
-![alt text](image-2.png)
+![image](https://github.com/wellifabio/senai2024/assets/156427878/12465ada-5a92-4e07-ab15-12303a19f6c3)
 
 Neste caso instale estas depencendias
 ```cmd
