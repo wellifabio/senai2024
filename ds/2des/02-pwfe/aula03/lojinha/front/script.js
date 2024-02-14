@@ -1,9 +1,9 @@
 //Variáveis e constantes(objetos) globais
-const uri = "http://localhost:3000/clientes";
-const clientes = [];
 const msgs = document.getElementById('msgs');
 const criar = document.getElementById('criar');
 const dados = document.getElementById('dados');
+const uri = "http://localhost:3000/clientes";
+const clientes = [];
 const cadastro = document.getElementById('cadastro');
 
 //Obter dados do back-end
@@ -11,9 +11,10 @@ function loadClientes() {
     fetch(uri)
         .then(res => res.json())
         .then(res => {
-            res.forEach(cli => {
-                clientes.push(cli);
-            });
+            // res.forEach(cli => {
+            //     clientes.push(cli);
+            // });
+            clientes.push(...res);
             preencherTabela();
         });
 }
@@ -25,7 +26,8 @@ function preencherTabela() {
                 <tr>
                     <td>${cli.id}</td>
                     <td>${cli.cpf}</td>
-                    <td>${cli.nome} ${cli.sobrenome}</td>
+                    <td>${cli.nome}</td>
+                    <td>${cli.sobrenome}</td>
                     <td>${cli.nascimento.toString().split("T")[0]}</td>
                     <td>${calcIdade(cli.nascimento)}</td>
                     <td>
@@ -75,9 +77,9 @@ function update(btn) {
     let id = celulas[0].innerHTML;
     let data = {
         cpf: celulas[1].innerHTML,
-        nome: celulas[2].innerHTML.split(" ")[0],
-        sobrenome: celulas[2].innerHTML.split(" ")[1],
-        nascimento: celulas[3].innerHTML
+        nome: celulas[2].innerHTML,
+        sobrenome: celulas[3].innerHTML,
+        nascimento: celulas[4].innerHTML
     };
     fetch(uri + '/' + id, {
         method: 'PUT',
@@ -120,7 +122,7 @@ function confirmar(id) {
 function edit(btn) {
     let linha = btn.parentNode.parentNode;
     let celulas = linha.cells;
-    for (let i = 1; i < celulas.length - 1; i++) {
+    for (let i = 1; i < celulas.length - 2; i++) {
         celulas[i].setAttribute('contenteditable', 'true');
     }
     btn.innerHTML = '✔';

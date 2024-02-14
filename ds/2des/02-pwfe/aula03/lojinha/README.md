@@ -7,7 +7,7 @@
 - Live Server
 
 ## Como testar
-- 1 clone este repositório
+- 1 Clone este repositório
 - 2 Abra com VsCode
 - 3 Abra o XAMPP e clique em Start no MySQL
 - 4 Abra o banco de dados via shell ou phpMyadmin e rode o **script.sql** para criar e popular o banco de dados.
