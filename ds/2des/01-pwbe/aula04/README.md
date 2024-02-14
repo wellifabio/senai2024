@@ -7,16 +7,16 @@
         - 2.2 Aplicabilidade
 
 ## Lousa
-|[Lousa](./lousa.jpg)
+![Lousa](./lousa1.jpg)
 
-## Atividade
+## Atividade - Individual
 |Contextualização|
 |-|
 |A papelaria PapelTudo necessita de um sistema para registrar todo o seu inventário, você como programador full-stack foi contratado para criar esta primeira parte do sistema|
 |**Desafio 1**|
 |Desenvolva o back-end a partir do **script.sql** na estrutura MVC e realizando testes com Insomnia|
 |**Desafio 2**|
-|Desenvolva o front-end conforme **wireframe**|
+|Desenvolva o front-end conforme **wireframe** não é necessário utilizar a mesma estilização, porém é necessário o mesmo esquema de cores:<br/>Preto #000000<br/>Branco #FFFFFF<br/>Laranja #F38F00<br/>Vermelho #7F0000|
 
 ### Wireframe
 ![Wireframe](./wireframe.png)
@@ -43,3 +43,8 @@ INSERT INTO item VALUES
 ('i005','Prateleira','Prateleira de vidro',2500.00),
 ('i006','Prateleira','Prateleira de Madeira',1600.00);
 ```
+|Entregas|
+|-|
+|Repositório do github chamado papeltudo contendo a estrutura de pasta a seguir|
+|![lousa2](./lousa2.jpg)|
+|[Link do forms para entrega](https://forms.gle/5FtEqsawNSCzpqmU7)|
