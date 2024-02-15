@@ -3,8 +3,8 @@
 ## Conhecimentos:
 - 1 Ambiente de desenvolvimento web
 - 2 Padrão de desenvolvimento MVC
-        - 2.1 Definição
-        - 2.2 Aplicabilidade
+    - 2.1 Definição
+    - 2.2 Aplicabilidade
 
 ## Lousa
 ![Lousa](./lousa1.jpg)
