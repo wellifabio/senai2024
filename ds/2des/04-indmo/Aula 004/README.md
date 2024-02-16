@@ -44,7 +44,7 @@
      ´´´cmd
      npm run web
      ´´´
-     -6.1. Pode acontecer o seguinte erro
+     - 6.1. Pode acontecer o seguinte erro
 ![image](https://github.com/wellifabio/senai2024/assets/156427878/12465ada-5a92-4e07-ab15-12303a19f6c3)
 
 Neste caso instale estas depencendias
