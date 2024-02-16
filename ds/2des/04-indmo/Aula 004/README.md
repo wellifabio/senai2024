@@ -138,3 +138,5 @@ const styles = StyleSheet.create({
 |Atividades|
 |-|
 |Desenvolver um aplicativo para mudança de imagens conforme citado na sala de aula, utilizando a mesma ferramenta da lampada|
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcJQDJ5s6U4qzH1x48XUSttlrmLrFWmskk1ohtwr-qYbYWCQ/viewform?embedded=true" width="640" height="606" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
