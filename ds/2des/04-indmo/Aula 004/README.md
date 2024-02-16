@@ -26,21 +26,21 @@
 
 
 ## Aula
-- 1. Abrir uma nova pasta chamada Aula 04
-- 2. Abrir a pasta com o Visual Code
-- 3. No Terminal executar o comando
+ 1- Abrir uma nova pasta chamada Aula 04
+ 2- Abrir a pasta com o Visual Code
+ 3- No Terminal executar o comando
      ´´´cmd
      npm install -g expo
      ´´´
-- 4. Depois o comando
+4- Depois o comando
       ´´´cmd
      px create-expo-app lampada
      ´´´
-- 5. Entrar na Pasta com o comando
+5- Entrar na Pasta com o comando
       ´´´cmd
      cd Lampada
      ´´´
-- 6. Executar o comando
+6- Executar o comando
      ´´´cmd
      npm run web
      ´´´
