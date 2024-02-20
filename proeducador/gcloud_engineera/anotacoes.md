@@ -8,8 +8,7 @@
 - Cloud Memorystore -  dados disponíveis na memória para reduzir o tempo de resposta às consultas
 - Cloud Bigtable - IoT
 - Cloud FireStore - Manter os dados sincronizados entre smartphones
-
-Cloud Apanner - ANSI 2011 e transações globais (SQL e NoSQL)
+- Cloud Apanner - ANSI 2011 e transações globais (SQL e NoSQL)
 
 # Outros
 grafsenai@adm!
