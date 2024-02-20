@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #343a40;
+    padding-top: 0px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #343a40;
+}
+.navbar-brand {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0,3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+.form-control {
+    border-color: #ffffff;
+    color:#ffffff;
+}
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #343a40;
+}
+.btn-outline-light:hover {
+    background-color: #c2bbbb;
+    color: #343a40;
+}
+.card {
+    margin-bottom: 30px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    color:#343a40;
+    font-weight:bold;
+    font-size: 20px
+}
+.card-text {
+    color: #343a40;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+    }
+    p{
+        color: #666666;
+    }
