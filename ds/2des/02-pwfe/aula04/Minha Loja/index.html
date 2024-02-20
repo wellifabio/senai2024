@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Minha Loja</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <lr class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </lr>
+                <lr class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </lr>
+                <lr class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </lr>
+                <lr class="nav-item">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </lr>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1>Produtos em Destaque</h1>
+    <div class="row">
+        <!-- Produto 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/produto1.jpg" class="card-img-top" alt="Produto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor Dell</h5>
+                    <p class="card-text">Monitor para jogos!</p>
+                    <!-- Botão para abrir o modal específico -->
+                    <button type="button" class="btn btn-primary btn-details" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+        </div>
+              <!-- Produto 2 -->
+         <div class="col-md-4">
+            <div class="card">
+                <img src="img/produto2.jpg" class="card-img-top" alt="Produto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Teclado Mecanico MARVO</h5>
+                    <p class="card-text">Teclado para utilizar com seu Monitor</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/produto3.jpg" class="card-img-top" alt="Produto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Samsung S23</h5>
+                    <p class="card-text">Pronto para os jogos que no seu pc não roda!</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Detalhes
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Adicione mais produtos semelhantes -->
+    </div>
+</div>    
+ 
+
+<!-- Bootstrap JS e Scripts personalizados -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
