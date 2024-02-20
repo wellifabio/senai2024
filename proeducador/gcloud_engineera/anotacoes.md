@@ -9,6 +9,7 @@
 - Cloud Bigtable - IoT
 - Cloud FireStore - Manter os dados sincronizados entre smartphones
 - Cloud Apanner - ANSI 2011 e transações globais (SQL e NoSQL)
+- Monitoring (Alerts, Error Reporting, Logging)
 
 # Outros
 grafsenai@adm!
