@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <title>Inventário Papelaria</title>
+</head>
+
+<body>
+    <header>
+        <h1>Inventário - Loja de Celular</h1>
+        <div class="rotulos">
+            <label for="id">Id</label>
+            <label for="nome">Nome</label>
+            <label for="descricao">Descrição</label>
+            <label for="valor">Valor</label>
+            <label for="acao">Ação</label>
+        </div>
+        <form id="cadastro">
+            <input type="text" name="id" id="id" required />
+            <input type="text" name="nome" id="nome" required />
+            <input type="text" name="descricao" id="descricao" />
+            <input type="number" step="any" name="valor" id="valor" required />
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="corpo"></tbody>
+        </table>
+    </main>
+    <footer>
+        <label for="total">Patrimônio Total:</label>
+        <input type="text" name="total" id="total" style="text-align: right;" readonly />
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
