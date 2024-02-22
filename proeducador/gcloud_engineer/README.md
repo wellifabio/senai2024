@@ -21,7 +21,7 @@
   - Nearline >= 30 dias
   - Coldline >= 90 dias
   - Archive >= 365 dias
-
+- Atomicidade, Consistência, Isolamento e Durabilidade (ACID)
 ## Simulados
 - Questão de Pipeline -> Pub/Sub, Dataflow, Bigtable, BigQuery
 - Provisionar VM dinâmicamente, com especificações em um arquivo de configuração dedicado. -> Grupo de instâncias gerenciadas
