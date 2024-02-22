@@ -55,3 +55,4 @@
 - Active Directory (AD) x Cloud Identity -> Google Cloud Directory Sync (GCDS)
 - Preciso criar VM em um projrto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
 - Cassandra - Marketplace
+- uso de CPU alerta recomendado -> unica região 65%, multiregião 45%
