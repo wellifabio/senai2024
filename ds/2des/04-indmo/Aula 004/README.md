@@ -30,7 +30,7 @@
  - 2. Abrir a pasta com o Visual Code
  - 3. No Terminal executar o comando
       ```cmd
-     npm install -g expo
+      npm install -g expo
       ```
 - 4. Depois o comando
       ```cmd
