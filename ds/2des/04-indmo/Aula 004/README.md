@@ -29,21 +29,22 @@
  - 1. Abrir uma nova pasta chamada Aula 04
  - 2. Abrir a pasta com o Visual Code
  - 3. No Terminal executar o comando
-     ´´´cmd
+      ```cmd
      npm install -g expo
-     ´´´
+      ```
 - 4. Depois o comando
-      ´´´cmd
+      ```cmd
      px create-expo-app lampada
-     ´´´
+     ```
 - 5. Entrar na Pasta com o comando
-      ´´´cmd
+       ```cmd
      cd Lampada
-     ´´´
+      ```
 - 6. Executar o comando
-     ´´´cmd
+     ```cmd
      npm run web
-     ´´´
+      ```
+     
      - 6.1. Pode acontecer o seguinte erro
 ![image](https://github.com/wellifabio/senai2024/assets/156427878/12465ada-5a92-4e07-ab15-12303a19f6c3)
 
