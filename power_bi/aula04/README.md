@@ -7,7 +7,7 @@
 
 ### Atividade 01
 Em seu computador crie uma pasta chamada **"sudeste"** e baixe para dentro dela os arquivos **.csv** contidos neste repositório, na subpasta **/varegistasudeste**.
-- 1 Abra o **Power BI** e crie um novo projeto, importe os arquivos **csv** e mescle os dados.
+- 1 Abra o **Power BI** e crie um novo projeto, importe os arquivos **csv** e **combine** os dados.
 - 2 Crie dois relatórios com os dados dos arquivos conforme imagens a seguir:
   -  2.1 Uma análise gráfica do valor de venda por categoria
   -  2.2 Outra de vendedor por categoria em um gráfico de mapa de árvore
