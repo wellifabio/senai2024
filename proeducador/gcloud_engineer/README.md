@@ -56,3 +56,6 @@
 - Preciso criar VM em um projrto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
 - Cassandra - Marketplace
 - uso de CPU alerta recomendado -> unica região 65%, multiregião 45%
+- O jogo envia pacotes UDP enquanto eles jogam no modo multijogador -> Configure balanceador de carga de rede.
+- Microsserviços em contêiner -> Crie uma implantação por microsserviço.
+- Nível mais granular ca conta de serviço -> Ao criar instâncias especifique uma conta de serviço para cada instância.
