@@ -53,7 +53,7 @@
 - Cloud SDK instalado localmente a partir do repositório de pacotes Ubuntu do Google Cloud. -> Instalar emulador componente 'cloud-datastore-emulator' do Cloud Datastore
 - Google Kubernetes Engine (GKE) permite uso de GPUs -> provisionamento automático de nós no cluster.
 - Active Directory (AD) x Cloud Identity -> Google Cloud Directory Sync (GCDS)
-- Preciso criar VM em um projrto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
+- Preciso criar VM em um projeto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
 - Cassandra - Marketplace
 - uso de CPU alerta recomendado -> unica região 65%, multiregião 45%
 - O jogo envia pacotes UDP enquanto eles jogam no modo multijogador -> Configure balanceador de carga de rede.
