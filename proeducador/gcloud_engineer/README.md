@@ -59,3 +59,4 @@
 - O jogo envia pacotes UDP enquanto eles jogam no modo multijogador -> Configure balanceador de carga de rede.
 - Microsserviços em contêiner -> Crie uma implantação por microsserviço.
 - Nível mais granular ca conta de serviço -> Ao criar instâncias especifique uma conta de serviço para cada instância.
+- DMZ -> Crie uma única VPC com duas subredes uma para a LAN e outra para a DMZ, configure uma regra de firewall para permitir trafego entre as subredes e outra regra para permitir entrada pública para a DMZ
