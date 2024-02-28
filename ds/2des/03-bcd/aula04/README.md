@@ -144,5 +144,5 @@ select * from rota;
 select * from veiculo;
  select * from entrega;
  select * from pedido;
-
 ```
+![Der Lógico ou Relacional](./derlogico.png)
