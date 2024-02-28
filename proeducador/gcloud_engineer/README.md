@@ -53,6 +53,17 @@
 - Cloud SDK instalado localmente a partir do repositório de pacotes Ubuntu do Google Cloud. -> Instalar emulador componente 'cloud-datastore-emulator' do Cloud Datastore
 - Google Kubernetes Engine (GKE) permite uso de GPUs -> provisionamento automático de nós no cluster.
 - Active Directory (AD) x Cloud Identity -> Google Cloud Directory Sync (GCDS)
-- Preciso criar VM em um projrto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
+- Preciso criar VM em um projeto com muitos usuários, mas só eu tenho permissão para parar, remover, etc -> VMs Nós de locatário individual
 - Cassandra - Marketplace
 - uso de CPU alerta recomendado -> unica região 65%, multiregião 45%
+- O jogo envia pacotes UDP enquanto eles jogam no modo multijogador -> Configure balanceador de carga de rede.
+- Microsserviços em contêiner -> Crie uma implantação por microsserviço.
+- Nível mais granular ca conta de serviço -> Ao criar instâncias especifique uma conta de serviço para cada instância.
+- DMZ -> Crie uma única VPC com duas subredes uma para a LAN e outra para a DMZ, configure uma regra de firewall para permitir trafego entre as subredes e outra regra para permitir entrada pública para a DMZ
+- Ao criar um novo projeto via linha de comando (CLI), vincular conta de faturamento, qual o proximo passo antes de criar uma nova instância do Compute Engine -> ative a API computacional googleapis.com
+- Kubernets via CLI reapoveitar comandos futuros -> 'gcloud config set container/cluster dev'
+- Data Studio vê uma tabela no Data warehouse criada a partir do BigQuery >> Dados quebrados -> Usar a interface do BigQuery para revisar o job noturno e procurar erros.
+- Configurar um Cloud VPN de alta disponibilidade -> Rede VPC de modo personalizado, rotas de protocolo de gateway de fronteira (BGP) e roteamento ativo/passivo.
+- lift and shift -> implante o app no grupo de instâncias gerenciadas (MIG) com escalonamento automático ativado cpom base no uso da CPU.
+- Protocolo Websockets e afinidade de sessão -> Discuta as opções do balanceador de carga com as equipes relevantes.
+- Dados em lote com carimbo de data/hora, melhor desempenho -> Nuvem Bigtable
