@@ -49,3 +49,4 @@ https://jaguariuna.sp.senai.br/cursos/13/899/formacao-inicial-e-continuada?Paren
 - [Renato](https://github.com/remajag)
 
 # [Itinerário da área de TI](https://view.genial.ly/653809a786dac80010d6f675/interactive-content-itinerario-da-area-de-tecnologia-da-informacao)
+# [Envie seu currículo](https://forms.gle/LFYviKyoqLpeJRcX9)
