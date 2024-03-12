@@ -154,5 +154,19 @@ select * from pedido;
 
 ## Vamos começar a criar nossos relatórios;
 ```sql
+-- Listar todos
 select * from cliente;
+-- Filtrar por nome exato
+select * from cliente where nome = "Osmar Motta";
+-- Filtrar por nome aproximado
+SELECT * FROM cliente WHERE nome like '%osmar%';
+-- Like iniciado com osmar
+SELECT * FROM cliente WHERE nome like 'osmar%';
+-- Like terminado com motta
+SELECT * FROM cliente WHERE nome like '%motta';
+-- like com o mello no meio
+SELECT * FROM cliente WHERE nome like '%mello%';
+-- Escolhendo os campos e filtrando
+SELECT nome, telefone FROM cliente WHERE nome like '%mello%';
+-- 
 ```
