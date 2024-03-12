@@ -217,3 +217,11 @@ select * from cliente c inner join pedido p on c.idcliente = p.idcliente;
 -- Nome do cliente, o endereço e todos os dados do pedido
 Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente = p.idcliente;
 ```
+
+## Atividades
+- 1 Crie uma consulta que mostre somente os nomes de todos os clientes
+- 2 Crie uma consulta que agrupe as estregas e mostre quantas cada motorista fez
+- 3 Salve a consulta anterior em um relatório chamado 'entregas por motorista'
+- 4 Crie uma consulta que mostre todas as rotas ordenadas por distância
+- 5 Crie uma consulta que mostre os funcionários ordenados por nome
+- 6 Crie uma consulta que mostre qual veículo fez mais entregas e o total de entregas que ele fez.
