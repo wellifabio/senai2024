@@ -192,5 +192,7 @@ select idCliente, max(valor) as 'maior valor' from pedido group by idcliente;
 -- Relatório de total por cliente
 create view TotalPorCliente as
 SELECT idCliente, sum(valor) as 'total dos pedidos' FROM pedido group by idcliente;
-
+-- Para ver o relatório
+SELECT * FROM totalporcliente;
+-- Criar um relatório dos pedidos mais caros de cada cliente chame de 'pedidos_mais_caros'
 ```
