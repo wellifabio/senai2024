@@ -176,6 +176,15 @@ SELECT * FROM cliente order by nome desc;
 SELECT * FROM cliente order by email;
 -- Filtrar e Ordenar
 SELECT * FROM cliente WHERE nome like 'osmar%' order by email desc;
--- 
+-- Agrupar - Sempre que agrupar criar um resumo (avg(), min(), max(), sum(), count())
+SELECT * FROM pedido WHERE idCliente = 1;
+SELECT * FROM pedido GROUP by idCliente;
+SELECT *, avg(valor) FROM pedido GROUP by idCliente;
+SELECT idCliente, avg(valor) FROM pedido group by idcliente;
+-- Agrupar: Ex. quantos pedidos por cliente
+SELECT idCliente, count(idCliente) as 'total pedidos' FROM pedido group by idcliente;
+-- Agrupar e saber o valor total que cada cliente pediu
+SELECT idCliente, sum(valor) as 'valor total dos pedidos' FROM pedido group by idcliente;
+-- Só os pedidos mais caros de cada cliente
 
 ```
