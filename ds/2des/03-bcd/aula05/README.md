@@ -195,4 +195,15 @@ SELECT idCliente, sum(valor) as 'total dos pedidos' FROM pedido group by idclien
 -- Para ver o relatório
 SELECT * FROM totalporcliente;
 -- Criar um relatório dos pedidos mais caros de cada cliente chame de 'pedidos_mais_caros'
+create view pedidos_mais_caros as
+select idCliente, max(valor) as 'maior valor' from pedido group by idcliente;
+-- Para ver o relatório
+SELECT * FROM pedidos_mais_caros;
+-- Para remover uma visão use o comando drop
+drop view totalporcliente;
+-- Criar novamente a visão com um outro nome
+create view pedidos_totais_por_cliente as
+SELECT idCliente, sum(valor) as 'total dos pedidos' FROM pedido group by idcliente;
+-- para ver
+select * from pedidos_totais_por_cliente;
 ```
