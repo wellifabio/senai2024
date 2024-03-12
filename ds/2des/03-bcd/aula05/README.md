@@ -168,5 +168,14 @@ SELECT * FROM cliente WHERE nome like '%motta';
 SELECT * FROM cliente WHERE nome like '%mello%';
 -- Escolhendo os campos e filtrando
 SELECT nome, telefone FROM cliente WHERE nome like '%mello%';
+-- Filtrando por telefone
+SELECT nome, telefone FROM cliente WHERE telefone like '%99%';
+-- Ordenar - Sort
+SELECT * FROM cliente order by nome;
+SELECT * FROM cliente order by nome desc;
+SELECT * FROM cliente order by email;
+-- Filtrar e Ordenar
+SELECT * FROM cliente WHERE nome like 'osmar%' order by email desc;
 -- 
+
 ```
