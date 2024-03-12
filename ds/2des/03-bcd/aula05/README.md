@@ -206,4 +206,14 @@ create view pedidos_totais_por_cliente as
 SELECT idCliente, sum(valor) as 'total dos pedidos' FROM pedido group by idcliente;
 -- para ver
 select * from pedidos_totais_por_cliente;
+
+-- Juntando dados de diferentes tabelas
+-- JOIN
+-- INNER JOIN e o ON comparando as chaves primária e estrangeira
+select * from cliente inner join pedido on cliente.idcliente = pedido.idCliente;
+-- Utilizando Alias (apelido)
+select * from cliente c inner join pedido p on c.idcliente = p.idcliente;
+-- Escolhendo os principais campos
+-- Nome do cliente, o endereço e todos os dados do pedido
+Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente = p.idcliente;
 ```
