@@ -141,6 +141,15 @@ select * from cliente;
 select * from funcionario;
 select * from rota;
 select * from veiculo;
- select * from entrega;
- select * from pedido;
+select * from entrega;
+select * from pedido;
+
 ```
+
+### Instale o banco de dados acima, populado
+- 1 Abra o **XAMPP**
+- 2 Clique em start em **MySQL** e Apache
+- 3 Abra o **PhpMyadmin** clicando em **Admin** a frente do **MySQL**
+- 4 Execute o Script clicando em **SQL**
+
+
