@@ -152,4 +152,7 @@ select * from pedido;
 - 3 Abra o **PhpMyadmin** clicando em **Admin** a frente do **MySQL**
 - 4 Execute o Script clicando em **SQL**
 
-
+## Vamos começar a criar nossos relatórios;
+```sql
+select * from cliente;
+```
