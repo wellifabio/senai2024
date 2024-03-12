@@ -185,6 +185,12 @@ SELECT idCliente, avg(valor) FROM pedido group by idcliente;
 SELECT idCliente, count(idCliente) as 'total pedidos' FROM pedido group by idcliente;
 -- Agrupar e saber o valor total que cada cliente pediu
 SELECT idCliente, sum(valor) as 'valor total dos pedidos' FROM pedido group by idcliente;
--- Só os pedidos mais caros de cada cliente
+-- Só os pedidos mais caros de cada cliente (idCliente e valor)
+select idCliente, max(valor) as 'maior valor' from pedido group by idcliente;
+
+-- Para criar Relatórios(VIEW - VISÕES) basta salvar a consulta exemplos:
+-- Relatório de total por cliente
+create view TotalPorCliente as
+SELECT idCliente, sum(valor) as 'total dos pedidos' FROM pedido group by idcliente;
 
 ```
