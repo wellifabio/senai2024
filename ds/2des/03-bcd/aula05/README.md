@@ -225,3 +225,5 @@ Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente
 - 4 Crie uma consulta que mostre todas as rotas ordenadas por distância
 - 5 Crie uma consulta que mostre os funcionários ordenados por nome
 - 6 Crie uma consulta que mostre qual veículo fez mais entregas e o total de entregas que ele fez.
+- 7 Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos, salve como 'relatorio_de_entregas_01'
+- 8 Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos e o valor total da entrega, salve como 'relatorio_de_entregas_02'
