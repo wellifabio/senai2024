@@ -1,9 +1,4 @@
 # Aula06
-<style>
-    img{
-        width:50px;
-    }
-</style>
 - API
 - CRUD
 - MVC
@@ -11,10 +6,10 @@
 
 |Tecnologias|
 |-|
-|![MySQL](https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png)[MySQL](https://dev.mysql.com/doc/refman/8.0/en/join.html)|
-|![NodeJS](https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png)[NodeJS](https://nodejs.org/en)|
-|![VsCode](https://logowik.com/content/uploads/images/visual-studio-code7642.jpg)[VsCode](https://code.visualstudio.com/)|
-| ![Insomnia](https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png) [Insomnia](https://insomnia.rest/)|
+|<img src="https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png" style="width:50px;">[MySQL](https://dev.mysql.com/doc/refman/8.0/en/join.html)|
+|<img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" style="width:50px;">[NodeJS](https://nodejs.org/en)|
+|<img src="https://logowik.com/content/uploads/images/visual-studio-code7642.jpg" style="width:50px;">[VsCode](https://code.visualstudio.com/)|
+|<img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" style="width:50px;"> [Insomnia](https://insomnia.rest/)|
 
 # Situação desafiadora
 |Contextualização|
@@ -53,3 +48,4 @@
 |Script de população do BD com dados de teste chamado testes.sql em uma pasta "testes"|
 |API back-end com os CRUDs no padrão MVC em uma pasta "api"|
 |Arquivo insomnha.json com todas as rotas de teste na pasta "testes"|
+|Data: 27/03/2024, Grupos de no máximo 3 integrantes|
