@@ -227,3 +227,28 @@ Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente
 - 6 Crie uma consulta que mostre qual veículo fez mais entregas e o total de entregas que ele fez.
 - 7 Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos, salve como 'relatorio_de_entregas_01'
 - 8 Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos e o valor total da entrega, salve como 'relatorio_de_entregas_02'
+
+### Solução
+```sql
+-- Crie uma consulta que mostre somente os nomes de todos os clientes
+select nome from cliente;
+-- Crie uma consulta que agrupe as estregas e mostre quantas cada motorista fez
+select * from entrega;
+select motorista, count(motorista) from entrega group by motorista;
+-- E se quisessemos o nome do motorita ao invés do id
+select f.nome, count(e.motorista) from entrega e inner join funcionario f on f.idFuncionario = e.motorista group by motorista;
+-- Salve a consulta anterior em um relatório chamado 'entregas_por_motorista'
+create view entregas_por_motorista as
+select f.nome, count(e.motorista) from entrega e inner join funcionario f on f.idFuncionario = e.motorista group by motorista;
+-- Conferir se criou a view / visão / relatório
+show tables;
+select * from entregas_por_motorista;
+-- Crie uma consulta que mostre todas as rotas ordenadas por distância
+select * from rota order by distancia;
+-- Crie uma consulta que mostre os funcionários ordenados por nome
+select * from funcionario order by nome;
+-- Crie uma consulta que mostre qual veículo fez mais entregas e o total de entregas que ele fez.
+select placa, count(idEntrega) from entrega group by placa;
+select placa, count(idEntrega) as 'tot entregas' from entrega group by placa order by count(idEntrega) desc;
+select placa, count(idEntrega) as 'tot entregas' from entrega group by placa order by count(idEntrega) desc limit 1;
+```
