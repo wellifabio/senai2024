@@ -249,6 +249,8 @@ select * from rota order by distancia;
 select * from funcionario order by nome;
 -- Crie uma consulta que mostre qual veículo fez mais entregas e o total de entregas que ele fez.
 select placa, count(idEntrega) from entrega group by placa;
-select placa, count(idEntrega) as 'tot entregas' from entrega group by placa order by count(idEntrega) desc;
-select placa, count(idEntrega) as 'tot entregas' from entrega group by placa order by count(idEntrega) desc limit 1;
+select placa, count(idEntrega) as 'entregas' from entrega group by placa order by count(idEntrega) desc;
+select placa, count(idEntrega) as 'entregas' from entrega group by placa order by count(idEntrega) desc limit 1;
+-- Mostre o modelo do veículo e não somente a placa
+select e.placa, v.modelo, count(e.idEntrega) as 'entregas' from entrega e inner join veiculo v on e.placa = v.placa group by e.placa order by count(e.idEntrega) desc limit 1;
 ```
