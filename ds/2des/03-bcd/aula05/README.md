@@ -253,4 +253,17 @@ select placa, count(idEntrega) as 'entregas' from entrega group by placa order b
 select placa, count(idEntrega) as 'entregas' from entrega group by placa order by count(idEntrega) desc limit 1;
 -- Mostre o modelo do veículo e não somente a placa
 select e.placa, v.modelo, count(e.idEntrega) as 'entregas' from entrega e inner join veiculo v on e.placa = v.placa group by e.placa order by count(e.idEntrega) desc limit 1;
+-- Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos, salve como 'relatorio_de_entregas_01'
+select * from entrega;
+create view relatorio_de_entregas_01 as
+select f.nome, v.modelo, e.* from entrega e inner join funcionario f on e.motorista = f.idFuncionario inner join veiculo v on e.placa = v.placa;
+-- Para listar as views ou relatórios
+show tables;
+select * from relatorio_de_entregas_01;
+-- Crie um relatório que mostre todas as entregas com os nomes dos motoristas, modelos dos veículos e o valor total da entrega, salve como 'relatorio_de_entregas_02'
+select f.nome, v.modelo, e.* from entrega e inner join funcionario f on e.motorista = f.idFuncionario inner join veiculo v on e.placa = v.placa;
+create view relatorio_de_entregas_02 as
+select f.nome, v.modelo, e.*, sum(p.valor) as total from entrega e inner join funcionario f on e.motorista = f.idFuncionario inner join veiculo v on e.placa = v.placa inner join pedido p on e.idEntrega = p.idEntrega group by e.idEntrega;
+-- Testar o relatório
+select * from relatorio_de_entregas_02;
 ```
