@@ -15,3 +15,10 @@ https://react-bootstrap.netlify.app/
 npx create-react-app my-app
 cd my-app
 ```
+depois vamos instalar as dependencias 
+
+```bash
+yarn add react-bootstrap bootstrap
+yarn add react-router-dom
+yarn add @babel/plugin-proposal-private-property-in-object
+```
