@@ -146,3 +146,6 @@ select * from veiculo;
  select * from pedido;
 ```
 ![Der Lógico ou Relacional](./derlogico.png)
+
+## Avaliação Formativa
+- [Questionário formativo](https://forms.gle/ktGpBjqmGZcgy6uFA)

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icone.png" type="image/x-icon">
+    <title>Papelaria Papeltudo</title>
+</head>
+
+<body onload="loadItens()">
+    <header>
+        <h1>Papelaria Papeltudo - Inventário</h1>
+        <form id="criar">
+            <input type="text" name="id" placeholder="Id" required>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="text" name="descricao" placeholder="Descrição" required>
+            <input type="number" name="valor" placeholder="Valor 0.00" step="any" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="dados">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div id="msgs">
+            <h2 id="tit">Mensagens do sistema:</h2>
+            <h3 id="msg"> </h3>
+            <div>
+                <button id="cancela" class="oculto" onclick="window.location.href='./'">Cancelar</button>
+                <button id="confirma" class="oculto">Confirma</button>
+            </div>
+        </div>
+        <div>
+            <h2>Patrimônio total:</h2>
+            <input type="text" id="total" enabled="false" style="text-align: end;"/>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
