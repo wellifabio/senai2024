@@ -14,4 +14,4 @@ https://react-bootstrap.netlify.app/
 ´´´ bash
 npx create-react-app my-app
 cd my-app
-´´´
+´´´bash
