@@ -11,7 +11,7 @@ https://react-bootstrap.netlify.app/
 
 ## Iniciando projeto com React Bootstrap
 
-´´´ cmd
+```bash
 npx create-react-app my-app
 cd my-app
-´´´cmd
+```
