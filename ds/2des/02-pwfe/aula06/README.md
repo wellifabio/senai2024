@@ -15,10 +15,10 @@ Utilizando a ideia Back-end, faça crie o front End do Sistema de Gerenciamento 
 - Tela para Cadastrar uma nova Tarefa
 - Contato
 
-## Home Page
+### Home Page
 Página deve conter informações sobre eu sistema, tendo uma navebar e uma homepage divulgando seu produto
 
-## Tela de Login
+### Tela de Login
 Essa pagina pode ser em html ou modal onde sera feito o login de pessoas credenciadas no site
 
 
