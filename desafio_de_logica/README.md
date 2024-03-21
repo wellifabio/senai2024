@@ -53,8 +53,21 @@
 |9||||||
 |10||||||
 
+### Gabarito
+1;A
+2;C
+3;B
+4;D
+5;D
+6;E
+7;A
+8;C
+9;B
+10;D
 
-  
+|Desafio|
+|-|
+|Crie um programa com uma inteface onde o aluno preencha a ficha de respostas e clique em um botão ou escolha uma opção de validar. O programa deve informar quantos acertos e erros foram computados, use sua criatividade para desenvolver esta interface|
 
 |Entrega|
 |-|
