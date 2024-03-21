@@ -89,6 +89,7 @@
 |CDI|0,55%|
 
 - Deseja investir: 1000 **Calcular**
+
 |Moedas e Índices|Valor|Total|
 |-|-|-|
 |Dolar|4,97|201,20|
