@@ -19,6 +19,7 @@
 
 - Exemplo de saída
     - Classificada por nome
+ 
 |Nome|CPF|
 |-|-|
 |Ana|454654|
@@ -28,6 +29,7 @@
 
 - Exemplo de saída
     - Classificada por CPF
+ 
 |Nome|CPF|
 |-|-|
 |Bruna|25|
