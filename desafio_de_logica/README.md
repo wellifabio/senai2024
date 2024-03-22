@@ -1,4 +1,4 @@
-# Desafio Lógica - Seletiva Olimpíada
+# Desafio Lógica - Seletiva Olimpíada - São Paulo Skills 2024
 
 ## Desafio 1 - Classificação SORT
 |Contextualização|
