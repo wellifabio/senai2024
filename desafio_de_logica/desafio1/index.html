@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Classificação</title>
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <h1>Classificação</h1>
+        <form id="classificar">
+            <div>
+                <label for="ordem">Crescente</label>
+                <input type="radio" name="ordem" value="1" checked>
+                <label for="ordem">Decrescente</label>
+                <input type="radio" name="ordem" value="0">
+            </div>
+            <div>
+                <label for="campo">Nome</label>
+                <input type="radio" name="campo" value="1" checked>
+                <label for="campo">CPF</label>
+                <input type="radio" name="campo" value="0">
+            </div>
+            <button type="submit">Classificar</button>
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>telefone</th>
+            </thead>
+            <tbody id="dados"></tbody>
+        </table>
+    </main>
+    <footer>
+        <form id="add">
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="text" name="cpf" id="cpf" placeholder="CPF">
+            <input type="submit" value="Adicionar">
+        </form>
+        <div id="msg"></div>
+    </footer>
 </body>
+<script>
+    const form = document.querySelector("#add");
+    const classificar = document.querySelector("#classificar");
+    const lista = [
+        {
+            "nome": "Maria", "cpf": 123
+        },
+        {
+            "nome": "Juliana", "cpf": 4564
+        },
+        {
+            "nome": "Ana", "cpf": 454654
+        },
+        {
+            "nome": "Bruna", "cpf": 25
+        }
+    ];
+    preencherTabela();
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+        if (form.nome.value != "" && form.cpf.value != "") {
+            lista.push({
+                "nome": form.nome.value,
+                "cpf": Number(form.cpf.value),
+            });
+            preencherTabela();
+        } else {
+            msg("Preencha os campos obrigatórios");
+        }
+    });
+    function msg(ms) {
+        document.querySelector("#msg").innerHTML = ms;
+        setTimeout(() => {
+            document.querySelector("#msg").innerHTML = "";
+        }, 1000);
+    }
+    function preencherTabela() {
+        document.querySelector("#dados").innerHTML = "";
+        lista.forEach(e => {
+            const l = document.createElement("tr");
+            l.innerHTML = `<td>${e.nome}</td><td>${e.cpf}</td>`;
+            document.querySelector("#dados").appendChild(l);
+        });
+    }
+    classificar.addEventListener("submit", e => {
+        e.preventDefault()
+        campo = Number(classificar.campo.value);
+        ordem = Number(classificar.ordem.value);
+        if (ordem) {
+            if (campo)
+                lista.sort((a, b) => (a.nome.toUpperCase() > b.nome.toUpperCase() ? 1 : -1));
+            else
+                lista.sort((a, b) => (a.cpf > b.cpf ? 1 : -1));
+        } else {
+            if (campo)
+                lista.sort((a, b) => (a.nome.toUpperCase() > b.nome.toUpperCase() ? -1 : 1));
+            else
+                lista.sort((a, b) => (a.cpf > b.cpf ? -1 : 1));
+        }
+        preencherTabela();
+    });
+</script>
+
 </html>
