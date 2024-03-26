@@ -38,6 +38,12 @@ A partir dos dados aplique técnica de normalização e separe-os em tabelas dis
 Crie um MER DER modelo conceitual.
 
 ### Desafio03
+DDL - Crie o script.sql de criação do banco de dados e das tabelas.
+
+### Desafio04
+DML - Insira os dados em suas respectivas tabelas. 
+
+### Desafio05
 
 
 |Entregas|
