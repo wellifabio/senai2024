@@ -55,8 +55,8 @@ DQL - Crie um arquivo chamado queries.sql e adicione as seguintes consultas
 
 ### Desafio 06
 Visão/Relatório
-- Crie uma consulta que mostre todas as manutenções acrescida do nome do funcionário que a realizou e o modelo do veículo e salve como uma visão chamada vw_totas_as_manutencoes
+- Crie uma consulta que mostre todas as manutenções acrescida do nome do funcionário que a realizou e o modelo do veículo e salve como uma visão chamada **vw_totas_as_manutencoes**
 
 |Entregas|
 |-|
-|**[forms]()**|
+|**[forms](https://docs.google.com/forms/d/e/1FAIpQLSfP73FulcdxZ3bWuUeK92cyR03IkJbqO-ERs6UI3nyUQa67TA/viewform?usp=sf_link)**|
