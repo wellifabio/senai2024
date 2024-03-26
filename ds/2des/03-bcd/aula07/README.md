@@ -1,7 +1,7 @@
 # Aula07 - VPF01
 - Verificação Prática Formativa
 
-## OBS Live - [Fórum Internacional IA na Educação Profissional](https://bit.ly/EduMobi1)
+## OBS As 10h da manhã teremos [Fórum Educação Profissional](https://bit.ly/EduMobi1)
 
 
 ## Situação Problema
