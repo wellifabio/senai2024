@@ -16,6 +16,7 @@ Packet Tracer é um simulador de redes desenvolvido pela Cisco Systems. Ele perm
 
 # Tutorial para cadastro
 1. Acesse o site da [Academia Cisco](https://www.netacad.com/)
-2. Clique em "Inscreva-se agora"
-3. Preencha o formulário de cadastro utilizando um e-mail particular, de preferência **gmail**
-4. Clique em "Enviar"
+2. Altere o idioma para Português
+3. Clique em "Entrar"
+4. Clique em "Inscreva-se hoje" ou Continuar com o Google
+5. Preencha o formulário de cadastro utilizando um e-mail particular, de preferência **gmail**
