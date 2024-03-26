@@ -20,3 +20,4 @@ Packet Tracer é um simulador de redes desenvolvido pela Cisco Systems. Ele perm
 3. Clique em "Entrar"
 4. Clique em "Inscreva-se hoje" ou Continuar com o Google
 5. Preencha o formulário de cadastro utilizando um e-mail particular, de preferência **gmail**
+6. [Cadastre-se no curso de Iot](https://www.netacad.com/portal/web/self-enroll/m/course-2220349)
