@@ -1,6 +1,9 @@
 # Aula07 - VPF01
 - Verificação Prática Formativa
 
+## OBS Live - [Fórum Internacional IA na Educação Profissional](https://www.youtube.com/watch?v=RFHb9L-eDxA)
+
+
 ## Situação Problema
 |Contextualização:|
 |-|
@@ -41,10 +44,18 @@ Crie um MER DER modelo conceitual.
 DDL - Crie o script.sql de criação do banco de dados e das tabelas.
 
 ### Desafio04
-DML - Insira os dados em suas respectivas tabelas. 
+DML - Insira os dados em suas respectivas tabelas, utilize um arquivo chamado dados.sql para popular o banco de dados. 
 
 ### Desafio05
+DQL - Crie um arquivo chamado queries.sql e adicione as seguintes consultas
+- Crie uma consulta que liste os funcionários em ordem alfabética de nome
+- Crie uma consulta que liste todos os funcionários e seus telefones
+- Crie uma consulta que mostre somente os veículos da marca 'Fiat' ordenados pelo ano decrescente
+- Crie uma consulta que mostre todos os dados dos veículos e a quantidade de manutenções realizadas em cada um
 
+### Desafio 06
+Visão/Relatório
+- Crie uma consulta que mostre todas as manutenções acrescida do nome do funcionário que a realizou e o modelo do veículo e salve como uma visão chamada vw_totas_as_manutencoes
 
 |Entregas|
 |-|
