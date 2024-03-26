@@ -1,7 +1,7 @@
 # Aula07 - VPF01
 - Verificação Prática Formativa
 
-## OBS Live - [Fórum Internacional IA na Educação Profissional](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbit.ly%2FEduMobi1&data=05%7C02%7Cwellington.martins%40sp.senai.br%7C9ed0f1c2042f4c239bde08dc4d94e6a9%7C4148a6de0dd14d04a4c578e374e4f6d6%7C0%7C0%7C638470549125959439%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=5yXYkgBIFdM%2Fvzkb2PcCoNrOQwPyG3bydlrPMrpF0s8%3D&reserved=0)
+## OBS Live - [Fórum Internacional IA na Educação Profissional](https://bit.ly/EduMobi1)
 
 
 ## Situação Problema
