@@ -1,4 +1,4 @@
-# Aula06 - VPF01
+# Aula07 - VPF01
 - Verificação Prática Formativa
 
 ## Situação Problema
@@ -38,7 +38,7 @@ A partir dos dados aplique técnica de normalização e separe-os em tabelas dis
 Crie um MER DER modelo conceitual.
 
 ### Desafio03
-Crie um MER DER modelo conceitual.
+
 
 |Entregas|
 |-|
