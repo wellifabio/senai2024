@@ -60,3 +60,18 @@ Visão/Relatório
 |Entregas|
 |-|
 |**[forms](https://docs.google.com/forms/d/e/1FAIpQLSfP73FulcdxZ3bWuUeK92cyR03IkJbqO-ERs6UI3nyUQa67TA/viewform?usp=sf_link)**|
+
+## Critérios
+|Criticidade|Capacidades Básicas e Socioemocionais|Critérios|
+|-|-|-|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar as características de banco de dados relacionais e não-relacionais|Aplicou técnicas de normalização e modelagem com MER DD e/ou MER DER conceitual|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)| Configurar o ambiente para utilização de banco de dados relacional|Instalou XAMPP se necessário e iniciou serviços MySQL, Apache, utilizou via shell ou PhpMyadmin, evidenciou enviando ao menos um script funcional|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Utilizar tipos de dados para definição dos atributos do banco de dados|Enviou script de criação do banco de dados com tipos pertinentes ao conjunto disponibilizado CSV|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Elaborar diagramas de modelagem do banco de dados de acordo com a arquitetura definida|Enviou o MER DER conceitual ou lógico pertinente a solução implementada no script ou a Normalização|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Utilizar relacionamentos entre as tabelas do banco de dados|Evideinciou a criação de relacionamento através do script de criação|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Normalizar a estrutura do banco de dados|Separou o conjunto CSV disponibilizados aplicando ao menos uma das técnicas de normalização|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Documentar a estrutura do banco de dados por meio de dicionário de dados|Enviou o dicionário de dados contemplando as entidades e atributos|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar atenção a detalhes|Os scripts executaram com êxito|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar capacidade de organização|Entregou todos os desafios conforme solicitado|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar raciocínio lógico na organização das informações|Resolveu todas as consultas DQL retornando os dados solicitados|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Seguir método de trabalho|Separou os códigos DDL, DML e DQL conforme solicitado|
