@@ -1,8 +1,8 @@
 # Serviços em Nuvem-Google Cloud Engineer - "T01_GCE_24"
 
-[Link da trilha](https://www.cloudskillsboost.google/paths/53)
+[Link das 10 trilha](https://www.cloudskillsboost.google/paths/53)
 
-|10 Cursos|
+|10 Trilhas|
 |-|
 |01 Google Cloud Fundamentals: Core Infrastructure - Português Brasileiro|
 |02 Essential Google Cloud Infrastructure: Foundation - Português Brasileiro|
