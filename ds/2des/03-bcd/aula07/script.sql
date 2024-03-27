@@ -32,32 +32,3 @@ CREATE TABLE manutencao(
     foreign key (placa) references veiculo(placa) on update cascade,
     foreign key (matricula) references funcionario(matricula) on update cascade
 );
-
--- DML (importações)
-LOAD DATA INFILE 'D:/wellington/senai2023/2des/03-bcd/aula09/solucao/funcionario.csv'
-INTO TABLE funcionario
-FIELDS TERMINATED BY ';'
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE 'D:/wellington/senai2023/2des/03-bcd/aula09/solucao/telefone.csv'
-INTO TABLE telefone
-FIELDS TERMINATED BY ';'
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE 'D:/wellington/senai2023/2des/03-bcd/aula09/solucao/veiculo.csv'
-INTO TABLE veiculo
-FIELDS TERMINATED BY ';'
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE 'D:/wellington/senai2023/2des/03-bcd/aula09/solucao/manutencao.csv'
-INTO TABLE manutencao
-FIELDS TERMINATED BY ';'
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
