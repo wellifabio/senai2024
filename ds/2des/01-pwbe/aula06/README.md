@@ -49,3 +49,5 @@
 |API back-end com os CRUDs no padrão MVC em uma pasta "api"|
 |Arquivo insomnha.json com todas as rotas de teste na pasta "testes"|
 |Data: 27/03/2024, Grupos de no máximo 3 integrantes [FORMS](https://docs.google.com/forms/d/e/1FAIpQLSdSYTgmAhnCsbJWS5hWTHdLNjjafd-mmhee2AEYSLhBO9iOqA/viewform?usp=sf_link)|
+
+- [Solução](https://github.com/wellifabio/tarefas)
