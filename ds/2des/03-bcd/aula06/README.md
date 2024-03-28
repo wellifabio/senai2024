@@ -23,9 +23,9 @@ O processo de normalização consiste em separar dados brutos em tabelas relacio
 - Estar na segunda forma normal
 - Itentificar assuntos e campos que dependem de outras chaves que estão em uma mesma tabela
 - Separar estes campos e colocá-los em outra tabela
-  - ex: Produtos e Pedidos em uma mesma tabela
+  - ex: Clientes e Pedidos em uma mesma tabela
   - identificar as chaves e separar as tabelas removendo redundâncias (campos duplicados)
-  - ficando uma tabela de produtos e outra de pedidos (1 produto para muitos pedidos)
+  - ficando uma tabela de **clientes** e outra de **pedidos** (1 cliente faz muitos pedidos)
 
 ### OBS
 Existe outras mais formas normais, porém trabalharemos inicialmente com estas três.
