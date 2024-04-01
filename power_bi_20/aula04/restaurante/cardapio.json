@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"produto": "Parmegiana de Frango",
+		"descricao": "Filé de frango empanado, coberto com molho de tomate, presunto e queijo mussarela gratinado. Acompanha arroz branco e fritas.",
+		"preco": 25
+	},
+	{
+		"id": 2,
+		"produto": "Parmegiana de Carne",
+		"descricao": "Filé mignon empanado, coberto com molho de tomate, presunto e queijo mussarela gratinado. Acompanha arroz branco e fritas.",
+		"preco": 30
+	},
+	{
+		"id": 3,
+		"produto": "Contra Filé Argentino",
+		"descricao": "Contra filé grelhado, com molho de churrasco, farofa, Acompanha arroz branco e feijão.",
+		"preco": 50
+	},
+	{
+		"id": 4,
+		"produto": "Contra Filé Acebolado",
+		"descricao": "Contra filé grelhado, com molho de churrasco, farofa, Acompanha arroz branco e feijão.",
+		"preco": 45
+	},
+	{
+		"id": 5,
+		"produto": "Bisteca de porco",
+		"descricao": "Bisteca de porco grelhada, farofa, couve refogada, Acompanha arroz branco, feijão e torresmo.",
+		"preco": 49.9
+	},
+	{
+		"id": 6,
+		"produto": "Refrigerante de 2L",
+		"descricao": "Refrigerante de 2L",
+		"preco": 15
+	},
+	{
+		"id": 7,
+		"produto": "Refrigerante de 1L",
+		"descricao": "Refrigerante de 1L",
+		"preco": 12
+	},
+	{
+		"id": 8,
+		"produto": "Refrigerante de 600ml",
+		"descricao": "Refrigerante de 600ml",
+		"preco": 8
+	},
+	{
+		"id": 9,
+		"produto": "Refrigerante de 350ml",
+		"descricao": "Refrigerante de 350ml",
+		"preco": 5
+	},
+	{
+		"id": 10,
+		"produto": "Cerveja de 600ml",
+		"descricao": "Cerveja de 600ml",
+		"preco": 8
+	},
+	{
+		"id": 11,
+		"produto": "Cerveja de 350ml",
+		"descricao": "Cerveja de 350ml",
+		"preco": 5
+	}
+]

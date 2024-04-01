@@ -1,0 +1,263 @@
+[
+	{
+		"id": 1,
+		"cpf": "000.000.000-00",
+		"nome": "Comer no local",
+		"telefones": "19 99999-9999",
+		"enderecoCep": "13911-000",
+		"enderecoNumero": "0",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 2,
+		"cpf": "443.785.553-10",
+		"nome": "Jaqueline Souza Martim",
+		"telefones": "19-85916-8673, 19-70565-8763",
+		"enderecoCep": "13910-959",
+		"enderecoNumero": "105",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 3,
+		"cpf": "789.588.411-50",
+		"nome": "Sara Bispo Filho",
+		"telefones": "19-04431-8940",
+		"enderecoCep": "13910-972",
+		"enderecoNumero": "1025",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 4,
+		"cpf": "731.715.974-38",
+		"nome": "Clóvis Martins Bispo",
+		"telefones": "19-20609-9645",
+		"enderecoCep": "13910-001",
+		"enderecoNumero": "1150",
+		"enderecoComplemento": "Fundos"
+	},
+	{
+		"id": 5,
+		"cpf": "498.084.178-33",
+		"nome": "Gilberto Martins Teixeira",
+		"telefones": "19-34251-1302",
+		"enderecoCep": "13910-007",
+		"enderecoNumero": "1138",
+		"enderecoComplemento": "Ap144 bl2"
+	},
+	{
+		"id": 6,
+		"cpf": "066.453.810-00",
+		"nome": "Saulo Martim",
+		"telefones": "19-50210-7927, 19-54920-8113",
+		"enderecoCep": "13911-268",
+		"enderecoNumero": "1227",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 7,
+		"cpf": "219.826.395-55",
+		"nome": "Ivo Souza",
+		"telefones": "19-85456-8673",
+		"enderecoCep": "13911-268",
+		"enderecoNumero": "413",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 8,
+		"cpf": "484.584.060-04",
+		"nome": "Tatiane Silva Souza",
+		"telefones": "19-85456-8622",
+		"enderecoCep": "13911-268",
+		"enderecoNumero": "47",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 9,
+		"cpf": "714.626.501-39",
+		"nome": "Umberto Oliveira Neto",
+		"telefones": "19-85456-8111",
+		"enderecoCep": "13911-410",
+		"enderecoNumero": "249",
+		"enderecoComplemento": "AP14 BL24"
+	},
+	{
+		"id": 10,
+		"cpf": "936.097.170-76",
+		"nome": "Gisele Matos",
+		"telefones": "19-85456-1212",
+		"enderecoCep": "13911-008",
+		"enderecoNumero": "231",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 11,
+		"cpf": "829.070.043-10",
+		"nome": "Douglas de Oliveira Oliveira",
+		"telefones": "19-85456-6565",
+		"enderecoCep": "13911-270",
+		"enderecoNumero": "444",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 12,
+		"cpf": "448.299.120-14",
+		"nome": "Timóteo Bispo",
+		"telefones": "13910-027",
+		"enderecoCep": "19-85456-4473",
+		"enderecoNumero": "77",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 13,
+		"cpf": "164.684.026-70",
+		"nome": "Hugo Bispo",
+		"telefones": "19-85456-4547",
+		"enderecoCep": "13910-027",
+		"enderecoNumero": "227",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 14,
+		"cpf": "485.230.922-18",
+		"nome": "Carla Bispo J�nior",
+		"telefones": "19-85456-8173",
+		"enderecoCep": "13919-070",
+		"enderecoNumero": "375",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 15,
+		"cpf": "390.046.454-54",
+		"nome": "Helena Matos",
+		"telefones": "19-85555-8673",
+		"enderecoCep": "13910-011",
+		"enderecoNumero": "421",
+		"enderecoComplemento": "AP14 BL26"
+	},
+	{
+		"id": 16,
+		"cpf": "868.308.397-77",
+		"nome": "Willian Oliveira Neto",
+		"telefones": "19-99956-8673",
+		"enderecoCep": "13910-011",
+		"enderecoNumero": "336",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 17,
+		"cpf": "629.872.318-81",
+		"nome": "Xeila Bispo",
+		"telefones": "19-85225-8673",
+		"enderecoCep": "13910-011",
+		"enderecoNumero": "210",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 18,
+		"cpf": "715.425.766-01",
+		"nome": "Flávia Alves",
+		"telefones": "19-85116-8673",
+		"enderecoCep": "13919-080",
+		"enderecoNumero": "30",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 19,
+		"cpf": "199.535.473-27",
+		"nome": "Paula Cust�dio Mattos",
+		"telefones": "19-85456-8213",
+		"enderecoCep": "13919-080",
+		"enderecoNumero": "886",
+		"enderecoComplemento": "fundos"
+	},
+	{
+		"id": 20,
+		"cpf": "247.129.753-69",
+		"nome": "Hugo Martins",
+		"telefones": "19-85456-7783",
+		"enderecoCep": "13919-142",
+		"enderecoNumero": "603",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 21,
+		"cpf": "502.923.709-70",
+		"nome": "Valéria Martins Custódio",
+		"telefones": "19-11111-8673",
+		"enderecoCep": "13919-142",
+		"enderecoNumero": "753",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 22,
+		"cpf": "174.437.799-50",
+		"nome": "Evandro Oliveira",
+		"telefones": "19-85456-1173",
+		"enderecoCep": "13919-142",
+		"enderecoNumero": "536",
+		"enderecoComplemento": "AP44 BL10"
+	},
+	{
+		"id": 23,
+		"cpf": "838.879.271-76",
+		"nome": "Antônio Cust�dio",
+		"telefones": "19-85456-8253",
+		"enderecoCep": "13919-142",
+		"enderecoNumero": "769",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 24,
+		"cpf": "636.671.293-00",
+		"nome": "Carla Silva",
+		"telefones": "19-85456-8673",
+		"enderecoCep": "13919-112",
+		"enderecoNumero": "663",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 25,
+		"cpf": "894.979.642-26",
+		"nome": "Luis Filho Teixeira",
+		"telefones": "19-85445-8673",
+		"enderecoCep": "13919-112",
+		"enderecoNumero": "400",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 26,
+		"cpf": "148.904.171-09",
+		"nome": "Eva Silva",
+		"telefones": "19-85456-1173",
+		"enderecoCep": "13919-112",
+		"enderecoNumero": "542",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 27,
+		"cpf": "500.698.790-10",
+		"nome": "Xailo Souza de Souza",
+		"telefones": "19-85776-8673",
+		"enderecoCep": "13919-414",
+		"enderecoNumero": "140",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 28,
+		"cpf": "599.764.172-41",
+		"nome": "Norberto Teixeira",
+		"telefones": "19-85336-8673",
+		"enderecoCep": "13911-128",
+		"enderecoNumero": "103",
+		"enderecoComplemento": null
+	},
+	{
+		"id": 29,
+		"cpf": "282.794.051-51",
+		"nome": "Bruna Oliveira Neto",
+		"telefones": "19-21456-8673",
+		"enderecoCep": "13911-090",
+		"enderecoNumero": "93",
+		"enderecoComplemento": null
+	}
+]

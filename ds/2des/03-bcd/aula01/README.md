@@ -73,3 +73,7 @@ show tables;
 	- Campo único que identifica o registro (A linha inteira de dados)
 	- Chave Primária (Não se repete na tabela)
 	- Chave Estrangeira (Se repete na tabela e sempre faz referência a uma chave primária em outra tabela)
+
+## ACID
+Estas são as quatro principais características de um banco de dados relacional/transacional
+![acid](./acid.png)

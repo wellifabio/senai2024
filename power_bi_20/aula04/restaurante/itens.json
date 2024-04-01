@@ -1,0 +1,292 @@
+[
+	{
+		"pedidoId": "1",
+		"cardapioId": "9",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "1",
+		"cardapioId": "11",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "2",
+		"cardapioId": "8",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "2",
+		"cardapioId": "7",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "3",
+		"cardapioId": "10",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "4",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "5",
+		"cardapioId": "4",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "6",
+		"cardapioId": "10",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "6",
+		"cardapioId": "9",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "7",
+		"cardapioId": "9",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "8",
+		"cardapioId": "5",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "9",
+		"cardapioId": "4",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "10",
+		"cardapioId": "4",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "11",
+		"cardapioId": "5",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "12",
+		"cardapioId": "5",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "12",
+		"cardapioId": "11",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "13",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "14",
+		"cardapioId": "7",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "15",
+		"cardapioId": "3",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "16",
+		"cardapioId": "4",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "17",
+		"cardapioId": "1",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "18",
+		"cardapioId": "5",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "19",
+		"cardapioId": "6",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "19",
+		"cardapioId": "3",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "20",
+		"cardapioId": "11",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "21",
+		"cardapioId": "4",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "22",
+		"cardapioId": "7",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "23",
+		"cardapioId": "10",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "24",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "25",
+		"cardapioId": "8",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "26",
+		"cardapioId": "2",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "27",
+		"cardapioId": "10",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "28",
+		"cardapioId": "5",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "29",
+		"cardapioId": "2",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "30",
+		"cardapioId": "3",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "31",
+		"cardapioId": "2",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "31",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "32",
+		"cardapioId": "9",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "33",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "34",
+		"cardapioId": "2",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "35",
+		"cardapioId": "10",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "36",
+		"cardapioId": "9",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "37",
+		"cardapioId": "7",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "38",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "39",
+		"cardapioId": "11",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "39",
+		"cardapioId": "3",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "40",
+		"cardapioId": "2",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "41",
+		"cardapioId": "8",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "42",
+		"cardapioId": "6",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "43",
+		"cardapioId": "11",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "44",
+		"cardapioId": "11",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "45",
+		"cardapioId": "2",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "45",
+		"cardapioId": "9",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "45",
+		"cardapioId": "9",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "46",
+		"cardapioId": "10",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "47",
+		"cardapioId": "5",
+		"quantidade": "1"
+	},
+	{
+		"pedidoId": "48",
+		"cardapioId": "4",
+		"quantidade": "2"
+	},
+	{
+		"pedidoId": "49",
+		"cardapioId": "2",
+		"quantidade": "2"
+	}
+]

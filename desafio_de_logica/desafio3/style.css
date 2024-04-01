@@ -1,0 +1,63 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    box-shadow: 3px 1px 1px #666;
+    cursor: pointer;
+}
+
+input[type=number] {
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 3px 1px 1px #666;
+    text-align: end;
+}
+
+footer .resultados{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.destaque{
+    color: crimson;
+}
+
+.V{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.X{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

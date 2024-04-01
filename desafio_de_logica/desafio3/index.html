@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estatísticas diárias</title>
+</head>
+
+<body>
+    <header>
+        <h1>Opções de investimentos</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th>Moedas e índices</th>
+                <th>Valor</th>
+                <th>Total</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dolar</td>
+                    <td><input type="number" name="dolar" id="dolar" disabled="true"></td>
+                    <td><input type="number" name="vdolar" id="vdolar"></td>
+                </tr>
+                <tr>
+                    <td>Euro</td>
+                    <td><input type="number" name="euro" id="euro" disabled="true"></td>
+                    <td><input type="number" name="veuro" id="veuro"></td>
+                </tr>
+                <tr>
+                    <td>Bitcoin</td>
+                    <td><input type="number" name="bitcoin" id="bitcoin" disabled="true"></td>
+                    <td><input type="number" name="vbitcoin" id="vbitcoin"></td>
+                </tr>
+                <tr>
+                    <td>CDI</td>
+                    <td colspan="2"><input type="number" name="cdi" id="cdi" disabled="true">%</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="calcular()">Calcular</button>
+    </main>
+    <footer>
+        <div class="resultados">
+            <label for="valor" class="V">Valor em R$ para investir</label>
+            <input type="number" name="valor" id="valor" value="0">
+        </div>
+        <div id="msg" class="destaque"></div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cartão de respostas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cartão de Respostas</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th>Questão</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+                <th>Status</th>
+            </thead>
+            <tbody id="dados"></tbody>
+        </table>
+        <button onclick="verificar()">Calcular</button>
+    </main>
+    <footer>
+        <div class="resultados">
+            <label for="acertos" class="V">Acertos</label>
+            <input type="number" name="acertos" id="acertos" value="0">
+            <label for="erros" class="X">Erros</label>
+            <input type="number" name="erros" id="erros" value="0">
+        </div>
+        <div id="msg" class="destaque"></div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
