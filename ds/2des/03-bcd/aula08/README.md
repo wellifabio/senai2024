@@ -1,9 +1,6 @@
 # Aula08 - VPS01
 - Verificação Prática Somativa
 
-## OBS As 10h da manhã teremos [Fórum Educação Profissional](https://bit.ly/EduMobi1)
-
-
 ## Situação Problema
 |Contextualização:|
 |-|
