@@ -4,7 +4,7 @@
 ## Situação Problema
 |Contextualização:|
 |-|
-|O Sra. Simone Oliveira é dona de uma empresa de aluguel de veículos na cidade de Jaguariúna, necessita de um sistema de **aluguel de veículos**, possui uma planilha **xlsx** com os históricos de  aluguéis, veículos e clientes. Você foi incumbido/a de desenvolver um sistema que organize os dados/registros de aluguéis|
+|Sra. Simone Oliveira é dona de uma empresa de aluguel de veículos na cidade de Jaguariúna, necessita de um sistema de **aluguel de veículos**, possui uma planilha **xlsx** com os históricos de  aluguéis, veículos e clientes. Você foi incumbido/a de desenvolver um sistema que organize os dados/registros de aluguéis|
 
 |Desafios:|
 |-|
