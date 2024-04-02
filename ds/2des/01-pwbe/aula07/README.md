@@ -106,4 +106,16 @@ insert into manutencao(id,inicio,fim,descricao,matricula,placa)values
 |Script de criação e população do BD com dados de teste chamado script.sql em uma pasta "testes"|
 |API back-end com os CRUDs no padrão MVC em uma pasta "api"|
 |Arquivo insomnha.json com todas as rotas de teste na pasta "testes"|
-|Data: 04/04/2024,[FORMS](https://docs.google.com/forms/d/e/1FAIpQLScHhh8-rmA0FTGspDlZnfcYo0aRwMaYwylXAPMwgd32Bsl5vw/viewform?usp=sf_link)|
+|Data: 04/04/2024, **[FORMS](https://docs.google.com/forms/d/e/1FAIpQLScHhh8-rmA0FTGspDlZnfcYo0aRwMaYwylXAPMwgd32Bsl5vw/viewform?usp=sf_link)**|
+
+
+|Criticidade|Competências Técnicas|Critérios|
+|-|-|-|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Utilizar interações com base de dados para desenvolvimento de sistemas web|Criou arquivo de conexão com os dados efetivos para conexão local com o BD em MySQL, importou a dependência mysql|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|8. Estabelecer envio de notificações entre cliente e servidor por meio de aplicação web|Desenvolveu os arquivos controllers e routes utilizando as dependências express e cors, respondendo as requisições HTTP|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|9. Desenvolver API (web services) para integração de dados entre plataformas|O back-end está respondendo com dados no formato JSON na rota get, post, put e delete|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|10. Desenvolver sistemas web de acordo com as regras de negócio estabelecidas|Implementou as funcionalidades CRUD|
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|11. Publicar a aplicação web|O repositório github está publico e com o projeto completo.|	
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|4. Demonstrar raciocínio lógico na organização das informações (14)|Desenvolveu tudo que foi solicitado conforme modelo|
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|5. Demonstrar visão sistêmica (16)|Desenvolveu API REST com evidencias no arquivo .json do insomnia|
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|6. Seguir método de trabalho (15)|Aplicou a estrutura MVC no projeto|
