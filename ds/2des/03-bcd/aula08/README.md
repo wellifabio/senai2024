@@ -14,7 +14,7 @@
 |Como primeiros passos para desenvolver este sistema, analise os dados brutos das planilhas a seguir|
 
 ### Dados
-- [Em arquivo excel](./alugueis.csv)
+- [Em arquivo excel](./alugueis.xlsx)
 - Em formato de planilha
 
 |placa|modelo|marca|tipo|diaria|cpf_cliente|nome_cliente|telefone|reserva|retirada|devolucao|dias|status|subtotal|
