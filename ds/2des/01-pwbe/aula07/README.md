@@ -98,7 +98,7 @@ insert into manutencao(id,inicio,fim,descricao,matricula,placa)values
 |CRUD de Telefones: Implementar operações CRUD (Create, Read, Update, Delete) para os telefones|
 |OBS: Caso deseje criar um CRUD para funcionários com telefones juntos o cliente vai ficar mais satisfeito|
 |CRUD de Veiculos: Implementar operações CRUD (Create, Read, Update, Delete) para os veiculos|
-|CRUD de Manutenções: Implementar operações CRUD (Create, Read, Update, Delete) para os manutenções, neste crud, nas funcionalidades READ, acrescente rotas que mostre somente os veículos que estãm em manutenção, data fim em branco ou nula|
+|CRUD de Manutenções: Implementar operações CRUD (Create, Read, Update, Delete) para os manutenções, neste crud, nas funcionalidades READ, acrescente uma rota que mostre somente os veículos que estão em manutenção(data fim em branco ou nula)|
 
 |Entregas|
 |-|
