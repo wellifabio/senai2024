@@ -89,6 +89,8 @@ insert into manutencao(id,inicio,fim,descricao,matricula,placa)values
 (12,'2023-08-27','2023-09-04','Rebimboca da parafuzeta',48522,'BBC-8504'),
 (13,'2023-08-30','2023-09-04','Troca de cavalos por poneis',48542,'BEE-7735'),
 (14,'2023-09-02','2023-09-07','Lanterna queimada',48482,'BEB-5885');
+
+insert into manutencao value (null,'CBA-4403','48482',CURDATE(),null,'Limpeza do motor');
 ```
 
 |Desafio|
@@ -119,3 +121,5 @@ insert into manutencao(id,inicio,fim,descricao,matricula,placa)values
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|4. Demonstrar raciocínio lógico na organização das informações (14)|Desenvolveu tudo que foi solicitado conforme modelo|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|5. Demonstrar visão sistêmica (16)|Desenvolveu API REST com evidencias no arquivo .json do insomnia|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|6. Seguir método de trabalho (15)|Aplicou a estrutura MVC no projeto|
+
+[Solução parcial](https://github.com/wellifabio/manutencoes)
