@@ -1,15 +1,15 @@
 # Aula06
-- API
-- CRUD
-- MVC
-- Testes
+- API - Criação de API (Plataforma de Interface de Aplicação)
+- CRUD - Funcionalidades de Cadastro, consulta, alteração e exclusão
+- MVC - Padrão de projeto (Modelo, Visão e Controle)
+- Testes - Testes unitários da API utilizando software Insomnia
 
-|Tecnologias|
-|-|
-|<img src="https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png" style="width:50px;">[MySQL](https://dev.mysql.com/doc/refman/8.0/en/join.html)|
-|<img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" style="width:50px;">[NodeJS](https://nodejs.org/en)|
-|<img src="https://logowik.com/content/uploads/images/visual-studio-code7642.jpg" style="width:50px;">[VsCode](https://code.visualstudio.com/)|
-|<img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" style="width:50px;"> [Insomnia](https://insomnia.rest/)|
+|Tecnologias|Descrição|
+|-|-|
+|<img src="https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png" style="width:50px;">[MySQL](https://dev.mysql.com/doc/refman/8.0/en/join.html)|SGBD - Sistema Gerenciador de Banco de Dados, instalados através do [XAMPP](https://www.apachefriends.org/pt_br/index.html)|
+|<img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" style="width:50px;">[NodeJS](https://nodejs.org/en)|Framework de programação back-end para criação de APIs|
+|<img src="https://logowik.com/content/uploads/images/visual-studio-code7642.jpg" style="width:50px;">[VsCode](https://code.visualstudio.com/)|IDE - Ambiente integrado de desenvolvimento|
+|<img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" style="width:50px;"> [Insomnia](https://insomnia.rest/)|Ferramenta de testes para APIs|
 
 # Situação desafiadora
 |Contextualização|
