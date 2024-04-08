@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Estação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Estação</h1>
+        <div class="player">
+            <div class="cover-container">
+                <img id="coverImage" src="cover1.jpg" alt="Album Cover">
+            </div>
+            <audio id="audioPlayer" controls>
+            <source src="song.mp3" type="audio/mpeg">
+            </audio>
+            <div class="controls">
+            <button id="prevButton">Anterior</button>
+            <button id="playPauseButton">Play/Pause</button>
+            <button id="nextButton">Próximo</button>
+            </div>
+        </div>
+        <div class="playlist">
+            <h2>Playlist</h2>
+            <ul id="playlist">
+                <li data-src="song1.mp3" class="song-item">
+                    <img src="cover1.jpg" class="coverImage" alt="Album Cover">
+                    Kansas - Dust in the Wind
+                </li>
+                <li data-src="song2.mp3" class="song-item">
+                    <img src="cover.jpg" class="coverImage" alt="Album Cover">
+                    Bad Company
+                </li>
+                <li data-src="song3.mp3" class="song-item">
+                    <img src="cover.jpg" class="coverImage" alt="Album Cover">
+                    Movin' On
+                </li>
+                </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
