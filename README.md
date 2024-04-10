@@ -38,6 +38,8 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 ## GitHub dos outros professores do SENAI Jaguariúna
 - [Reenye](https://github.com/ReenyeLima)
 - [Lucas Paiva](https://github.com/lucasPaiva00)
+- [Robson Souza](https://github.com/robsonbsouzaa)
+- [Luis Fernando](https://github.com/luisfernandospoljaric)
 
 # [Itinerário da área de TI](https://view.genial.ly/653809a786dac80010d6f675/interactive-content-itinerario-da-area-de-tecnologia-da-informacao)
 # [Envie seu currículo](https://forms.gle/LFYviKyoqLpeJRcX9)
