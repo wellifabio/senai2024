@@ -10,7 +10,7 @@
 
 |Contextualização|
 |-|
-|Você foi contratado como programador **junior** do SEBRAE São Paulo e faz parte de uma equipe de desenvolvedores que precisa desenvolver programas que auxilie novos empreendedores.|
+|Você foi contratado como **estagiário** do SEBRAE São Paulo e faz parte de uma equipe de desenvolvedores que precisa desenvolver programas que auxilie novos empreendedores.|
 
 |Desafio|Criticidade|
 |-|-|

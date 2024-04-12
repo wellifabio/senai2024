@@ -10,9 +10,9 @@
 
 |Contextualização|
 |-|
-|Você foi contratado como programador **junior** do SEBRAE São Paulo e faz parte de uma equipe de desenvolvedores que precisa desenvolver programas que auxilie novos empreendedores.|
+|Você foi contratado como **estagiário** do SEBRAE São Paulo e faz parte de uma equipe de desenvolvedores que precisa desenvolver programas que auxilie novos empreendedores.|
 
-|Desafio 01|Criticidade|
+|Desafio|Criticidade|
 |-|-|
 |Um programa de cálculo e estimativa de despesa|Essecial|
 |RF001 - possua uma interface de entrada onde os empreendedores cadastrem seus principais gastos mensais como, aluguel, água, energia elétrica, folha de pagamento, impostos e outros.|Essecial|
