@@ -1,9 +1,3 @@
-## App de exemplo
-    - Componentes
-    - Navigator
-    - Screens
-    - MaskInput
-
 ### Ambiente
 Necessário ter instalado:
     - VsCode
