@@ -24,7 +24,7 @@ CREATE TABLE Cliente (
 
 CREATE TABLE Telefone (
     cpf VARCHAR(14),
-    numeto VARCHAR(15) NOT NULL UNIQUE,
+    numero VARCHAR(15) NOT NULL UNIQUE,
     foreign key (cpf) references Cliente(cpf)
 );
 
@@ -168,3 +168,5 @@ select * from vw_alugueis_em_andamento;
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|4. Demonstrar raciocínio lógico na organização das informações (14)|Desenvolveu tudo que foi solicitado conforme modelo|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|5. Demonstrar visão sistêmica (16)|Desenvolveu API REST com evidencias no arquivo .json do insomnia|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|6. Seguir método de trabalho (15)|Aplicou a estrutura MVC no projeto|
+
+**[Solução](https://github.com/wellifabio/alugueiscomposite)**
