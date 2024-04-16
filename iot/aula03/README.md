@@ -1,23 +1,34 @@
 # Aula03
 
-- [Academina Cisco](https://www.netacad.com/)
+## Conhecimentos
+- 3. Ambiente de desenvolvimento 
+    - 3.1. IDE (Integrated Development Enviroment) 
+        - 3.1.1. Tipos 
+        - 3.1.2. Seleção 
+    - 3.2. Configuração
 
-## Utilizaremos o material do curso de IoT da Cisco
-Para isso faremos nosso cadastro na Academia Cisco e acessaremos o curso de IoT.
+**Git** é uma ferramenta de versionamento com duas interfaces uma gráfica e outra de linha de comando, git GUI e git BASH
+**Github** é uma ferramenta online para manter repositórios remotos gerenciados e conectados com o Git, sua utilização é tão ampla que se tornou uma rede social de programadores
+**VsCode** é uma IDE(Ambiente integrado de desenvolvimento) para desenvolvimento em diversos códigos, frameworks e bibliotecas
 
-## O que é IoT?
-IoT é a sigla para Internet of Things, ou seja, a Internet das Coisas. É um conceito tecnológico que se refere à interconexão digital de objetos do dia a dia com a internet. Ou seja, é a capacidade de conectar qualquer dispositivo à rede, como eletrodomésticos, máquinas industriais, meios de transporte, entre outros.
+## Roteiro da aula
+Vamos criar uma página ou mais páginas **HTML**, criar um reositório remoto no **github** e enviar nossos arquivos para o repositório utilizando **git bash**
+- [Página modelo em HTML](./fofo/)
 
-## O que é a Academia Cisco?
-A Academia Cisco é um programa educacional que oferece cursos de TI e treinamento para ajudar as pessoas a se prepararem para carreiras em tecnologia da informação e para ajudar empresas a desenvolver e manter suas equipes de TI.
+## Comandos mais comuns GIT
+- **git clone** baixa uma cópia do repositório remoto
+- **git pull** baixa as atualizações do repositório remoto dentro de um repositório local
+- **git add .** adiciona novos arquivos ou códigos ao repositório local
+- **git commit -m "anotação"** cria um ponto de versionamento
+- **git push** envia os commits do repositório local para o repositório remoto
 
-## O que é o Packet Tracer?
-Packet Tracer é um simulador de redes desenvolvido pela Cisco Systems. Ele permite que os alunos experimentem comportamentos de rede e explorem cenários "o que aconteceria se" sem precisar de equipamentos reais.
+## Markdown
+- Editando o README.md com a linguagem Markdown
+- [Sintaxe básica de gravação e formatação no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-# Tutorial para cadastro
-1. Acesse o site da [Academia Cisco](https://www.netacad.com/)
-2. Altere o idioma para Português
-3. Clique em "Entrar"
-4. Clique em "Inscreva-se hoje" ou Continuar com o Google
-5. Preencha o formulário de cadastro utilizando um e-mail particular, de preferência **gmail**
-6. Cadastre-se no curso de IoT da Academia Cisco - verifiqe seu gmail e aceite o convite
+## Atividades
+- 1 Crie outra página **HTML** chamada index.html, com cabeçalho, corpo e rodapé e pelo menos uma imagem no corpo.
+- 2 Criar **outro repositório** remoto público no **github**
+- 3 Clone o repositório e envie a página para ele.
+- 4 Utilizando **git bash** envie os arquivos para o repositório remoto
+- 5 Edite o arquivo **README.md** conforme exemplo em aula com **Markdown** informando as tecnologias utilizadas VsCode, Github e MarkDow.
