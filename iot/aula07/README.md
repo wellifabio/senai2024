@@ -2,11 +2,10 @@
 
 ## Conhecimentos
 - 6. Interfaces com elementos visuais interativos 
-    - 6.2. Aplicações 
-        - 6.2.1. Visualização de Dados 
-        - 6.2.2. Interatividade 
-        - 6.2.3. Testes 
-        - 6.2.4. Feedbacks 
+    - 6.1. Linguagens 
+        - 6.1.1. HTML 
+        - 6.1.2. CSS 
+        - 6.1.3. JavaScript 
 
 |Contextualização|
 |-|
@@ -14,12 +13,12 @@
 
 |Desafio|Criticidade|
 |-|-|
-|Desenvolva um programa que faça simulações de financiamentos.|Essecial|
-|RF001 - Receba como entrada o valor necessário para financiar o negócio, a taxa de juros ao mês e quantos meses será necessário para pagar.|Essecial|
-|RF002 - Retorne qual será o valor da parcela e o montante final a ser pago|Importante|
-|RF003 - Retorne uma tabela com os valores das parcelas no sistema SAC de amortização|Desejável|
-|RF - Faça um gráfico dos valores das parcelas|
-|RN001 - O programa deve ser criado utilizando a linguagem Python|Essecial|
+|Um programa de cálculo e estimativa de despesa|Essecial|
+|RF001 - possua uma interface de entrada onde os empreendedores cadastrem seus principais gastos mensais como, aluguel, água, energia elétrica, folha de pagamento, impostos e outros.|Essecial|
+|RF002 - Calcule o total e a média de gastos.|Importante|
+|RF003 - Faça uma estimativa de gastos anual.|Importante|
+|RN001 - A linguagem utilizada para desenvolver este programa deve ser Web(HTML, CSS + JavaScript).|Essecial|
+|RN002 - Você e sua equipe deve pesquisar e desenvolver uma solução com uma interface amigável  com formulário para o cadastro dos dados e botões para as funcionalidades como estimativa.|Essecial|
 
 |Entregas|
 |-|
