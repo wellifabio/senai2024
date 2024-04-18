@@ -1,6 +1,6 @@
 # Criação - Singleton
 
-A solução clássica **Singleton** é usado quando você deseja ter apenas uma única instância de uma classe em todo o seu aplicativo, garantindo que haja apenas um ponto de acesso global para essa instância. Aqui está um exemplo de como implementar o padrão Singleton em **JavaScript**:
+A solução clássica **Singleton** é usada quando você deseja ter apenas uma única instância de uma classe em todo o seu aplicativo, garantindo que haja apenas um ponto de acesso global para essa instância. Aqui está um exemplo de como implementar o padrão Singleton em **JavaScript**:
 
 ```javascript
 class Singleton {
