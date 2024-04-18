@@ -14,7 +14,7 @@ Já utilizamos o padrão conhecido por **MVC** (Model, View, Condroller) que nã
 ![Quadro pattherns](./patterns.png)
 
 Estudaremos alguns destes padrões em nosso curso
-### Composite - Comportamento
+### Estrutura - Composite
 - Exemplo de um Objeto sem composite
 ```json
 [
