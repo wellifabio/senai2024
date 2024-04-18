@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-04-18T13:10:28.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6Qah2bgKu6clkbRbn97S" version="24.2.5" type="device">
+  <diagram name="Página-1" id="vkqXX1EBk3P6qlkBClmM">
+    <mxGraphModel dx="819" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jVwabESRVsB_DtnYk1jO-1" value="Projeto: Carros&lt;div&gt;DC (Diagrama de Classes)&lt;/div&gt;&lt;div&gt;UML (Unified Modeling Language)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="289" y="20" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Carro&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modelo: String;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ marca:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ano: int, default(atual);&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ construct(modelo, marca, ano): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Argo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modelo: String, default(&#39;Argo&#39;);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ marca:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;default(&#39;Fiat&#39;);&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ano: int, default(atual);&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ construct(modelo, marca, ano): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="301" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Gol&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modelo: String, default(&#39;Gol&#39;);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ marca:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;default(&#39;VW&#39;);&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ano: int, default(atual);&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ construct(modelo, marca, ano): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="551" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Turbo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ marca:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String, default(Generica);&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ construct(marca): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="266" y="160" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-9" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-2" target="jVwabESRVsB_DtnYk1jO-8">
+          <mxGeometry x="-0.7701" y="10" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-10" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.647;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-5" target="jVwabESRVsB_DtnYk1jO-8">
+          <mxGeometry x="-0.521" y="11" relative="1" as="geometry">
+            <mxPoint x="180" y="330" as="sourcePoint" />
+            <mxPoint x="416" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-11" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-7" target="jVwabESRVsB_DtnYk1jO-8">
+          <mxGeometry x="-0.7778" y="11" relative="1" as="geometry">
+            <mxPoint x="411" y="330" as="sourcePoint" />
+            <mxPoint x="447" y="241" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CarroBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ construct(modelo, marca, ano): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTurbo(turbo):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+build():carro&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="301" y="510" width="200" height="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-14" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.514;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-13" target="jVwabESRVsB_DtnYk1jO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="130" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-13" target="jVwabESRVsB_DtnYk1jO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="578" as="sourcePoint" />
+            <mxPoint x="182" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVwabESRVsB_DtnYk1jO-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jVwabESRVsB_DtnYk1jO-13" target="jVwabESRVsB_DtnYk1jO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="530" as="sourcePoint" />
+            <mxPoint x="411" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
