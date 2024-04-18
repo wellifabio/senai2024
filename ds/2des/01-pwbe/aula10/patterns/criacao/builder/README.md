@@ -74,7 +74,7 @@ class CarroBuilder {
     }
 }
 
-//Criando um carro com o Builder
+//Criando varios carros com o Builder
 const carro1 = new CarroBuilder('Argo', 'Fiat', 2020);
 const carro2 = new CarroBuilder('Gol', 'VW');
 carro2.setTurbo('Garrett');
