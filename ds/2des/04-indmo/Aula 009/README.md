@@ -22,7 +22,7 @@ Esta junto aqui na pasta um logo que devera ser utilizado para dinamica de cores
 Abaixo audio explicativo (aproveitando o tema)
 
 
-https://github.com/wellifabio/senai2024/assets/156427878/74a12a6d-a69e-46ce-8874-d0a0dbd2bbfb
+https://github.com/wellifabio/senai2024/assets/156427878/d6315896-2b04-49a1-b7e1-948a488a3c48
 
 
 
