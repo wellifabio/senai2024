@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header class="introducao">
@@ -29,8 +30,36 @@
         <!--Botão Pedra-->
         <div class="conteiner conteiner-pedra" onclick="jogar(pedra)">
         <button value="pedra" class="pedra opcao"><img src="./images/icon-rock.svg" alt="">
+        </button>
+        </div>
+        </main>   
+        <!--Regras-->
+        <div id="regra" class="regras">
+            <div class="regras-titulo">
+                <h1>Regras</h1>
+                <button onclick="fecharRegras()"><img src="./images/icon-close.svg" alt=""></button>
+            </div>
+            <img src="./images/regras.jpg" alt="">
+            </div>
+            <!--gameplay-->
+            <div class="gameplay">
+                <div class ="player display">
+                <h2 class="persona">Você Escolheu</h2>
+                <p class="test"></p>
+                <h2 class="persona1">Você Escolheu</h2>
+            </div>
+            <div class="fim">
+                <p class="result"></p>
+                <button class="playAgain" onclick="reset()">Jogar Novamente</button>
+            </div>
+            <div class="house display">
+                <h2 class="persona"> O Computador Escolheu</h2>
+                <p class="test1"></p>
+                <h2 class="persona1"> O Computador Escolheu</h2>
+            </div>
+            </div>
+            <button class="regras-button" onclick="mostrarregras()">Regras</button>
+            <script src="./script.js"></script>
 
-            
-    
 </body>
 </html>
