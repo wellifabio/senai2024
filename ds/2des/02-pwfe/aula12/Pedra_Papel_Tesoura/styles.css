@@ -92,7 +92,7 @@ body {
 .conteiner-tesoura {
     position:absolute;
     top: -130px;
-    left: 60px;
+    right: -60px;
 }
 .conteiner-pedra {
     position:absolute;
@@ -109,4 +109,29 @@ body {
     border-color: #07d99d;
     box-shadow: 0px 7px 0px #71e89a, inset 0px 7px #d6d6d6;
     
+}
+.tesoura {
+    border-color: #dd04ae;
+    box-shadow: 0px 7px 0px #f05f9d, inset 0px 7px #d6d6d6;
+}
+.pedra {
+    border-color: #f7f316;
+    box-shadow: 0px 7px 0px #e5f369, inset 0px 7px #d6d6d6;
+}
+.regras {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: calc(50px - 235px);
+    top: 200px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 3000px rgba(0, 0, 0, 0.664);
+    z-index:2;
 }
