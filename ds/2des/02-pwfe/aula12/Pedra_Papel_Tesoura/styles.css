@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-body {
+  }
+  body {
     background: #630268;
-}
-.introducao {
+  }
+  .introducao {
     margin-top: 40px;
     border-radius: 15px;
     margin-left: auto;
@@ -18,13 +18,14 @@ body {
     max-width: 1000px;
     border: solid 2px white;
     height: 200px;
-}
-.introducao img {
+  }
+  .introducao img {
     padding: 20px;
     width: 30%;
-    min-width: 150px
-}
-.placar {
+    min-width: 150px;
+  }
+  
+  .placar {
     background-color: white;
     font-family: sans-serif;
     width: 200px;
@@ -35,97 +36,99 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.score {
+  }
+  
+  .score {
     color: blue;
     font-size: 15px;
     margin-top: 5px;
-}
-.pontuacao {
+  }
+  .pontuacao {
     font-size: 50px;
     font-weight: bolder;
     color: #534f65;
-}
-
-/*Main*/
-.jogo {
+  }
+  
+  /* Main */
+  .jogo {
     margin-left: auto;
     margin-right: auto;
     position: relative;
     justify-content: center;
-    display:flex;
+    display: flex;
     margin-top: 150px;
     width: 100%;
     max-width: 600px;
     height: 30%;
-}
-.triangulo {
+  }
+  .triangulo {
     width: 70%;
-}
-.opcao {
+  }
+  .opcao {
     padding: 20px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 50%;
     border: 35px solid;
     width: 250px;
     height: 250px;
     animation: opacidade 2s linear;
     animation: rotatez 1s linear;
-
-}
-.opcao:hover {
+  }
+  .opcao:hover {
     animation: luzDeFundo 2s ease infinite;
-}
-.opcao:focus {
+  }
+  .opcao:focus {
     animation: luzDeFundo 2s ease infinite;
-}
-.test,
-.test1 {
-    border-radius: 50px;
-}
-
-.conteiner-papel {
-    position:absolute;
+  }
+  .test,
+  .test1 {
+    border-radius: 50%;
+  }
+  
+  .conteiner-papel {
+    position: absolute;
     top: -130px;
     left: -60px;
-}
-.conteiner-tesoura {
-    position:absolute;
+  }
+  .conteiner-tesoura {
+    position: absolute;
     top: -130px;
     right: -60px;
-}
-.conteiner-pedra {
-    position:absolute;
+  }
+  .conteiner-pedra {
+    position: absolute;
     bottom: -70px;
-}
-.opcao img {
+  }
+  .opcao img {
     width: 100px;
     transition: 0.5s;
-}
-.opcao :hover {
+  }
+  .opcao :hover {
     transform: rotatey(360deg);
-}
-.papel {
+  }
+  .papel {
     border-color: #07d99d;
     box-shadow: 0px 7px 0px #71e89a, inset 0px 7px #d6d6d6;
-    
-}
-.tesoura {
+  }
+  .tesoura {
     border-color: #dd04ae;
-    box-shadow: 0px 7px 0px #f05f9d, inset 0px 7px #d6d6d6;
-}
-.pedra {
+  
+    box-shadow: 0px 7px 0px #eb31c3, inset 0px 7px #d6d6d6;
+  }
+  .pedra {
     border-color: #f7f316;
     box-shadow: 0px 7px 0px #e5f369, inset 0px 7px #d6d6d6;
-}
-.regras {
+  }
+  
+  /* Regras */
+  .regras {
     width: 500px;
     height: 500px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    left: calc(50px - 235px);
+    left: calc(50% - 235px);
     top: 200px;
     border-radius: 10px;
     display: none;
@@ -133,5 +136,236 @@ body {
     justify-content: center;
     padding: 30px;
     box-shadow: 0px 0px 0px 3000px rgba(0, 0, 0, 0.664);
-    z-index:2;
-}
+    z-index: 2;
+  }
+  
+  .regras-titulo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+  .regras-titulo h1 {
+    font-family: sans-serif;
+  }
+  .regras-titulo button {
+    border: none;
+    background-color: transparent;
+  }
+  .regras-button {
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    transition: linear 0.5s;
+  }
+  .regras-button:hover {
+    background-color: white;
+    color: #182243;
+  }
+  
+  /* GAMEPLAY */
+  
+  .gameplay {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    z-index: -1;
+  }
+  
+  .display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  .display h2 {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .playAgain {
+    width:250px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border: none;
+  }
+  .result {
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .fim {
+    margin: 20px;
+    display: none;
+    animation: opacidade 2s linear;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .persona1{
+    display: none;
+  
+  }
+  
+  
+  @keyframes opacidade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotatez {
+    from {
+      transform: rotatez(0deg);
+    }
+    to {
+      transform: rotatez(360deg);
+    }
+  }
+  
+  @keyframes luzDeFundo {
+    0% {
+      box-shadow: 0px 0px 0px 0px;
+    }
+    50% {
+      box-shadow: 0px 0px 700px 10px rgb(59, 142, 250);
+    }
+    0% {
+      box-shadow: 0px 0px 0px 0px;
+    }
+  }
+  /* tablet */
+  @media screen and (max-width: 800px) {
+    .opcao {
+      width: 40vw;
+      height: 40vw;
+      max-width: 220px;
+      max-height: 220px;
+      border: 20px solid;
+    }
+    .persona1{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+     
+    }
+    .persona{
+      display: none;
+    }
+    .opcao img {
+      width: 11vw;
+    }
+    .jogo{
+      margin-top: 120px;
+    }
+    .fim {
+      position: fixed;
+      top: 60%;
+    }
+    .result {
+      font-size: 4vw;
+      margin-bottom: 10px;
+    }
+  .gameplay h2{
+    font-size: 3vw;
+    margin-top: 20px;
+  }
+    .triangulo {
+      margin-top: 1vw;
+      width: 60%;
+    }
+    .conteiner-papel {
+      top: -80px;
+      left: 5vw;
+    }
+    .conteiner-tesoura {
+      position: absolute;
+      top: -80px;
+      right: 10px;
+    }
+    .conteiner-pedra {
+      position: absolute;
+      bottom: -70px;
+    }
+    .regras-button {
+   width: 80px;
+      height: 45px;
+      position: fixed;
+      bottom: 1%;
+      left: 20%;
+    }
+    .introducao{
+      height: 120px;
+      margin: 5px;
+      margin-top: 20px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .placar{height: 85px;
+    width: 100px;}
+  
+    .papel {
+      border-color: #5471fa;
+      box-shadow: 0px 7px 0px #3f53b8, inset 0px 7px #d6d6d6;
+    }
+    .tesoura {
+      border-color: #e99f0d;
+    
+      box-shadow: 0px 7px 0px #aa750c, inset 0px 7px #d6d6d6;
+    }
+    .pedra {
+      border-color: #df3f5c;
+      box-shadow: 0px 7px 0px #6e2230, inset 0px 7px #d6d6d6;
+    }
+   .regras{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 0;
+   }
+   .playAgain{
+     width: 100%;
+   }
+  }
+  @media screen and (max-height: 550px) {
+   .jogo{
+     height: 100px;
+   }
+  }
+  
+  
+  
