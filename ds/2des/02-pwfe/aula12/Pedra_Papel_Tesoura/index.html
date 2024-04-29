@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Tesoura</title>
+</head>
+<body>
+    <header class="introducao">
+        <img src="./images/logogame.png" alt="">
+        <div class ="placar">
+            <h2 class="score" >Pontos</h2>
+            <p class="pontuacao">0</p>
+        </div>
+    </header>
+    <!--Inicio-->
+    <main class ="jogo">
+        <img class="triangulo" src="./images/bg-triangle.svg" alt="">
+        <!--Botão Papel-->
+        <div class="conteiner conteiner-papel" onclick="jogar(papel)">
+        <button value="papel" class="papel opcao"><img src="./images/icon-paper.svg"alt="">
+        </button>
+        </div>
+        <!--Botão Tesoura-->
+        <div class ="conteiner conteiner-tesoura" onclick="jogar(tesoura)">
+        <button value="tesoura" class="tesoura opcao"><img src="./images/icon-scissors.svg" alt="">
+        </button>
+        </div>
+        <!--Botão Pedra-->
+        <div class="conteiner conteiner-pedra" onclick="jogar(pedra)">
+        <button value="pedra" class="pedra opcao"><img src="./images/icon-rock.svg" alt="">
+
+            
+    
+</body>
+</html>
