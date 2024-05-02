@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ui">
+        <label for="so">Qual tipo de Sistema Operacional você prefere?</label>
+        <select id="so">
+            <option value="outro">Outro</option>
+            <option value="aberto">Aberto</option>
+            <option value="fechado">Fechado</option>
+        </select>
+        <button onclick="getObjeto()">Qual</button>
+        <textarea id="resultado" cols="30" rows="10"></textarea>
+    </div>
+</body>
+<script>
+    function getObjeto() {
+        let obj = fabricSO(so.value);
+        resultado.innerHTML += JSON.stringify(obj);
+    }
+</script>
+<script src="./app.js"></script>
+
+</html>
