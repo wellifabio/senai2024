@@ -19,3 +19,6 @@ Sendo Assim o menu do Navigation ficara com as seguintes opções
 Faça tudo com temas relacionados ao filme, e tente colocar no fundo enquanto usa o aplicativo a musica tema do filme
 
 Ao Terminar compile o apk utilizando o expo e coloque no form abaixo
+
+https://forms.gle/qqFDk2CXAgMxKb3NA
+
