@@ -74,14 +74,31 @@ function Resolucao() {
             resultado.innerHTML = "Você perdeu";
             test1.style.cssText = "animation: luzdeFundo 1.5s ease infinite;";
         
+        }else{
+            resultado.innerHTML = "Empate";
+            test.style.cssText = "animation: luzdeFundo 1.5s ease infinite;";
+            test1.style.cssText = "animation: luzdeFundo 1.5s ease infinite;";
         }
+        playAgain.style.display = "flex";
+    }
+
+    function reset() {
+        jogo.style.display = "flex";
+        selecao.style.display = "none";
+        resultado.innerHTML = "";
+        playAgain.style.display = "none";
+        test.style.cssText = "animation: '' ";
+        test1.style.cssText = "animation: '' ";
+        jogo.style.cssText = "''";
+        buttonRegras.style.display = "block";
+    }
      
 
-}
 
 
 
 
 
 
-}
+
+
