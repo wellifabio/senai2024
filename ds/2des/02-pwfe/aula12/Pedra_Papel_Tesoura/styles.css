@@ -63,6 +63,8 @@
   }
   .triangulo {
     width: 70%;
+    opacity: 2.5;
+    
   }
   .opcao {
     padding: 20px;

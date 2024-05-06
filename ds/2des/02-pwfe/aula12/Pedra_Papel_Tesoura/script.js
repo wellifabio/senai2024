@@ -2,7 +2,7 @@ var regras = document.getElementsByClassName("regras")[0];
 function mostraregras() {
     regras.style.display = "flex";
 }
-function fecharregras() {
+function fecharegras() {
     regras.style.display = "none";
 }
 var jogo = document.getElementsByClassName("jogo")[0];
