@@ -4,4 +4,4 @@ Vamos criar um projeto usando JavaScript para fazer o jogo Pedra Papel e tesoura
 
 Clone o projeto para codificarmos! 
 
-https://meet.google.com/wob-kqpc-kym
+https://meet.google.com/rfh-tvax-wjw
