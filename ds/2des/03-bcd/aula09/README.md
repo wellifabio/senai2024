@@ -247,15 +247,15 @@ id;nome;preco
 6;X-Frango; R$ 20,00
 7;X-Tudo; R$ 22,00
 ```
-- Com o VsCode podemos utilizar o CTRL + H para substituir ",00" por ".00"
+- Com o VsCode podemos utilizar o CTRL + H para substituir ",00" por ".00" e também remover o "R$"
 ```csv
 id;nome;preco
-1;Refrigerante - 2L; R$ 12.00
-2;Refrigerante - Lata; R$ 6.00
-3;X-Bacon; R$ 18.00
-4;X-Burguer; R$ 15.00
-5;X-Egg; R$ 17.00
-6;X-Frango; R$ 20.00
-7;X-Tudo; R$ 22.00
+1;Refrigerante - 2L;12.00
+2;Refrigerante - Lata;6.00
+3;X-Bacon;18.00
+4;X-Burguer;15.00
+5;X-Egg;17.00
+6;X-Frango;20.00
+7;X-Tudo;22.00
 ```
 - Valores do tipo **data** que no formato brasileiro é "05/05/2024" alterar para o de Banco de dados"2024-05-05" Ano, Mês e Dia. também com o VsCode podemos utilizar o **CTRL + H** para substituir.
