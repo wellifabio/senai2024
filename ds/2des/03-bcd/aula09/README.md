@@ -195,6 +195,7 @@ CREATE TABLE Pedido (
     foreign key (id_entregador) references Entregador(id)
 );
 ```
+![Der Pedidos](./pedidos/der_pedidos.1.0.png)
 - 3 Execute o script de **importação** dos dados em **CSV** para cada tabela.
 ```sql
 LOAD DATA INFILE 'C:/users/des/clientes.csv'
