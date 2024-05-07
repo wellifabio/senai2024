@@ -1,6 +1,6 @@
 # Aula09
 ## Importação e exportação de dados
-Podemos importar e exportar os dados ou a estrutura completa de um banco de dados, a seguir temos um script de criação e população de um banco de dados de exemplo.
+Podemos importar e exportar os dados ou a estrutura completa de um banco de dados, a seguir temos um script de criação e população de um banco de dados de exemplo. Abra o XAMPP e instale este banco de dados através do PhpMyadmin ou via shell.
 ```sql
 DROP DATABASE IF EXISTS alugueis;
 CREATE DATABASE alugueis CHARSET=UTF8 COLLATE utf8_general_ci;
