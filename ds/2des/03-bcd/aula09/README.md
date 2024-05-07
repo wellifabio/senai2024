@@ -128,9 +128,79 @@ select * from vw_todos_os_alugueis_com_status;
 select * from vw_alugueis_reservados;
 select * from vw_alugueis_em_andamento;
 ```
+
+## Exportação no formato SQL
 - Neste caso temos o script de criação e população do banco de dados, porém se uma empresa já possuísse um banco de dados antigo e nosso trabalho seria transferir para um novo modelo podemos seguir os seguintes passos.
 - 1 Abrir o PhpMyadmin, clicar no nome do banco de dados.
 - 2 Clicar em exportar
 - 3 Escolher o tipo SQL e clicar no botão exportar
 - ![tela](./tela01.png)
 - Não é necessário criar um modelo se a exportação não for contínua.
+- Este formato só serve para transferir os dados para outro banco de dados do mesmo SGBD (MySQL:MariaDB) se os dados forem transferidos para outros bancos de dados precisamos exportar tabela por tabela.
+### Exportação no formato CSV
+- Para exportar para outros bancos de dados como Oracle, SQL Server ou até bancos de dados não relacionais utilizamos formatos **universais** como CSV
+- Porém precisamos exportar tabela por tabela, conforme passos a seguir
+- 1 Clique na tabela
+- 2 Clique em exportar
+- 3 Escolha o formato, escolha se quer toda a tabela ou um total de linhas e clique em **exportar**
+- ![tela](./tela02.png)
+## Importação de dados em CSV
+- Para importar no formato SQL, basta executar o script conforme fizemos no início da aula, já no formato CSV vamos utilizar um banco de dados de exemplo chamado **pedidos** neste repositório
+- 1 Baixe os cinco arquivos CSV da pasta pedidos.
+- 2 Execute o script de **criação** do **bando de dados**
+```sql
+DROP DATABASE IF EXISTS pedidos;
+CREATE DATABASE pedidos CHARSET=UTF8 COLLATE utf8_general_ci;
+USE pedidos;
+
+CREATE TABLE Cliente (
+    id integer not null primary key auto_increment,
+    cpf VARCHAR(14) NOT NULL unique,
+    nome VARCHAR(100) NOT NULL,
+    cep VARCHAR(50) not null,
+    numero VARCHAR(10),
+    complemento VARCHAR(100)
+);
+
+CREATE TABLE Telefone (
+    id_cliente integer not null,
+    telefone VARCHAR(15) NOT NULL UNIQUE,
+    foreign key (id_cliente) references Cliente(id)
+);
+
+CREATE TABLE Produto (
+    id integer not null primary key auto_increment,
+    nome VARCHAR(100) NOT NULL,
+    preco float(10,2) not null
+);
+
+CREATE TABLE Entregador (
+    id integer not null primary key auto_increment,
+    nome VARCHAR(100) NOT NULL,
+    veiculo VARCHAR(30) not null
+);
+
+CREATE TABLE Pedido (
+    id integer not null primary key auto_increment,
+    id_cliente integer not null,
+    id_entregador integer not null,
+    data Date NOT NULL,
+    hora_pedido time not null,
+    hora_entrega time,
+    hora_fim time,
+    quantidade integer not null,
+    id_produto integer not null,
+    preco_unitario  float(10,2) not null,
+    foreign key (id_cliente) references Cliente(id),
+    foreign key (id_entregador) references Entregador(id)
+);
+```
+- 3 Execute o script de **importação** dos dados em **CSV** para cada tabela.
+```sql
+LOAD DATA INFILE 'C:/users/des/clientes.csv'
+INTO TABLE cliente
+FIELDS TERMINATED BY ';'
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+```
