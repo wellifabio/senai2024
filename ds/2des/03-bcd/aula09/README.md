@@ -259,3 +259,9 @@ id;nome;preco
 7;X-Tudo;22.00
 ```
 - Valores do tipo **data** que no formato brasileiro é "05/05/2024" alterar para o de Banco de dados"2024-05-05" Ano, Mês e Dia. também com o VsCode podemos utilizar o **CTRL + H** para substituir.
+
+## Exercícios
+Neste repositório temos dados para mais dois bancos de dados "ônibus" e "academia".
+- 1 Para cada um dos temas, crie o script **DDL** de criação do banco de dados
+- 2 Importe os dados das tabelas **CSV** verificando os números e formatos de datas.
+- 3 Mostre ao Instrutor sua importações.
