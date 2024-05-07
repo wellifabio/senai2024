@@ -128,3 +128,9 @@ select * from vw_todos_os_alugueis_com_status;
 select * from vw_alugueis_reservados;
 select * from vw_alugueis_em_andamento;
 ```
+- Neste caso temos o script de criação e população do banco de dados, porém se uma empresa já possuísse um banco de dados antigo e nosso trabalho seria transferir para um novo modelo podemos seguir os seguintes passos.
+- 1 Abrir o PhpMyadmin, clicar no nome do banco de dados.
+- 2 Clicar em exportar
+- 3 Escolher o tipo SQL e clicar no botão exportar
+- ![tela](./tela01.png)
+- Não é necessário criar um modelo se a exportação não for contínua.
