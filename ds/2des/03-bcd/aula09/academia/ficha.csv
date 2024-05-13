@@ -1,0 +1,21 @@
+id_aluno;id_exercicio;dia_semana;série
+1;1;Segunda-feira;4R decrescente 12 10 8 6
+1;2;Terça-feira;4R decrescente 12 10 8 6
+1;3;Quarta-feira;4R decrescente 12 10 8 6
+1;4;Quinta-feira;4R decrescente 12 10 8 6
+1;5;Sexta-feira;30 min
+2;6;Segunda-feira;4R constante 8 8 8 8
+2;7;Terça-feira;4R constante 8 8 8 8
+2;4;Quarta-feira;4R constante 8 8 8 8
+2;8;Quinta-feira;4R constante 8 8 8 8
+2;9;Sexta-feira;30 min
+3;10;Segunda-feira;4R constante 6 6 6 6
+3;11;Terça-feira;4R constante 6 6 6 6
+3;12;Quarta-feira;4R constante 6 6 6 6
+3;13;Quinta-feira;4R constante 15 15 15 15
+3;1;Sexta-feira;4R constante 6 6 6 6
+4;14;Segunda-feira;4R constante 6 6 6 6
+4;15;Terça-feira;4R constante 6 6 6 6
+4;16;Quarta-feira;4R constante 6 6 6 6
+4;17;Quinta-feira;4R constante 15 15 15 15
+4;6;Sexta-feira;4R constante 6 6 6 6
