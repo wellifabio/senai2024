@@ -16,10 +16,12 @@
 ## Trabalhos dos alunos
 |Tipo|Pattern|Link|Autores|
 |-|-|-|-|
+|Estrutura|Decorator|https://github.com/CarlosAugustoRodrigues/DesignPattern-Decorator.git|Carlos Augusto, Igor e Vinicius|
+|Estrutura|Bridge|https://github.com/Camispiva/bridge.git|Camila e Erick|
+|Estrutura|Proxy|https://github.com/Bruno-Otavio/design-pattern-proxy.git|Alefe, Bruno e Guilherme|
 |Comportamento|Chain of Responsibility|https://github.com/carloshosiqueira/Chain-of-responsibility.git|Carlos Henrique, Maria Fernanda e Otavio Bueno|
 |Comportamento|Visitor|https://github.com/JMarques12/aula10.git|Jaqueline e João|
 |Comportamento|Memento|https://github.com/richardpns/Design-Pattern-memento-.git|Richard, Otávio e Pedro|
 |Comportamento|Mediator|https://github.com/lehhofman/PATTERNS-MEDIATOR.git|Carla e Letícia|
 |Comportamento|Strategy|https://github.com/avilagabriella/Strategy.git|Gabriella avila, Ana Ortiz e Bryan Backham|
-|Estrutura|Decorator|https://github.com/CarlosAugustoRodrigues/DesignPattern-Decorator.git|Carlos Augusto, Igor e Vinicius|
-|Estrutura|Proxy|https://github.com/Bruno-Otavio/design-pattern-proxy.git|Alefe, Bruno e Guilherme|
+|Comportamento|State|https://github.com/landim9/design-patterns.git|Mirella e Rafael|
