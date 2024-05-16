@@ -19,6 +19,7 @@ const read = async (req, res) => {
 
     res.status(200).json(clientes).end();
 }
+
 //localhost:3000/clientes/1
 const remove = async (req, res) => {
     const cliente = await prisma.clientes.delete({
