@@ -198,6 +198,7 @@ nodemon
 ```
 - 10 Testar com **Insomnia**, **Postman** ou outra ferramenta de teste unitário.
 
-## Atividades
-- Criar uma API para uma Agência de viágens com três tabelas Destinos[id, cidade, valor, data], Hoteis[id, nome, valor, avaliacao, email, site] e PontosTuristicos[nome, endereco, telefone, valor]
-- Criar um Front-End para consumir e enviar dados para esta API.
+|Atividades|
+|-|
+|1 Criar uma API para uma Agência de viágens com três tabelas Destinos[id, cidade, valor, data], Hoteis[id, nome, valor, avaliacao, email, site] e PontosTuristicos[nome, endereco, telefone, valor]|
+|2 Criar um Front-End para consumir e enviar dados para esta API.|
