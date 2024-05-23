@@ -5,6 +5,7 @@ Link Meet : [https://meet.google.com/kpn-gssa-ved]
 - ORM (Object Relationchip Management) Gerenciamento de Objeto Relacional
 - PRISMA - Framework de ORM
 - Padrão de projeto MVC
+- Documentação prisma.io
 
 ## Conhecimentos
 - 5 Web Services
@@ -54,7 +55,11 @@ model Telefones {
   cliente Clientes @relation(fields: [id_cliente], references: [id])
 }
 ```
-- 7 Editar os **controles** ciando os CRUDs conforme exemplo a seguir<br>./src/controllers/clientes.js
+- 7 Executar a primeira migração, com o XAMPP aberto e iniciados MySQL, acesse o terminal
+```bash
+prisma migrate dev --name init
+```
+- 8 Editar os **controles** ciando os CRUDs conforme exemplo a seguir<br>./src/controllers/clientes.js
 ```js
 const { PrismaClient } = require('@prisma/client');
 
