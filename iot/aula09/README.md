@@ -2,7 +2,8 @@
 Laboratórios simulados ou práticos
 - Simulado - Utilizando simulador Packet Tracer ou - [TinkerCAD](https://www.tinkercad.com/)
 - Prático - Utilizando kit IoT
-
+## Componentes Eletrônicos Básicos
+![Lousa](./lousa.jpg)
 ## [TinkerCad](https://www.tinkercad.com/)
 TinkerCad simulador Web para projetos 3D, eletrônica e codificação.
 ## Conta
