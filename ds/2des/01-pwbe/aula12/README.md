@@ -7,4 +7,4 @@ Quando necessário uma aplicação **Fullstack** que seja simples (BD com 2 a 3 
 
 ### [Projeto Modelo](https://github.com/wellifabio/escolaprismapug.git)
 
-#### [Meet](https://meet.google.com/ahx-wjvf-ikn)
+#### [Meet](https://meet.google.com/xpe-gbtz-wyx)
