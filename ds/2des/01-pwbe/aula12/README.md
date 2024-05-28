@@ -6,3 +6,5 @@
 Quando necessário uma aplicação **Fullstack** que seja simples (BD com 2 a 3 tabelas) podemos integrar o APP em um só produto. Nesta aula vamos ver um exemplo.
 
 ### [Projeto Modelo](https://github.com/wellifabio/escolaprismapug.git)
+
+#### [Meet](https://meet.google.com/ahx-wjvf-ikn)
