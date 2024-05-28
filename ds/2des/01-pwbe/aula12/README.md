@@ -12,4 +12,4 @@ Em aula vimos uma demonstração de como **renderizar** dados com **pug** e cria
 #### Desafio
 Crie um botão e modal para cadastrar novo aluno
 ![Tela03](./print3.png)
-Pesquise na Web/chatGPT como criar as outras funcionalidades CRUD, update e Delete com Pug e implemente neste projeto.
+- **OBS:** Pesquise na Web/chatGPT como criar as outras funcionalidades CRUD, update e Delete com Pug e implemente neste projeto.
