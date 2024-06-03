@@ -12,4 +12,4 @@ Realizar um projeto de un site de jogos (dar nome ao projeto) onde o mesmo deve 
 - 3 - o Jogo a ser inventado deve ser feito utilizando o Javascript, se baseie no que fazemos e faça um jogo do seu gosto
 
 
-O Projeto deve ser colocado em um repositório no Github e informado o link através do [Formulario]([https://forms.gle/7YyxgL5ZQmxkiPXd6)
+O Projeto deve ser colocado em um repositório no Github e informado o link através do [Formulario](https://forms.gle/7YyxgL5ZQmxkiPXd6)
