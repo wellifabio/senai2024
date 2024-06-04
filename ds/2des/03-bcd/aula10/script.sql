@@ -56,3 +56,17 @@ delimiter ;
 call atualiza_valor_pedido();
 -- Ver os pedidos
 select * from v_pedidos;
+
+-- Criar um gatilho que atulize os valores dos pedidos após um item ser inserido no pedido
+drop trigger if exists atualiza_valor_pedido;
+delimiter //
+create trigger atualiza_valor_pedido after insert on Itens_Pedido
+for each row
+begin
+    call atualiza_valor_pedido();
+end//
+delimiter ;
+
+-- Inserir um item no pedido
+insert into Itens_Pedido values (27, 2, 1, (select valor from pizzas where pizza_id = 1));
+select * from v_pedidos;
