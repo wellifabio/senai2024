@@ -58,6 +58,7 @@ select * from pedidos;
 Insira um novo pedido
 ```sql
 INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
+select * from pedidos;
 ```
 
 
