@@ -24,7 +24,7 @@ Após criar o usuário podemos tentar acessar através do shell com o comando a 
 ```bash
 mysql -u devpizza -p
 ```
-Digite a senha e tente ver todos os bancos de dados e acessar o banco de dados pizzaria
+Digite a senha e tente ver todos os bancos de dados e acessar o banco de dados pizzaria e ver a estrutura e os dados
 ```sql
 show databases;
 use pizzaria;
