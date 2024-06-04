@@ -46,7 +46,7 @@ Irá aparecer mensagem de acesso negado. Volte com o usuário devpizza e de aces
 ```sql
 GRANT ALL PRIVILEGES ON pizzaria.* TO pizzaiolo@localhost;
 ```
-Teste novamente, acessando a pizzaria com o pizzaiolo e dará certo.
+Teste novamente, acessando a pizzaria com o **pizzaiolo** e dará certo.
 ```sql
 mysql -u pizzaiolo -p
 show databases;
@@ -60,6 +60,20 @@ Insira um novo pedido
 INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
 select * from pedidos;
 ```
+Remover acesso de INSERT e UPDATE para o usuário pizzaiolo
+```sql
+REVOKE INSERT, UPDATE ON pizzaria.* FROM pizzaiolo@localhost;
+```
+Tente inserir um pedido novamente.
+```sql
+exit
+mysql -u pizzaiolo -p
+show databases;
+use pizzaria;
+show tables;
+INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
+```
+Apresentará uma mensagem de acesso negado
 
 
 ## Banco de dados de exemplo
