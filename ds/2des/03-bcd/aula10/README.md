@@ -36,6 +36,17 @@ Logado com o usuário devpizza crie um usuário para um pizzaiolo
 ```sql
 CREATE USER 'pizzaiolo'@'localhost' IDENTIFIED BY '1234';
 ```
+Saia do SGBD com o usuário **devpizza** e acesse com o pizzaiolo, tente acessar o banco de dados **pizzaria**
+```sql
+exit
+mysql -u pizzaiolo -p
+use pizzaria;
+```
+Irá aparecer mensagem de acesso negado. Volte com o usuário devpizza e de acesso ao banco de dados ao pizzaiolo
+```sql
+GRANT ALL PRIVILEGES ON pizzaria.* TO pizzaiolo@localhost;
+```
+Teste novamente, acessando a pizzaria com o pizzaiolo e dará certo.
 
 ## Banco de dados de exemplo
 ```sql
