@@ -1,11 +1,12 @@
 # Aula10
-
+Acesso, Funções, Procedimentos e Gatilhos
 ## Conhecimentos
 - 2.3. DCL (data control language)
 	- 2.3.1. GRANT
 	- 2.3.2. REVOKE
 - 2.15. STORED PROCEDURE
 - 2.16. FUNCTION
+- 2.17. TRIGGERS
 
 ## Banco de dados de exemplo
 ```sql
