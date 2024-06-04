@@ -85,7 +85,7 @@ Neste caso o escopo de acesso do **devpizza** é o SGBD com todos os bancos de d
 
 |Desafio|
 |-|
-|-Crie uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**<br>E crie uma visão que mostre os pedidos formatando o **valor**|
+|- Crie uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**<br>- E crie uma visão que mostre os pedidos formatando o **valor** com esta função|
 
 
 ## Banco de dados de exemplo
