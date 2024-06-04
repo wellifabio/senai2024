@@ -19,7 +19,8 @@ Acesso, Funções, Procedimentos e Gatilhos
 - O comando a seguir cria um usuário de SGBD com acesso total e uma senha extremamente fraca '1234'.
 
 ```sql
-CREATE USER 'devpizza'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON *.* TO 'devpizza'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+CREATE USER 'devpizza'@'%' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON *.* TO 'devpizza'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 ```
 - Ou crie o usuário através com o PhpMyadmin **marcando todos os acessos**.
 - Após criar o usuário podemos tentar acessar através do shell com o comando a seguir
