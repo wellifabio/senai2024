@@ -47,6 +47,19 @@ Irá aparecer mensagem de acesso negado. Volte com o usuário devpizza e de aces
 GRANT ALL PRIVILEGES ON pizzaria.* TO pizzaiolo@localhost;
 ```
 Teste novamente, acessando a pizzaria com o pizzaiolo e dará certo.
+```sql
+mysql -u pizzaiolo -p
+show databases;
+use pizzaria;
+show tables;
+describe pedidos;
+select * from pedidos;
+```
+Insira um novo pedido
+```sql
+INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
+```
+
 
 ## Banco de dados de exemplo
 ```sql
