@@ -15,16 +15,18 @@ Acesso, Funções, Procedimentos e Gatilhos
       - SGBD (MySQL, Postgress, SQL Server, Oracle)
         - BD (Pizzaria, Transportadora, Escola, Banco)
 
-O comando a seguir cria um usuário de SGBD com acesso total e uma senha extremamente fraca.
+### Tutorial de criação de usuários e acessos
+- O comando a seguir cria um usuário de SGBD com acesso total e uma senha extremamente fraca '1234'.
 
 ```sql
 CREATE USER 'devpizza'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON *.* TO 'devpizza'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 ```
-Após criar o usuário podemos tentar acessar através do shell com o comando a seguir
+- Ou crie o usuário através com o PhpMyadmin **marcando todos os acessos**.
+- Após criar o usuário podemos tentar acessar através do shell com o comando a seguir
 ```bash
 mysql -u devpizza -p
 ```
-Digite a senha e tente ver todos os bancos de dados e acessar o banco de dados pizzaria e ver a estrutura e os dados
+- Digite a senha e tente ver todos os bancos de dados e acessar o banco de dados pizzaria e ver a estrutura e os dados
 ```sql
 show databases;
 use pizzaria;
@@ -32,21 +34,21 @@ show tables;
 describe clientes;
 select * from clientes;
 ```
-Logado com o usuário devpizza crie um usuário para um pizzaiolo
+- Logado com o usuário devpizza crie um usuário para um pizzaiolo
 ```sql
 CREATE USER 'pizzaiolo'@'localhost' IDENTIFIED BY '1234';
 ```
-Saia do SGBD com o usuário **devpizza** e acesse com o pizzaiolo, tente acessar o banco de dados **pizzaria**
+- Saia do SGBD com o usuário **devpizza** e acesse com o pizzaiolo, tente acessar o banco de dados **pizzaria**
 ```sql
 exit
 mysql -u pizzaiolo -p
 use pizzaria;
 ```
-Irá aparecer mensagem de acesso negado. Volte com o usuário devpizza e de acesso ao banco de dados ao pizzaiolo
+- Irá aparecer mensagem de acesso negado. Volte com o usuário devpizza e de acesso ao banco de dados ao pizzaiolo
 ```sql
 GRANT ALL PRIVILEGES ON pizzaria.* TO pizzaiolo@localhost;
 ```
-Teste novamente, acessando a pizzaria com o **pizzaiolo** e dará certo.
+- Teste novamente, acessando a pizzaria com o **pizzaiolo** e dará certo.
 ```sql
 mysql -u pizzaiolo -p
 show databases;
@@ -55,16 +57,16 @@ show tables;
 describe pedidos;
 select * from pedidos;
 ```
-Insira um novo pedido
+- Insira um novo pedido
 ```sql
 INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
 select * from pedidos;
 ```
-Remover acesso de INSERT e UPDATE para o usuário pizzaiolo
+- Remover acesso de INSERT e UPDATE para o usuário pizzaiolo
 ```sql
 REVOKE INSERT, UPDATE ON pizzaria.* FROM pizzaiolo@localhost;
 ```
-Tente inserir um pedido novamente.
+- Tente inserir um pedido novamente.
 ```sql
 exit
 mysql -u pizzaiolo -p
@@ -73,9 +75,18 @@ use pizzaria;
 show tables;
 INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
 ```
-Apresentará uma mensagem de acesso negado.
+- Apresentará uma mensagem de acesso negado.
+
 ### Política de acesso mínimo
-Nos ambientes de Produção e testes, sempre trabahamos com a **política de acesso mínimo***.
+Nos ambientes de Produção e testes, sempre trabahamos com a **política de acesso mínimo***, um usuário deve ter o acesso somente ao reecurso necessário para o seu trabalho.
+Neste caso o escopo de acesso do **devpizza** é o SGBD com todos os bancos de dados, o escopo do **pizzaiolo** é somente o banco de dados **pizzaria** e somente para leitura e exclusão.
+
+## Funções
+
+|Desafio|
+|-|
+|-Crie uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**<br>E crie uma visão que mostre os pedidos formatando o **valor**|
+
 
 ## Banco de dados de exemplo
 ```sql
