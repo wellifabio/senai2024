@@ -30,6 +30,7 @@ show databases;
 use pizzaria;
 show tables;
 describe clientes;
+select * from clientes;
 ```
 
 ## Banco de dados de exemplo
