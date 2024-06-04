@@ -8,6 +8,23 @@ Acesso, Funções, Procedimentos e Gatilhos
 - 2.16. FUNCTION
 - 2.17. TRIGGERS
 
+## DCL
+
+### Escopo de acesso
+    - Ambientes (DEV, Quality, Prod)
+      - SGBD (MySQL, Postgress, SQL Server, Oracle)
+        - BD (Pizzaria, Transportadora, Escola, Banco)
+
+O comando a seguir cria um usuário de SGBD com acesso total e uma senha extremamente fraca.
+
+```sql
+CREATE USER 'devpizza'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON *.* TO 'devpizza'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+```
+Após criar o usuário podemos tentar acessar através do shell com o comando a seguir
+```bash
+mysql -u devpizza -p 1234
+```
+
 ## Banco de dados de exemplo
 ```sql
 -- Banco de dados Pizzasria, Baseado no exemplo do livro Princípios de banco de dados com MySQL 5.7
