@@ -32,7 +32,6 @@ show tables;
 describe clientes;
 select * from clientes;
 ```
-
 ## Banco de dados de exemplo
 ```sql
 -- Banco de dados Pizzasria, Baseado no exemplo do livro Princípios de banco de dados com MySQL 5.7
