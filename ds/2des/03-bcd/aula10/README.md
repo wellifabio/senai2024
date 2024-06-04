@@ -32,6 +32,11 @@ show tables;
 describe clientes;
 select * from clientes;
 ```
+Logado com o usuário devpizza crie um usuário para um pizzaiolo
+```sql
+CREATE USER 'pizzaiolo'@'localhost' IDENTIFIED BY '1234';
+```
+
 ## Banco de dados de exemplo
 ```sql
 -- Banco de dados Pizzasria, Baseado no exemplo do livro Princípios de banco de dados com MySQL 5.7
