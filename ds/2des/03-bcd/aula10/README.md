@@ -22,7 +22,7 @@ CREATE USER 'devpizza'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRAN
 ```
 Após criar o usuário podemos tentar acessar através do shell com o comando a seguir
 ```bash
-mysql -u devpizza -p 1234
+mysql -u devpizza -p
 ```
 
 ## Banco de dados de exemplo
