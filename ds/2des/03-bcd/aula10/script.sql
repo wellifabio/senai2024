@@ -1,3 +1,7 @@
+-- Aula 10 - Banco de Dados - 2DES - 2021/1
+-- Prof. Wellington Martins
+
+-- SQL (Structured Query Language) - DCL (Data Control Language) - IAM (Identify, Authorize, Manage)
 -- Criar um usuário devpizza com a senha 1234 e acesso total ao SGBD
 CREATE USER 'devpizza'@'%' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON *.* TO 'devpizza'@'%';
@@ -12,9 +16,7 @@ DROP USER 'pizzaiolo'@'localhost';
 -- Remover o usuário devpizza
 DROP USER 'devpizza'@'%';
 
-
-
--- Desafio 01
+-- Desafio 01 FUNÇÕES E VISÕES
 -- Criar uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**
 drop function if exists moeda;
 delimiter //
@@ -28,7 +30,7 @@ delimiter ;
 create view v_pedidos as
 select pedido_id, cliente_id, data, hora, moeda(valor) from pedidos;
 
--- Desafio 02
+-- Desafio 02 PROCEDIMENTOS
 -- Criar um procedimento que atulize os valores dos pedidos somando os valores dos itens_pedido
 drop procedure if exists atualiza_valor_pedido;
 delimiter //
