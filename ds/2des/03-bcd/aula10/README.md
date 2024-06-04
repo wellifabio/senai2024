@@ -73,8 +73,9 @@ use pizzaria;
 show tables;
 INSERT INTO pedidos VALUES (null, 1, curdate(), curtime(), null);
 ```
-Apresentará uma mensagem de acesso negado
-
+Apresentará uma mensagem de acesso negado.
+### Política de acesso mínimo
+Nos ambientes de Produção e testes, sempre trabahamos com a **política de acesso mínimo***.
 
 ## Banco de dados de exemplo
 ```sql
