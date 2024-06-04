@@ -88,12 +88,17 @@ PEsquise no livro: Princípios de banco de dados com MySQL 5.7 [Conecta SENAI](h
 
 |Desafio|
 |-|
-|- Crie uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**<br>- E crie uma visão que mostre os pedidos formatando o **valor** com esta função|
+|- Crie uma função que formate os números em formato de dinheiro brasileiro **R$ 0.00**<br>- E crie uma visão chamada **v_pedidos** que mostre os pedidos formatando o **valor** com esta função|
 
-## Procedimento
+## Procedimentos
 |Desafio|
 |-|
 |- Crie um procedimento que atulize os **valores** dos pedidos somando os valores dos **itens_pedido**<br>- Chame o procedimento de **atualiza_valores**|
+
+## Gatilhos
+|Desafio|
+|-|
+|- Crie um gatilho que atulize os **valores** dos pedidos **após** um **item** ser inserido no pedido|
 
 
 ## Banco de dados de exemplo
