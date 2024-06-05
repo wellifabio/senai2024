@@ -203,7 +203,19 @@ nodemon
 ```
 - 10 Testar com **Insomnia**, **Postman** ou outra ferramenta de teste unitário.
 
-|Atividades|
+|Projeto|
 |-|
-|1 Criar uma API para uma Agência de viágens com três tabelas Destinos[id, cidade, valor, data], Hoteis[id, nome, valor, avaliacao, email, site] e PontosTuristicos[nome, endereco, telefone, valor]|
-|2 Criar um Front-End para consumir e enviar dados para esta API.|
+|API para uma Agência de viágens com três tabelas Destinos[id, cidade, valor, data], Hoteis[id, nome, valor, avaliacao, email, site] e PontosTuristicos[nome, endereco, telefone, valor]|
+|![Diagrama de Classes](./dc.png)|
+
+|Contextualização|
+|-|
+|Como programador freelance você aceitou um projeto para uma pequena **agência de viagens**, onde o Cliente solicita um site para cadastrar os destinos, hotéis e pontos turísticos, como o projeto possuirá poucos dados e você que irá iniciá-lo, utilize o conhecimento adquirido com o **framework prisma**.||
+
+|Desafio|
+|-|
+|2 Criar um Front-End para consumir e enviar dados para esta API.<br> - RF001: Tela inicial com todos os destinos<br> - RF002: Cadastro de destinos<br> - RF003: Cadastro de Hotéis<br> - RF004: Cadastro de pontos turísticos<br> - RF005: Funcionalidades CRUDs para as três entidades|
+
+|Entregas|
+|-|
+|Repositório do github com o projeto e envie o [link neste formulário]()|
