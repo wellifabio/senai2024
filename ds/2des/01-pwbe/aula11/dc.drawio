@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-06-05T13:17:09.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mzNG6zUKX4pucWvjHNWb" version="24.4.14" type="device">
+  <diagram name="Página-1" id="YAsMWkbpbxsjfNPzgZlx">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-1" value="Projeto: Turismo&lt;div&gt;UML - DC: Diagrama de Classes&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-2" value="Destino" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="200" width="230" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-3" value="+ id: int;&lt;div&gt;+ cidade: String;&lt;/div&gt;&lt;div&gt;+ valor: float;&lt;/div&gt;&lt;div&gt;+ data: Date&lt;/div&gt;&lt;div&gt;+ hoteis: List&amp;lt;Hotel&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ pontosTuristicos: List&amp;lt;PontoTuristico&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-2">
+          <mxGeometry y="26" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-2">
+          <mxGeometry y="130" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-6" value="Hotel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="205" width="160" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-7" value="+ id: int;&lt;div&gt;+ nome: String;&lt;/div&gt;&lt;div&gt;+ valor: float;&lt;/div&gt;&lt;div&gt;+ avaliacao: int;&lt;/div&gt;&lt;div&gt;+ email: String;&lt;/div&gt;&lt;div&gt;+ site: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-6">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-6">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-9" value="PontoTuristico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="216" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-10" value="+ id: int;&lt;div&gt;+ nome: String;&lt;/div&gt;&lt;div&gt;+ endereco: String;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ telefone: String;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ valor: float;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-9">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iRJHEtR9mLBDcclQeRiB-9">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iRJHEtR9mLBDcclQeRiB-3" target="iRJHEtR9mLBDcclQeRiB-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="500" as="sourcePoint" />
+            <mxPoint x="490" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRJHEtR9mLBDcclQeRiB-13" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.006;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iRJHEtR9mLBDcclQeRiB-3" target="iRJHEtR9mLBDcclQeRiB-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="539" y="288" as="sourcePoint" />
+            <mxPoint x="230" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
