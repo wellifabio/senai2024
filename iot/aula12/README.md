@@ -6,3 +6,7 @@ Para isso temos várias ferramentas, desde o Excel, PowerBI até uma Página HTM
 - Excel
 - PowerBI
 - Página Web
+
+## Prática
+A partir dos dados do arquivo **dados.csv** neste repositório monte uma pácina HTML ou um dashboard no Excel ou PowerBI semelhante ao do wireframe (esboço) a seguir:
+![wireframe](./wireframe.png)
