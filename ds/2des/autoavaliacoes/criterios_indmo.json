@@ -1,0 +1,86 @@
+[
+	{
+		"tg": "T",
+		"fundamento": "Identificar as características de programação de dispositivos móveis",
+		"criterio": "Compreende as diferenças entre um App e um Site",
+		"criticidade": "1"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Utilizar os elementos da programação orientada a objetos em interfaces para dispositivos móveis",
+		"criterio": "Aplica classes",
+		"criticidade": " objetos"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Preparar o ambiente necessário ao desenvolvimento do sistema para a plataforma mobile",
+		"criterio": "Instalou NodeJS",
+		"criticidade": " Expo"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Interpretar os requisitos do sistema",
+		"criterio": " tendo em vista a elaboração dos componentes em ambiente mobile",
+		"criticidade": "Codifica interfaces de acordo com modelos e requisitos solicitados"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Definir os elementos de entrada",
+		"criterio": " processamento e saída para a codificação das funcionalidades mobile",
+		"criticidade": "Utiza e aplica os conceitos de estado das telas useState"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Projetar interfaces para dispositivos móveis",
+		"criterio": "Aplica a criatividade na implementação de telas e projetos de tela utilizando Figma ou outra ferramenta de prototipação",
+		"criticidade": "0"
+	},
+	{
+		"tg": "T",
+		"fundamento": "Implementar o código respeitando as características da linguagem na plataforma mobile",
+		"criterio": " Respeita tamanho da tela",
+		"criticidade": " ausência de mouse"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Demonstrar atenção a detalhes",
+		"criterio": "Respeita as particularidades no desenvolvimento de Aplicativos para celular ou tablets",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Demonstrar raciocínio lógico na organização das informações",
+		"criterio": "resolveu ao menos um dos desafios propostos pelo intrutor no semestre",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades",
+		"criterio": "Observa e aplica orientações das documentações oficiais das APIs e Bibliotecas",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Demonstrar capacidade de organização",
+		"criterio": "Cria estruturas de Pastas pertinentes ao projeto",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Demonstrar visão sistêmica",
+		"criterio": "Compreendeu a origem dos dados e cria interfaces aplicando princípios de UI e UX",
+		"criticidade": "0"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Seguir método de trabalho",
+		"criterio": "Utiliza frameworks Expo",
+		"criticidade": " React e outros"
+	},
+	{
+		"tg": "G",
+		"fundamento": "Trabalhar em equipe",
+		"criterio": "Auxilia colegas e aceita orientações que evoluam seu aprendizado",
+		"criticidade": "0"
+	}
+]
