@@ -1,0 +1,12 @@
+T;Adequar a interface web para diferentes dispositivos de acesso;Utilizou recursos de responsividade com CSS como display:flex, grid, largura e altura com vw e vh, media;1
+T;Desenvolver interfaces web interativas com linguagem de programação;Desenvolveu com JavaScript manipulando objetos do DOM, atributos e eventos;1
+T;Desenvolver interfaces web utilizando frameworks;Identifica bootstrap, react e outros frameworks;0
+T;Desenvolver interfaces web consumindo API;Consumiu APIs externas para CEP, Tempo e outras renderizando recursos no front-end;1
+T;Diferenciar os aspectos de aplicabilidade entre as experiências do usuário (UX) e a interface do usuário (UI);Renderiza páginas Web e cria projetos baseados nestes conceitos;1
+G;Demonstrar atenção a detalhes;Respeita os requisitos solicitados pelo intrutor no desenvolvimento de interfaces Web;0
+G;Demonstrar raciocínio lógico na organização das informações;resolveu ao menos um dos desafios propostos pelo intrutor no semestre;0
+G;Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades;Observa e aplica orientações das documentações oficiais das APIs e Bibliotecas;0
+G;Demonstrar capacidade de organização;Cria estruturas de Pastas pertinentes ao projeto;0
+G;Demonstrar visão sistêmica;Compreendeu a origem dos dados e cria interfaces aplicando princípios de UI e UX;0
+G;Seguir método de trabalho;Utilizou técnicas de código limpo, abstração, web semantica;1
+G;Trabalhar em equipe;Auxilia colegas e aceita orientações que evoluam seu aprendizado;0

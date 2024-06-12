@@ -1,0 +1,14 @@
+T;Identificar as características de programação de dispositivos móveis;Compreende as diferenças entre um App e um Site;1
+T;Utilizar os elementos da programação orientada a objetos em interfaces para dispositivos móveis;Aplica classes, objetos, modelos, patterns;1
+T;Preparar o ambiente necessário ao desenvolvimento do sistema para a plataforma mobile;Instalou NodeJS, Expo, React Native, Yarn;1
+T;Interpretar os requisitos do sistema, tendo em vista a elaboração dos componentes em ambiente mobile;Codifica interfaces de acordo com modelos e requisitos solicitados;1
+T;Definir os elementos de entrada, processamento e saída para a codificação das funcionalidades mobile;Utiza e aplica os conceitos de estado das telas useState;0
+T;Projetar interfaces para dispositivos móveis;Aplica a criatividade na implementação de telas e projetos de tela utilizando Figma ou outra ferramenta de prototipação;0
+T;Implementar o código respeitando as características da linguagem na plataforma mobile; Respeita tamanho da tela, ausência de mouse, limitação de teclado;0
+G;Demonstrar atenção a detalhes;Respeita as particularidades no desenvolvimento de Aplicativos para celular ou tablets;0
+G;Demonstrar raciocínio lógico na organização das informações;resolveu ao menos um dos desafios propostos pelo intrutor no semestre;0
+G;Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades;Observa e aplica orientações das documentações oficiais das APIs e Bibliotecas;0
+G;Demonstrar capacidade de organização;Cria estruturas de Pastas pertinentes ao projeto;0
+G;Demonstrar visão sistêmica;Compreendeu a origem dos dados e cria interfaces aplicando princípios de UI e UX;0
+G;Seguir método de trabalho;Utiliza frameworks Expo, React e outros;0
+G;Trabalhar em equipe;Auxilia colegas e aceita orientações que evoluam seu aprendizado;0
