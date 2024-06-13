@@ -84,7 +84,7 @@ Neste caso o escopo de acesso do **devpizza** é o SGBD com todos os bancos de d
 
 ## Funções
 
-PEsquise no livro: Princípios de banco de dados com MySQL 5.7 [Conecta SENAI](https://www.conectasenai.com.br/login/)
+Pesquise no livro: Princípios de banco de dados com MySQL 5.7 [Conecta SENAI](https://www.conectasenai.com.br/login/)
 
 |Desafio|
 |-|
