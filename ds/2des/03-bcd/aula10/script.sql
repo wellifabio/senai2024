@@ -30,6 +30,18 @@ delimiter ;
 create view v_pedidos as
 select pedido_id, cliente_id, data, hora, moeda(valor) from pedidos;
 
+-- Procedimento para atualizar o valor de um pedido específico
+drop procedure if exists atualiza_pedido;
+delimiter $
+create procedure atualiza_pedido(id int)
+begin
+update Pedidos set valor=(
+	select sum(quantidade * valor) from Itens_Pedido where pedido_id = id)
+	where pedido_id = id;
+select * from pedidos where pedido_id = id;
+end $
+delimiter ;
+
 -- Desafio 02 PROCEDIMENTOS
 -- Criar um procedimento que atulize os valores dos pedidos somando os valores dos itens_pedido
 drop procedure if exists atualiza_valor_pedido;
