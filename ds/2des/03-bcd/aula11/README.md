@@ -11,6 +11,8 @@
 |2 - Crie um procedimento chamado **calcSubtotais()** qua quando for chamado calcule todos os subtotais da tabela de alugueis|
 |3 - Crie um gatilho que seja executado após qualquer update na tabela Aluguel calculando o subtotal|
 
+
+- Banco de dados com dados para executar a avaliação:
 ```sql
 -- SQL
 -- DDL criação da base de dados
