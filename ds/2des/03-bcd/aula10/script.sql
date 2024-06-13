@@ -61,24 +61,36 @@ Begin
         update Pedidos set valor=(select sum(quantidade * valor) from Itens_Pedido where pedido_id = id) where pedido_id = id;
     end loop;
     close pedidos;
+	select * from pedidos;
 end//
 delimiter ;
 
--- Chamar o procedimento
-call atualiza_valor_pedido();
--- Ver os pedidos
-select * from v_pedidos;
 
 -- Criar um gatilho que atulize os valores dos pedidos após um item ser inserido no pedido
-drop trigger if exists atualiza_valor_pedido;
+drop trigger if exists atualiza_valor_pedido_insert;
 delimiter //
-create trigger atualiza_valor_pedido after insert on Itens_Pedido
+create trigger atualiza_valor_pedido_insert after insert on Itens_Pedido
 for each row
 begin
     call atualiza_valor_pedido();
 end//
 delimiter ;
 
+-- O gatilho acima é perigoso porque ele chama um procedimento armazenado.
+-- Compromete o desempenho do banco de dados
+
+-- Recriando o gatilho que atualiza somente o pedido que está sendo modificado
+drop trigger if exists atualiza_valor_pedido_insert;
+delimiter //
+create trigger atualiza_valor_pedido_insert after insert on Itens_Pedido
+for each row
+begin
+    declare novo_valor decimal(10, 2);
+    set novo_valor = (select sum(quantidade * valor) from Itens_Pedido where pedido_id = new.pedido_id);
+    update Pedidos set valor = novo_valor where pedido_id = new.pedido_id;
+end//
+delimiter ;
+
 -- Inserir um item no pedido
-insert into Itens_Pedido values (27, 2, 1, (select valor from pizzas where pizza_id = 1));
+insert into Itens_Pedido values (27, 2, 2, (select valor from pizzas where pizza_id = 2));
 select * from v_pedidos;

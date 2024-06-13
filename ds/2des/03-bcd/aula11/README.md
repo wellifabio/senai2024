@@ -139,4 +139,4 @@ select * from vw_alugueis_em_andamento;
 
 |Entregas|
 |-|
-|[Form para entrega]()|
+|[Form para entrega](https://docs.google.com/forms/d/e/1FAIpQLSeEgk3Xd-KGcbnoWGC4MerJZtkIHMvRylr7F1jm19--J4WDLA/viewform?usp=sf_link)|
