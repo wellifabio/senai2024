@@ -1,0 +1,18 @@
+T;1 Identificar a sequência lógica de passos em um algoritmo;Desenvolveu algoritmos simpres como trocar uma lâmpada;1
+T;2 Utilizar tomada de decisão para elaboração do algoritmo;Implementou soluções com if ou switch;1
+T;3 Criar estruturas de repetição para executar um conjunto de instruções várias vezes;Implementou laço for ou while em alguma das avaliações;1
+T;4 Representar algoritmos por meio de fluxogramas, seguindo as convenções de símbolos e conexões;Criou fluxogramas em alguma atividade solicitada;1
+T;5 Utilizar variáveis para armazenar valores durante a execução de um programa;Delclarou e utilizou variáveis;1
+T;6 Utilizar operadores aritméticos para realizar cálculos em expressões numéricas;Implementou algum algoritmo que faça cálculo;1
+T;7 Aplicar operadores lógicos para avaliar e combinar condições booleanas;Desenvolveu alguma solução com verdadeiro e falso;1
+T;8 Utilizar estruturas condicionais para executar instruções com base em uma condição;Implementou algoritmo que calcula INSS, IRRF, ou IMC;1
+T;9 Utilizar lógica de programação para a resolução de problemas;Resolveu ao menos um dos desafios das avaliações com eficácia;1
+T;10 Utilizar vetores e matrizes na elaboração do programa;Implementou programas utilizando vetores;0
+T;11 Aplicar técnicas de código limpo (clean code);Removeu códigos desnecessários, comentários não pertinentes;0
+T;12 Manipular os diferentes tipos de dados na elaboração de programas;Declarou tipos int, float, char em diversos programas;0
+T;13 Utilizar o ambiente integrado de desenvolvimento (IDE);Utilizou C Online ou DevC++ ou VsCode;0
+T;14 Criar repositórios Git locais e remotos para controle de versionamento;Entregou os exercícios e provas através de repositórios públicos github;0
+G;1 Demonstrar autogestão;Seguiu instruções dos instrutores em avaliações e atividades;0
+G;2 Demonstrar pensamento analítico;Relacionou os conceitos estudados para resolver desafios propostos;0
+G;3 Demonstrar inteligência emocional;Não permitiu que fatores externos atrapalhacem seu desempenho, atuou com impessoalidade em trabalhos em grupo;0
+G;4 Demonstrar autonomia; Auxiliou ou foi auxiliado por colegas resolvendo conflitos e tomando atitudes positivas de aprendizagem;0

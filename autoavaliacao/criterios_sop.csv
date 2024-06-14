@@ -1,0 +1,14 @@
+T;1 Identificar as características técnicas dos sistemas de arquivo, tendo em vista a utilização de sistemas operacionais;Identifica comandos como dir, ls -la e os dados que são mostrados;1
+T;2 Instalar sistemas operacionais em máquinas virtuais;Instalou SO Windows e Linux em máquinas virtuais;1
+T;3 Operar sistemas operacionais por meio de linha de comando e interface gráfica;Criou e manipulou arquivos e pastas através do CMD;1
+T;4 Configurar sistemas operacionais considerando variáveis de ambiente, memória, disco, serviço, usuários e permissões;Configurou o SO através do painel de controle e ferramentas de sistema;1
+T;5 Compartilhar unidades e pastas em rede;Utilizou github ou google drive para compartilhar arquivos;1
+T;6 Mapear unidades e pastas compartilhadas em rede;Não utilizamos em aula com notebooks devido a seguranca, porém utilizamos git;0
+T;7 Utilizar VPN (Virtual Private Network) para comunicação entre serviços de rede;Utilizaremos VPC nos laboratórios do curso Google Cloud no próximo semestre;0
+T;8 Identificar medidas de proteção e prevenção de ataques cibernéticos;Compreende os tipos de ataques, virus, malware...;0
+T;9 Configurar firewall;Habilitou ou desabilitou o firewall do windows, compreendendo as medidas de segurança;0
+T;10 Seguir políticas, procedimentos e legislação de segurança da informação;Obedeceu as intruções ao intalar SO em máquinas virtuais;0
+G;1 Demonstrar autogestão;Seguiu instruções dos instrutores em avaliações e atividades;0
+G;2 Demonstrar pensamento analítico;Relacionou os conceitos estudados para resolver desafios propostos;0
+G;3 Demonstrar inteligência emocional;Não permitiu que fatores externos atrapalhacem seu desempenho, atuou com impessoalidade em trabalhos em grupo;0
+G;4 Demonstrar autonomia; Auxiliou ou foi auxiliado por colegas resolvendo conflitos e tomando atitudes positivas de aprendizagem;0
