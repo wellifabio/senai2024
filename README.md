@@ -43,3 +43,10 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 
 # [Itinerário da área de TI](https://view.genial.ly/653809a786dac80010d6f675/interactive-content-itinerario-da-area-de-tecnologia-da-informacao)
 # [Envie seu currículo](https://forms.gle/LFYviKyoqLpeJRcX9)
+
+## Algumas IAs
+|Link|Decrição|
+|-|-|
+|https://ideogram.ai/|Gerador de imagens|
+|https://www.blackbox.ai/|Especialista em códigos, programação|
+|https://openai.com/chatgpt/|Famoso chat GPT, ia generativa geral|
