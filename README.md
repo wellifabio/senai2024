@@ -36,10 +36,11 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 - [Banco de Talentos PCD](https://sesisenaisp.jobs.recrut.ai/job/LKJV4W)
 
 ## GitHub dos outros professores do SENAI Jaguariúna
-- [Reenye](https://github.com/ReenyeLima)
+- [Ana Julia](https://github.com/AnaMassaro)
 - [Lucas Paiva](https://github.com/lucasPaiva00)
-- [Robson Souza](https://github.com/robsonbsouzaa)
-- [Luis Fernando](https://github.com/luisfernandospoljaric)
+- [Luis Fernando](luisfernandospoljaric)
+- [Reenye](https://github.com/ReenyeLima)
+- [Robson](https://github.com/robsonbsouzaa)
 
 # [Itinerário da área de TI](https://view.genial.ly/653809a786dac80010d6f675/interactive-content-itinerario-da-area-de-tecnologia-da-informacao)
 # [Envie seu currículo](https://forms.gle/LFYviKyoqLpeJRcX9)
