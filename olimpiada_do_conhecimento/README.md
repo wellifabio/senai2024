@@ -10,6 +10,7 @@
 - https://github.com/paulobrandaodev
 - https://github.com/Seletiva-Nacional-2023
 - https://github.com/World-Skills-Senai-134
+- [Exemplo de Provas](https://github.com/Joaoopeedro/Modulos_WorkShop/tree/main)
 
 
 |Provas|Provas|Peso|
@@ -27,3 +28,9 @@
 
 ## Próximo Workshop
 Próximo Workshop 31-07 01 e 02 - 08
+
+## Calendário oficial
+
+|Calendário|Legenda|
+|-|-|
+|![Calendario](./calendario.png)|**31 a 02 de Agosto**, WorkShop e Simulado<br>**21 a 25 de Outubro**, WorkShop de alterações nas provas<br>**28 a 31 de Outubro**, Estadual|

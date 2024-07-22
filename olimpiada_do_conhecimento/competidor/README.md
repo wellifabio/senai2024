@@ -67,3 +67,18 @@
 |Tema|Tipo|Exemplos|
 |-|-|-|
 |Testes|D Testes|Cadastro de elementos com X validações e regras de negócio|
+
+## Cronograma de Treinamentos
+
+|Temas em foco|Meses|Horas|
+|-|-|-|
+|Design Figma - Celular|Junho/2024|20|
+|Design Figma - Tablet|Junho/2024|20|
+|Funcionalidade - Consumo de APIs, JSON, Firebase|Julho/2024|10|
+|Consumo com a APIs variadas, viacep, pokedex|Julho/2024|10|
+|Funcionalidade - Consumo de APIs, JSON, Firebase|Julho/2024|10|
+|Consumo com APIs geradas pelos instrutores|Julho/2024|10|
+|Desenvolvimento - Sensores, GPS, Localização, Câmera ...|Julho/2024|20|
+|Simulado|Agosto/2024|20|
+|Testes automatizados UI, UX|Setembro/2024|40|
+|Simulados internos elaborados pelos instrutores|Outubro/2024|20|
