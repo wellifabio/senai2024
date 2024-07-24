@@ -1,9 +1,17 @@
 # Técnico em Desenvolvimento de Sistemas
+
 - 2DES
-    - [PWBE (Programação Web Back-End - NodeJS e/ou JSP e/ou PHP)](./2des_2023/01-pwbe/)
-    - [PWFE (Programação Web Front-End - JavaScript + BootStrap e/ou React)](./2des_2023/02-pwfe/)
-    - [BCD (Bancos de Dados Relacionais e Não relacionais - XAMPP MariaDB e/ou Postgres e/ou MongoDB e/ou CosmosDB)](./2des_2023/03-bcd/)
-    - [INDMO (Interface para dispositivos moveis - React Native + Expo e/ou noCode AppInventor)](./2des_2023/04-indmo/)
+    - [PWBE (Programação Web Back-End - NodeJS e/ou JSP e/ou PHP)](./2des/01-pwbe/)
+    - [PWFE (Programação Web Front-End - JavaScript + BootStrap e/ou React)](./2des/02-pwfe/)
+    - [BCD (Bancos de Dados Relacionais e Não relacionais - XAMPP MariaDB e/ou Postgres e/ou MongoDB e/ou CosmosDB)](./2des/03-bcd/)
+    - [INDMO (Interface para dispositivos moveis - React Native + Expo e/ou noCode AppInventor)](./2des/04-indmo/)
+
+- 3DES
+    - [PROJ (Projetos de software)](./3des/01-proj/)
+    - [PPDMO (Programação para dispositivos moveis)](./3des/02-ppdmo/)
+    - [RMS (Requisitos e modelagem de software)](./3des/03-rms/)
+    - [TS (Testes de software)](./3des/04-ts/)
+
 
 ## Competências transversais - Cursos autoinstitucionais
 - 1 Acessar o portal EAD https://ead.sp.senai.br
