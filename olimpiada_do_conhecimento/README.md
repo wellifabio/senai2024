@@ -20,6 +20,10 @@
 |Desenvolvimento - Sensores, GPS, Localização, Câmera ...|2 de 15|30|
 |Testes automatizados UI, UX|1 de 20|20|
 
+## Exemplos de Prova e Simulados
+- https://github.com/Seletiva-Nacional-2023/Simulados-05-09-2023
+- https://github.com/Seletiva-Nacional-2023/Simulados-06-09-2023
+
 ## Ferramentas
 - Design, Figma
 - Testes automatizados, Maestro by mobile dev, Robotium, Apium
