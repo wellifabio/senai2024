@@ -16,4 +16,8 @@
 - Empreender Senai  
 - Desvendando a Blockchain
 - Web 3.0
-### Enviar os arquivos dos certificados (imagem ou PDF) [FORMS](https://forms.gle/STMxikkU8qVfLuEb8) 
+### Enviar os arquivos dos certificados (imagem ou PDF) [FORMS](https://forms.gle/STMxikkU8qVfLuEb8)
+
+## DITEC
+- Leia este **[documento](./DITEC-001.pdf)**
+- Após ler o documento preencha este **[formulário](https://forms.office.com/r/wbaV1z846E)**
