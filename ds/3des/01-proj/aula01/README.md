@@ -18,3 +18,8 @@ São as fases de um projeto:
 
 ## Link do Formulário do Termo de Abertura
 - https://forms.gle/MsvMeyS5w1t7y455A
+
+## Recursos:
+### - Conhecimento Prático
+
+# Autenticação JWT

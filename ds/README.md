@@ -12,6 +12,7 @@
     - [RMS (Requisitos e modelagem de software)](./3des/03-rms/)
     - [TS (Testes de software)](./3des/04-ts/)
 
+## [Link Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGZkM2Q4MTUtM2Y3Mi00ZjdkLTk1NWUtNjUzMWQ3OTUwOWNk%40thread.v2/0?context=%7b%22Tid%22%3a%22b1051c4b-3b94-41ab-9441-e73a72342fdd%22%2c%22Oid%22%3a%22d90e57c5-5067-4307-afe7-f791fc3f381f%22%7d)
 
 ## Competências transversais - Cursos autoinstitucionais
 - 1 Acessar o portal EAD https://ead.sp.senai.br
