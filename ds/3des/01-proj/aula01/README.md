@@ -22,4 +22,10 @@ São as fases de um projeto:
 ## Recursos:
 ### - Conhecimento / Competêmcia
 
-# Autenticação JWT
+- Projeto fullstack de exemplo **[OS (Ordens de Serviço)](https://github.com/wellifabio/projetofullexemplo)**
+    - NodeJS
+    - Prisma
+    - JWT (JSON World Token)
+    - COnsumo de API com Axios
+
+#### - Autenticação JWT
