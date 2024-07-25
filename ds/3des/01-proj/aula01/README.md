@@ -26,6 +26,6 @@ São as fases de um projeto:
     - NodeJS
     - Prisma
     - JWT (JSON World Token)
-    - COnsumo de API com Axios
+    - Consumo de API com Axios
 
 #### - Autenticação JWT
