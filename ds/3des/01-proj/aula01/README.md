@@ -20,6 +20,6 @@ São as fases de um projeto:
 - https://forms.gle/MsvMeyS5w1t7y455A
 
 ## Recursos:
-### - Conhecimento Prático
+### - Conhecimento / Competêmcia
 
 # Autenticação JWT
