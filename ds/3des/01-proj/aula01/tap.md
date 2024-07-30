@@ -2,8 +2,13 @@
 
 ## Título do Projeto:
 Projeto OS “Sistema de gestão de Ordens de Serviço”
-## Patrocinadores:
-**SENAI Jaguariúna**<br>Através de nossos professores Reenye Lima e Wellington Martins, que nos auxiliaram na obtenção de conhecimento e oriantação na execução do projeto.
+## Justificativa:
+Sistema para registrar, centralizar e analisar ordens de serviços gerais em uma empresa privada ou pública, com a ajuda de nossos professores Reenye Lima e Wellington Martins, que nos auxiliaram na obtenção de conhecimento, oriantação e avaliação do projeto.
+
+## Produto
+Software Web Fullstack e Aplicativo Mobile, somente na versão de desenvolvimento.
+
+## Stakeholders
 
 <table>
 <tr>
@@ -51,6 +56,17 @@ Prazo
 </td>
 </tr>
 </table>
+
+## Estimativa de Custos
+|Recurso|Hora|Valor Hora|Total|
+|-|-|-|-|
+|Programador Back-End|40|50,00|2000,00|
+|Programador Front-End|40|50,00|2000,00|
+|Programador Mobile|40|50,00|2000,00|
+|Programador Full-Stack, DBA e Designer|40|50,00|2000,00|
+|Gerente de Projeto / Scrum Master|40|50,00|2000,00|
+|Total|||10000,00|
+
 
 <table>
 <tr>
