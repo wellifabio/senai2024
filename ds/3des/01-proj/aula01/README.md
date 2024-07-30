@@ -50,7 +50,7 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 - Projeto fullstack de exemplo **[OS (Ordens de Serviço)](https://github.com/wellifabio/projetofullexemplo)**
     - NodeJS
     - Prisma
-    - JWT (JSON World Token)
+    - JWT (JSON Web Token)
     - Consumo de API com Axios
 
 #### - Autenticação JWT
