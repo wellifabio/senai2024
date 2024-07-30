@@ -53,4 +53,4 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
     - JWT (JSON Web Token)
     - Consumo de API com Axios
 
-#### - Autenticação JWT
+#### - [Autenticação JWT](./JWT.md)
