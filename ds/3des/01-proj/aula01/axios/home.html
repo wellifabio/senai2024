@@ -7,8 +7,8 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Acesso e Usuários</title>
 </head>
-<body onload="preencherTabela()">
-    <header><h1>Sistema de exemplo de Consumo de API com AXIOS e JWT</h1></header>
+<body onload="dadosETabela()">
+    <header><h1 id="titulo"></h1><span class="close" onclick="modalPerfil.classList.remove('oculto')">[ Perfil ]</span></header>
     <main>
         <table>
             <thead>
@@ -17,13 +17,35 @@
                     <th>Nome</th>
                     <th>Cargo</th>
                     <th>Setor</th>
+                    <th>Excluir</th>
                 </tr>
             </thead>
             <tbody id="dados">
         </table>
-        <button onclick="sair()">Sair</button>
+        <button onclick="sair()">[ Sair ]</button>
+        <div id="msg">Mensagens do sistema</div>
     </main>
     <footer><h2>By Wellington Martins</h2></footer>
+    <div id="modalPerfil" class="modal oculto">
+        <div class="modal-janela">
+            <div class="modal-cabecalho">
+                <h2>Cadastro de Usuário</h2>
+                <span class="close" onclick="window.location.reload()">&times;</span>
+            </div>
+            <form id="perfil">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" required>
+                <label for="cargo">Cargo</label>
+                <input type="text" name="cargo" required>
+                <label for="setor">Setor</label>
+                <input type="text" name="setor" required>
+                <label for="pin">PIN</label>
+                <input type="password" name="pin" required>
+                <button onclick="window.location.reload()">Cancelar</button>
+                <button type="submit">Atualizar</button>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 <script src="home.js"></script>

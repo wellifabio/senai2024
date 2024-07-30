@@ -10,15 +10,39 @@
 <body>
     <header><h1>Sistema de exemplo de Consumo de API com AXIOS e JWT</h1></header>
     <main>
-        <form id="form">
+        <form id="login">
             <label for="matricula">Matrícula</label>
             <input type="matricula" name="matricula" required>
             <label for="pin">PIN</label>
-            <input type="pin" name="pin" required>
+            <input type="password" name="pin" required>
+            <button type="button" onclick="modalNovo.classList.remove('oculto')">Cadastre-se</button>
             <button type="submit">Entrar</button>
         </form>
+        <div id="msg">Mensagens do sistema</div>
     </main>
     <footer><h2>By Wellington Martins</h2></footer>
+    <div id="modalNovo" class="modal oculto">
+        <div class="modal-janela">
+            <div class="modal-cabecalho">
+                <h2>Cadastro de Usuário</h2>
+                <span class="close" onclick="window.location.reload()">&times;</span>
+            </div>
+            <form id="novo">
+                <label for="matricula">Matrícula</label>
+                <input type="text" name="matricula" required>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" required>
+                <label for="cargo">Cargo</label>
+                <input type="text" name="cargo" required>
+                <label for="setor">Setor</label>
+                <input type="text" name="setor" required>
+                <label for="pin">PIN</label>
+                <input type="password" name="pin" required>
+                <button onclick="window.location.reload()">Cancelar</button>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 <script src="index.js"></script>

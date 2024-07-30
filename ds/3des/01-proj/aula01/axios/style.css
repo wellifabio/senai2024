@@ -14,6 +14,9 @@ body{
 }
 
 header, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #333;
     color: white;
     text-align: center;
@@ -29,9 +32,11 @@ main{
 }
 
 form{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
     align-items: center;
+    width: 100%;
+    max-width: 500px;
 }
 
 form input{
@@ -56,6 +61,7 @@ button{
 
 table{
     width: 100%;
+    max-width: 800px;
     border-collapse: collapse;
 }
 
@@ -75,4 +81,66 @@ th, td{
 th{
     background-color: #333;
     color: white;
+}
+
+#msg{
+    display: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-janela{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.modal-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.close{
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    thead, tbody, th, td{
+        display: block;
+    }
+    tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    th{
+        width: 100%;
+        text-align: left;
+    }
+    td{
+        width: 100%;
+        text-align: right;
+    }
 }

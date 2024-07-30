@@ -23,6 +23,24 @@ const login = async (req, res) => {
     }
 };
 
+const create = async (req, res) => {
+    try {
+        const { matricula, nome, cargo, setor, pin } = req.body;
+        const usuario = await prisma.usuario.create({
+            data: {
+                matricula: matricula,
+                nome: nome,
+                cargo: cargo,
+                setor: setor,
+                pin: pin
+            }
+        });
+        return res.status(201).json(usuario);
+    } catch (error) {
+        return res.status(400).json({ message: error.message });
+    }
+};
+
 const read = async (req, res) => {
     if (req.params.matricula !== undefined) {
         const usuario = await prisma.usuario.findUnique({
@@ -37,7 +55,37 @@ const read = async (req, res) => {
     }
 };
 
+const update = async (req, res) => {
+    try {
+        const usuario = await prisma.usuario.update({
+            where: {
+                matricula: req.body.matricula
+            },
+            data: req.body
+        });
+        return res.status(202).json(usuario);
+    } catch (error) {
+        return res.status(404).json({ message: "usuario não encontrado" });
+    }
+};
+
+const del = async (req, res) => {
+    try {
+        const usuario = await prisma.usuario.delete({
+            where: {
+                matricula: req.params.matricula
+            }
+        });
+        return res.status(204).json(usuario);
+    } catch (error) {
+        return res.status(404).json({ message: "usuario não encontrado" });
+    }
+};
+
 module.exports = {
     login,
-    read
+    create,
+    read,
+    update,
+    del
 };

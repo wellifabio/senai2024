@@ -45,7 +45,7 @@ module.exports = {
 - No arquivo **.env** adicionar a chave
 
 ```js
-KEY="base64:q3"
+KEY="base64:q3
 ```
 - No controller de usuário onde o mesmo faz o login a chave deve ser criada, no exemplo abaixo está no arquivo **controller/usuario.js** e o mesmo se autentica com **matrícula** e **pin**, mas pode ser email e senha ou outro.
 
