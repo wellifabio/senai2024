@@ -1,0 +1,23 @@
+[
+	{
+		"matricula": "201",
+		"nome": "Ursula Filho",
+		"cargo": "Aux. Administrativo",
+		"setor": "Administração",
+		"pin": "1234"
+	},
+	{
+		"matricula": "202",
+		"nome": "Naiara Bispo Bispo",
+		"cargo": "Gerente Geral",
+		"setor": "Administração",
+		"pin": "4321"
+	},
+	{
+		"matricula": "203",
+		"nome": "Douglas Alves Mattos",
+		"cargo": "Pedreiro",
+		"setor": "Manutenção",
+		"pin": "1234"
+	}
+]

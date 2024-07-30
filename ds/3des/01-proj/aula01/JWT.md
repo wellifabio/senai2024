@@ -57,19 +57,19 @@ require('dotenv').config();
 
 const login = async (req, res) => {
     const { matricula, pin } = req.body;
-    const colaborador = await prisma.colaborador.findFirst({
+    const usuario = await prisma.usuario.findFirst({
         where: {
             matricula: matricula,
             pin: pin
         }
     });
-    if (colaborador) {
-        const token = await jwt.sign({ matricula: colaborador.matricula }, process.env.KEY, {
+    if (usuario) {
+        const token = await jwt.sign({ matricula: usuario.matricula }, process.env.KEY, {
             //expira em uma hora ou 3600 segundos
             expiresIn: 3600
         });
-        colaborador.token = token;
-        return res.json(colaborador);
+        usuario.token = token;
+        return res.json(usuario);
     } else {
         return res.status(401).json({ message: 'Matrícula ou pin inválidos' });
     }
@@ -77,15 +77,15 @@ const login = async (req, res) => {
 
 const read = async (req, res) => {
     if (req.params.matricula !== undefined) {
-        const colaborador = await prisma.colaborador.findUnique({
+        const usuario = await prisma.usuario.findUnique({
             where: {
                 matricula: req.params.matricula
             }
         });
-        return res.json(colaborador);
+        return res.json(usuario);
     } else {
-        const colaboradores = await prisma.colaborador.findMany();
-        return res.json(colaboradores);
+        const usuarios = await prisma.usuario.findMany();
+        return res.json(usuarios);
     }
 };
 
@@ -104,7 +104,7 @@ const router = express.Router();
 const Middleware = require('./middleware/middleware');
 const Usuario = require('./controllers/usuario');
 
-router.post('/login', Colaborador.login);
+router.post('/login', Usuario.login);
 router.get('/usuario', Middleware.validaAcesso, Usuario.read);
 router.get('/usuario/:matricula', Middleware.validaAcesso, Usuario.read);
 
@@ -112,8 +112,42 @@ router.get('/', (req, res) => { return res.json("API OSs respondendo") });
 
 module.exports = router;
 ```
+**OBS:** O exeplo acima utiliza Prisma como ORM e um Banco de dados MySQL contendo uma tabela de usuarios, mas pode ser adaptado para qualquer banco de dados.
 
-O exeplo acima utiliza Prisma como ORM e um Banco de dados MySQL contendo uma tabela de usuarios, mas pode ser adaptado para qualquer banco de dados e ORM com dados como os a seguir:
+### Tutorial iniciar projeto com prisma e semear com dados de teste seed
+- A criar uma pasa para o projeto, acessar com terminal e rodar o comando
+```bash
+npm i -g prisma
+```
+- B criar um projeto prisma para Mysql rodar o comando
+```bash
+prisma init --datasource-provider mysql
+```
+- C criar um arquivo **.env** na raiz do projeto com as credenciais do banco de dados
+```js
+DATABASE_URL="mysql://root@localhost:3306/usuarios?schema=public&timezone=UTC"
+```
+- D editar arquivo **prisma/schema.prisma** na raiz do projeto com o seguinte conteúdo
+```js
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  matricula String @db.VarChar(8) @id
+  nome String @db.VarChar(255)
+  cargo String @db.VarChar(50)
+  setor String @db.VarChar(50)
+  pin String @db.VarChar(8)
+}
+```
+ - E crie o arquivo para **prisma/usuarios.json** semear com dados como os a seguir:
+
 ```json
 [
 	{
@@ -139,3 +173,68 @@ O exeplo acima utiliza Prisma como ORM e um Banco de dados MySQL contendo uma ta
 	}
 ]
 ```
+- F criar um arquivo **prisma/seed.js** na raiz do projeto com o seguinte conteúdo
+```js
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
+
+const usuarios = require("./usuarios.json");
+
+async function main() {
+    for (const usuario of usuarios) {
+        await prisma.usuario.create({
+            data: usuario
+        });
+    }
+}
+
+main()
+    .then(async () => {
+        await prisma.$disconnect()
+        console.log('Seed complete');
+    })
+    .catch(async (e) => {
+        console.error(e)
+        await prisma.$disconnect()
+        process.exit(1)
+    });
+```
+- G instalar as extenções básicas para o projeto
+```bash
+npm init -y
+npm i express cors dotenv prisma @prisma/client jsonwebtoken
+```
+- H altere o arquivo **package.json** para adicionar o script de seed colando o código a seguir antes da chave "dependencies"
+```json
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+```
+- I rodar o comando para criar a tabela no banco de dados e já semeando os dados
+```bash
+npx prisma migrate dev --name init
+```
+- J finalmente criar o arquivo **server.js** na raiz do projeto com o seguinte conteúdo
+```js
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+
+const PORT = process.env.PORT || 3000;
+
+const rotes = require('./src/routes');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+app.use(rotes);
+
+app.listen(PORT, () => { console.log("API de OSs respondendo na porta " + PORT) });
+```
+- K Executar o projeto, não se esqueça dos arquivos **src/routes.js**, **src/middleware/middleware.js** e **src/controllers/usuario.js** cujos códigos estão acima.
+```bash
+npx nodemon
+```
+- L Testar a API com o Postman ou Insomnia, primeiro fazer login com matricula e pin, depois acessar a rota /usuario ou /usuario/:matricula
+    - Ao fazer login será retornado um token JWT que deve ser passado no header da requisição com a chave **Authorization** e o valor **Bearer token**
+    - Neste repositório temos um front-end que consome e testa esta API na pasta **/axios**

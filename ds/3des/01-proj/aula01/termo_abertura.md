@@ -40,5 +40,6 @@ Limites que já são conhecidos e impactarão no projeto em termos de prazo e or
 O mapeamento de riscos é muito importante, principalmente sob o ponto de vista de negócio, no termo de abertura de projeto, exemplo: “Caso a loja virtual retire clientes da loja física, poderá não compensar financeiramente”.
 
 * Orçamento
-
 Ideia do custos envolvidos no projeto, desde o seu inicio, até a finalização.
+
+## [Exemplo de TAP](./tap.md)
