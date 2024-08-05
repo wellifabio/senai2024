@@ -1,3 +1,8 @@
+
+ ### Meet: https://meet.google.com/ybx-xstq-ozt
+
+
+
 # CONHECIMENTOS - Levantamento, Análise e Registros
 - 2. Levantamento de Requisitos
 	- 2.1.Definição
