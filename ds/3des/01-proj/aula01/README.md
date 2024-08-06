@@ -1,5 +1,6 @@
 # Aula01 - Projeto (Gerenciamento de Projetos)
 
+## [Link do Meet](https://meet.google.com/biw-dxcm-tvg)
 ## O que é um projeto?
 Um produto ou um serviço com início e fim bem definidos
 
