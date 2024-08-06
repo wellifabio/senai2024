@@ -14,4 +14,4 @@ Também para demonstrar para o cliente como será o produto final, e assim, o cl
 O Figma é uma ferramenta de design de interface do usuário baseada em navegador, que oferece a possibilidade de colaboração em tempo real.
 
 ## Prática
-Nesta aula vamos criar o protótipo da interface Web do projeto OS (Ordens de Serviço) que estamos desenvondo como exemplo.
+Nesta aula vamos criar o protótipo do aplicativo mobile do projeto OS (Ordens de Serviço) que estamos desenvondo como exemplo.
