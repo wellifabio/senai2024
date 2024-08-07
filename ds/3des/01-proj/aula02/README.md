@@ -61,3 +61,5 @@ Projeto fullstack + mobile com prazo de 1,5 meses. Entrega em 19,20 de Setembro 
 - Proibições: Tema com atividades ilícitas ou +18
 
 ## [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)
+Missão: Montar o grupo, escolher o tema, criar o TAP e o Protótipo do projeto / pelo menos o wireframe.
+- [Link do Formulário do Termo de Abertura](https://forms.gle/MsvMeyS5w1t7y455A)

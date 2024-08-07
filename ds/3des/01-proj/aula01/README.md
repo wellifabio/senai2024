@@ -39,9 +39,6 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 * Execução
 * Encerramento
 
-## Link do Formulário do Termo de Abertura
-- https://forms.gle/MsvMeyS5w1t7y455A
-
 ## Recursos:
 ### - Conhecimento / Competêmcia
 
