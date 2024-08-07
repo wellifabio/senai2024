@@ -29,6 +29,7 @@ O Figma é uma ferramenta de design de interface do usuário baseada em navegado
     - [LogoTypeMaker](https://logotypemaker.com/)
     - [Canva](https://www.canva.com/)
     - [Bing Ia](https://www.bing.com/chat)
+    - [Gimp](https://www.gimp.org/)
 - Criar um **Wireframe**
     - Estrutura do projeto
     - Organização dos elementos
