@@ -42,4 +42,4 @@ O mapeamento de riscos é muito importante, principalmente sob o ponto de vista 
 * Orçamento
 Ideia do custos envolvidos no projeto, desde o seu inicio, até a finalização.
 
-## [Exemplo de TAP](./tap.md)
+## [Exemplo de TAP](./TAP.md)
