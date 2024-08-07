@@ -60,12 +60,14 @@ Prazo
 ## Estimativa de Custos
 |Recurso|Hora|Valor Hora|Total|
 |-|-|-|-|
-|Programador Back-End|40|50,00|2000,00|
-|Programador Front-End|40|50,00|2000,00|
-|Programador Mobile|40|50,00|2000,00|
-|Programador Full-Stack, DBA e Designer|40|50,00|2000,00|
-|Gerente de Projeto / Scrum Master|40|50,00|2000,00|
-|Total|||10000,00|
+|Design - Identidade visual, protótipo|20|30,00|600,00|
+|Back-End + Banco de dados|40|30,00|1200,00|
+|Front-End|80|30,00|1200,00|
+|Mobile|100|30,00|3000,00|
+|Integração Full-Stack|40|30,00|1200,00|
+|Documentação do Projeto|20|30,00|600,00|
+|Testes|20|30,00|600,00|
+|Total|||8400,00|
 
 
 <table>
