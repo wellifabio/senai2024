@@ -39,8 +39,6 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 * Execução
 * Encerramento
 
-## TAP - Termo de Abertura do Projeto
-
 ## Link do Formulário do Termo de Abertura
 - https://forms.gle/MsvMeyS5w1t7y455A
 
@@ -55,4 +53,3 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 
 #### - [Autenticação JWT](./JWT.md)
 #### - [Consumo de API com Axios](./axios.md)
-#### - [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)

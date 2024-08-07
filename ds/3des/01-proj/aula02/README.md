@@ -45,3 +45,18 @@ O Figma é uma ferramenta de design de interface do usuário baseada em navegado
 
 ## Prática
 Nesta aula vamos criar o protótipo do aplicativo mobile do projeto OS (Ordens de Serviço) que estamos desenvondo como exemplo.
+
+## Pré Projeto
+Projeto fullstack + mobile com prazo de 1,5 meses. Entrega em 19,20 de Setembro de 2024.
+### Grupos
+- Mínimo 2 pessoas, e maximo 4 pessoas
+### Temas sugeridos
+- Coleta Seletiva (Aplicativo para coleta seletiva)
+- Logística, gestão de frota de veículos, rotas, motoristas
+- E-commerce (Aplicativo de vendas, loja virtual e ou real)
+- Trânsito (Alertas de trânsito, radares, acidentes)
+- Saúde (Aplicativo de saúde, consultas, exames, medicamentos)
+- Outros (Temas que o grupo ja possua conhecimento)
+- Proibições: Tema com atividades ilícitas ou +18
+
+## [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)
