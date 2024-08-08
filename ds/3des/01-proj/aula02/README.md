@@ -2,6 +2,7 @@
 
 ## [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)
 O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto.
+![TAP](./tap.png)
 
 ## O que é um protótipo?
 Normalmente no início de um projeto, caso este seja um produto, podemos criar um protótipo para que possamos visualizar como será o produto final.
