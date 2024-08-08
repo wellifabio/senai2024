@@ -1,7 +1,8 @@
+<center>
 # TAP (TERMO DE ABERTURA DO PROJETO)
 
 ## Título do Projeto:
-Projeto OS “Sistema de gestão de Ordens de Serviço”
+Projeto ServiFacil “Sistema de gestão de Ordens de Serviço”
 ## Justificativa:
 Sistema para registrar, centralizar e analisar ordens de serviços gerais em uma empresa privada ou pública, com a ajuda de nossos professores Reenye Lima e Wellington Martins, que nos auxiliaram na obtenção de conhecimento, oriantação e avaliação do projeto.
 
@@ -101,3 +102,4 @@ Ass:
 </td>
 </tr>
 </table>
+</center>

@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Página-1" id="KpKmrCf8uEK3RN1oU5VX">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-1" value="Projeto: ServiFacio&lt;div&gt;UML - DCU (Diagramas de Casos de Uso)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-2" target="FdaxHLxZViLG2lOoQDKM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-2" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-5" target="FdaxHLxZViLG2lOoQDKM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-5" value="Atendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-7" value="&lt;div&gt;RF001&lt;/div&gt;Cadastrar clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="175" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-8" value="&lt;div&gt;RF001.1&lt;/div&gt;Gerar id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-9" value="&lt;div&gt;RF001.2&lt;br&gt;&lt;/div&gt;Validar campos preenchidos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-7" target="FdaxHLxZViLG2lOoQDKM-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-10" value="&lt;div&gt;RF004&lt;/div&gt;Fazer login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-7" target="FdaxHLxZViLG2lOoQDKM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="335" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-7" target="FdaxHLxZViLG2lOoQDKM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="265" as="sourcePoint" />
+            <mxPoint x="390" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-15" value="&lt;div&gt;RF002&lt;/div&gt;Cadastrar&lt;div&gt;produtos&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="425" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-16" value="&lt;div&gt;RF002.1&lt;/div&gt;Gerar id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-17" value="&lt;div&gt;RF002.2&lt;br&gt;&lt;/div&gt;Validar campos preenchidos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="425" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="FdaxHLxZViLG2lOoQDKM-15" target="FdaxHLxZViLG2lOoQDKM-19" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-19" value="&lt;div&gt;RF004&lt;/div&gt;Fazer login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="535" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="FdaxHLxZViLG2lOoQDKM-15" target="FdaxHLxZViLG2lOoQDKM-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="545" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" source="FdaxHLxZViLG2lOoQDKM-15" target="FdaxHLxZViLG2lOoQDKM-16" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-23" value="&lt;div&gt;RF002.3&lt;br&gt;&lt;/div&gt;Lstar outros produtos cadastrados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-24" value="&amp;lt;&amp;lt;exends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-23" target="FdaxHLxZViLG2lOoQDKM-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="545" as="sourcePoint" />
+            <mxPoint x="345" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-26" target="FdaxHLxZViLG2lOoQDKM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-26" value="Atendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-27" value="&lt;div&gt;RF003&lt;/div&gt;Registrar Venda" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="685" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-28" value="&lt;div&gt;RF003.1&lt;/div&gt;&lt;div&gt;Selecionar o cliente&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="610" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-29" value="&lt;div&gt;RF003.2&lt;br&gt;&lt;/div&gt;Selecionar diversos produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="685" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-27" target="FdaxHLxZViLG2lOoQDKM-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-31" value="&lt;div&gt;RF004&lt;/div&gt;Fazer login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="795" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-27" target="FdaxHLxZViLG2lOoQDKM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="805" as="sourcePoint" />
+            <mxPoint x="450" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-27" target="FdaxHLxZViLG2lOoQDKM-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-34" value="&lt;div&gt;RF001.3&lt;br&gt;&lt;/div&gt;Calcular os totais" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="760" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FdaxHLxZViLG2lOoQDKM-35" value="&amp;lt;&amp;lt;exends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FdaxHLxZViLG2lOoQDKM-34" target="FdaxHLxZViLG2lOoQDKM-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="805" as="sourcePoint" />
+            <mxPoint x="345" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
