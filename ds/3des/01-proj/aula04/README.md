@@ -5,14 +5,39 @@ Um cronograma é uma ferramenta de gestão de projetos que visa organizar e dist
 
 ## Exemplo de Cronograma - Gráfico GANTT
 ![Cronograma](./cronograma.png)
+
+## Ferramentas de Cronograma
 - MS Excel
 - MS Project
 - [App do Professor](https://wellifabio.github.io/gantt/)
 - [Teamgant](https://www.teamgantt.com/)
 - [Ganttproject](https://www.ganttproject.biz/)
 
-## Orçamento do Projeto
-- Após ou durante o desenvolvimento do cronograma, é importante fazer o orçamento do projeto.
+## PERT, CPM
+
+- **PERT** (Program Evaluation and Review Technique) é uma técnica utilizada para estimar o tempo necessário para a conclusão de um projeto.
+
+- **CPM** (Critical Path Method) é uma técnica utilizada para identificar o caminho crítico de um projeto, ou seja, a sequência de atividades que determina a duração total do projeto.
+
+A análise PERT x CPM auxilia a criação do cronograma
+
+![](pert_cpm.png)
+
+- Caminho:
+
+![](caminho.png)
+
+- Caminho crítico:
+
+![](caminho_critico.png)
+
+- Gráfico de Gantt (Cronograma)
+
+![](gantt1.png)
+
+## Custos - Orçamento do Projeto
+- Após ou durante o desenvolvimento do **cronograma**, é importante fazer o orçamento do projeto.
+- Os orçamentos devem ser atualizados conforme o projeto avança.
 
 ## Exemplo de orçamento de um projeto Web Fullstack
 
@@ -26,3 +51,4 @@ Um cronograma é uma ferramenta de gestão de projetos que visa organizar e dist
 |Documentação do Projeto|20|30,00|600,00|
 |Testes|20|30,00|600,00|
 |Total|||8400,00|
+
