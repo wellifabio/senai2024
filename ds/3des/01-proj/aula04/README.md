@@ -56,7 +56,7 @@ A análise PERT x CPM auxilia a criação do cronograma
 Montar o grupo, escolher o tema, criar o **[TAP](../aula02/TAP.md)** e o **[Protótipo](../aula02)** do projeto / pelo menos o wireframe.
 ### Entrega
 - **TAP** em PDF (Utilize o MS Word e imprima em PDF)
-- Repositório **github público** do projeto contendo uma pasta ./docs e dentro dela:
+- **Protótipo** em repositório **github público** do projeto contendo uma pasta ./docs e dentro dela:
     - O TAP em PDF,
     - um README.md com os wireframes, identidade visual, link do figma,
     - O arquivo  do protótipo  funcional Figma
