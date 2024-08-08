@@ -61,7 +61,3 @@ Projeto fullstack + mobile com prazo de 1,5 meses. Entrega em 19,20 de Setembro 
 - Saúde (Aplicativo de saúde, consultas, exames, medicamentos)
 - Outros (Temas que o grupo ja possua conhecimento)
 - Proibições: Tema com atividades ilícitas ou +18
-
-## Atividade inicial
-Montar o grupo, escolher o tema, criar o TAP e o Protótipo do projeto / pelo menos o wireframe.
-- [Link do Formulário do Termo de Abertura](https://docs.google.com/forms/d/e/1FAIpQLScbZSLgh22Zj8rhS9_by_9_0HzmbsG6MxcHlfmlphHFdqo52w/viewform?usp=sf_link)
