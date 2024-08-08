@@ -3,26 +3,52 @@
 ## O que é um projeto?
 Um produto ou um serviço com início e fim bem definidos
 
+## São as fases de um projeto:
+
+* Iniciação
+* Planejamento
+* Execução
+* Encerramento/Conclusão
+
 ## Faz parte de um projeto
-- Ciclo de vida
 - TAP - Termo de Abertura do projeto
-- Cronograma
-- Escopo
-    - EAP - Estrutura Analítica do Projeto
-- Recursos
-    - Humanos
-    - Conhecimento
-    - Equipamentos
-    - Financeiro - Dinheiro
-- Custos do Projeto
+    - Ciclo de vida
+    - Objetivo
+    - Justificativa
+    - Premissas
+    - Restrições
+    - Stakeholders
+    - Orçamento
+- EAP - Estrutura Analítica do Projeto
+    - Viabilidade
+        - SWOT
+        - Riscos
+        - Oportunidades
+    - Regras de negócio
+    - Escopo
+        - Requisitos
+        - Restrições
+        - Premissas
+    - Cronograma
+- Execução e Controle
+    - Escopo
+    - Cronograma
+    - Qualidade
+    - Comunicação
+    - Recursos
+        - Humanos
+        - Conhecimento
+        - Equipamentos
+        - Financeiro - Dinheiro
+    - Custos do Projeto
 - Stakeholders (Todos os envolvidos no projeto)
     - Gerente do Projeto
     - Executores
     - Cliente
     - Patrocinador
 - Documento do Projeto
+- Entrega/Conclusão do projeto
     - Lições aprendidas
-- Entrega do projeto
 
 ## Gerenciamento de Projetos - Praticas do PMI
 
@@ -31,13 +57,6 @@ Um produto ou um serviço com início e fim bem definidos
 - O produto pode ser um novo alimento, um software, uma casa, ou até mesmo um item de vestuário, como uma camisa ou sapato.
 
 A equipe do projeto é responsável por garantir que o produto seja entregue no **prazo** correto, respeitando os **custos** que foram determinados e com a **qualidade** necessária.
-
-## São as fases de um projeto:
-
-* Iniciação
-* Planejamento
-* Execução
-* Encerramento
 
 ## Recursos:
 ### - Conhecimento / Competêmcia
