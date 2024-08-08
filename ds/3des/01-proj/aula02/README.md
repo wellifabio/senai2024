@@ -8,8 +8,6 @@ O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela 
 Normalmente no início de um projeto, caso este seja um produto, podemos criar um protótipo para que possamos visualizar como será o produto final.
 Também para demonstrar para o cliente como será o produto final, e assim, o cliente poderá fazer alterações antes do produto ser desenvolvido.
 
-## [Link do Meet](https://meet.google.com/oeg-wfrn-kgc)
-
 ## Ferramentas de Prototipação
 - Figma
 - Adobe XD
