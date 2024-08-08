@@ -6,9 +6,19 @@ Um produto ou um serviço com início e fim bem definidos
 ## São as fases de um projeto:
 
 * Iniciação
+    - TAP - Termo de Abertura do Projeto
+    - Protótipo
 * Planejamento
+    - EAP - Estrutura Analítica do Projeto
+    - Cronograma
+    - Recursos
 * Execução
+    - Desenvolvimento
+    - Testes
+    - Homologação
 * Encerramento/Conclusão
+    - Entrega do Projeto
+    - Lições Aprendidas
 
 ## Faz parte de um projeto
 - TAP - Termo de Abertura do projeto
