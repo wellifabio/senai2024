@@ -1,4 +1,7 @@
-# Aula02 - Prototipação com Figma
+# Aula02 - TAP e Prototipação com Figma
+
+## [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)
+O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto. O TAP é um documento que descreve o projeto, e é aprovado pelo cliente e pela equipe do projeto.
 
 ## O que é um protótipo?
 Normalmente no início de um projeto, caso este seja um produto, podemos criar um protótipo para que possamos visualizar como será o produto final.
@@ -60,6 +63,6 @@ Projeto fullstack + mobile com prazo de 1,5 meses. Entrega em 19,20 de Setembro 
 - Outros (Temas que o grupo ja possua conhecimento)
 - Proibições: Tema com atividades ilícitas ou +18
 
-## [TAP (Termo de Abertura do Projeto)](./termo_abertura.md)
-Missão: Montar o grupo, escolher o tema, criar o TAP e o Protótipo do projeto / pelo menos o wireframe.
+## Atividade inicial
+Montar o grupo, escolher o tema, criar o TAP e o Protótipo do projeto / pelo menos o wireframe.
 - [Link do Formulário do Termo de Abertura](https://docs.google.com/forms/d/e/1FAIpQLScbZSLgh22Zj8rhS9_by_9_0HzmbsG6MxcHlfmlphHFdqo52w/viewform?usp=sf_link)
