@@ -42,7 +42,7 @@ Os métodos do Axios aceitam diversos parâmetros, como URL, headers, body, entr
 - Params
 - Data
 
-## [Exemplo neste repositório](./axios/)
-- Para testar este exemplo, basta clonar este repositório, abrir e executar o back-end da pasta **/jwt** e o front-end da pasta **/axios**.
+## [Exemplo neste repositório](./usuarios/front/)
+- Para testar este exemplo, basta clonar este repositório, abrir e executar o back-end da pasta **/jwt** e o front-end da pasta **/usuarios/front**.
 - O back-end precisa ser aberto com VsCode e executado com o comando `npx nodemon` porém antes deve ser instaladas as dependências com o comando `npm install` e iniciado o banco de dados com o comando `npx prisma migrate dev --name init`. O SGBD é o MySQL ou MariaDB.
 - O front-end precisa ser aberto com VsCode e executado com o comando `npx live-server`, o axios está configurado via HTML.

@@ -237,4 +237,4 @@ npx nodemon
 ```
 - L Testar a API com o Postman ou Insomnia, primeiro fazer login com matricula e pin, depois acessar a rota /usuario ou /usuario/:matricula
     - Ao fazer login será retornado um token JWT que deve ser passado no header da requisição com a chave **Authorization** e o valor **Bearer token**
-    - Neste repositório temos um front-end que consome e testa esta API na pasta **/axios**
+    - Neste repositório temos um front-end que consome e testa esta API na pasta **/usuarios/front**

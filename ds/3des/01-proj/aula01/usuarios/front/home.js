@@ -37,6 +37,7 @@ const dadosETabela = () => {
             const td5 = document.createElement('td');
             const btn = document.createElement('button');
             btn.textContent = '[ - ]';
+            //Excluir usuário
             btn.addEventListener('click', () => {
                 api.delete('/usuario/' + item.matricula, {
                     headers: {
