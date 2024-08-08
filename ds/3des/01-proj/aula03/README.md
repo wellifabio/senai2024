@@ -26,8 +26,8 @@ EAP é a Estrutura Analítica do Projeto, uma ferramenta de gestão de projetos 
 ## Análise de Viabilidade
 Viabilidade é a capacidade de um projeto de ser realizado com sucesso. Para determinar a viabilidade de um projeto, é necessário analisar diversos fatores, como custo, prazo, riscos, recursos disponíveis, entre outros.
 Uma das ferramentas mais utilizadas para analisar a viabilidade de um projeto é a Matriz SWOT.
-## Matriz SWOT
+### Matriz SWOT
 ![](riscos_swot.png)
 
-## Análise de riscos
+## Análise de Riscos
 A matriz SWOT serve para analisar a viabilidade de um projeto, identificando seus pontos fortes, pontos fracos, oportunidades e ameaças. Com base nessa análise, é possível identificar os **riscos** do projeto e tomar medidas para mitigá-los.
