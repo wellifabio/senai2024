@@ -1,7 +1,5 @@
 # Aula05 - Metodologias
 
-###[meet](https://meet.google.com/caw-hepw-shw)
-
 ## Conhecimentos
 - 2. Metodologias de desenvolvimento
 	- 2.1. Clássicas
