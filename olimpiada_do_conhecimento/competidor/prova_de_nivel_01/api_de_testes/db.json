@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Fulano da Silva",
+      "email": "fs@gmail.com",
+      "password": "psw123",
+      "birth":"05/25/1985",
+      "image":"https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671122.jpg?w=826&t=st=1723557574~exp=1723558174~hmac=07993c8d76c984a90b238a5729cccf8045c520e2e9a052bf96a69ce68f997abe"
+    },
+    {
+      "id": "2",
+      "name": "Beltrano Oliveira",
+      "email": "bo@gmail.com",
+      "password": "psw123",
+      "birth":"07/15/1991",
+      "image":"https://img.freepik.com/free-psd/3d-rendering-avatar_23-2150833546.jpg?w=826&t=st=1723557595~exp=1723558195~hmac=7d8c5b3abfcf2c656cf9d5689d8749588183b3859cddb2e5d2daa9bf347d6c08"
+    },
+    {
+      "id": "3",
+      "name": "Ciclano Costa",
+      "email": "cc@gmail.com",
+      "password": "psw123",
+      "birth":"10/05/2000",
+      "image":"https://img.freepik.com/free-psd/3d-render-avatar-character_23-2150611768.jpg?w=826&t=st=1723557617~exp=1723558217~hmac=672d2b9ea9da06b2502093d2b3d729b6fc0289492877fd6dbb5b3e5822c445c0"
+    }
+  ],
+  "travels":[
+    {
+        "id_user":"1",
+        "id":"1",
+        "origin":"Rua das Almofadas, 315",
+        "destination":"Rua Sem Saida, 33",
+        "rate":4.5,
+        "price":10.80,
+        "distance":15.5,
+        "date":"08/15/2024"
+    },
+    {
+        "id_user":"3",
+        "id":"2",
+        "origin":"Rua Tapajos, 55",
+        "destination":"Avenida da Travessa, 103",
+        "rate":4.0,
+        "price":16.80,
+        "distance":23.5,
+        "date":"08/18/2024"
+    },
+    {
+        "id_user":"3",
+        "id":"3",
+        "origin":"Rua Paralelepipedo, 89",
+        "destination":"Alameda dos Anjos, 187",
+        "rate":4.0,
+        "price":16.80,
+        "distance":23.5,
+        "date":"08/18/2024"
+    }
+  ]
+}
