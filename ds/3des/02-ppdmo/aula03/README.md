@@ -37,11 +37,13 @@ npm install firebase
 ```
 
 Dentro do seu projeto no Firebase clique na opção
+
 ![alt text](image-4.png)
 
 Adicione um banco de dados Firestore
 
 dentro desta opção vamos definir as regras de acesso ao banco de dados
+
 ![alt text](image-5.png)
 
 Vamos definir a seguinte regra
