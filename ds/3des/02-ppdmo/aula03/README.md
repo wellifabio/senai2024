@@ -63,5 +63,9 @@ Com o codigo feito utilizar o comando
 yarn run web
 ```
 
+Quando der o erro Metro Builder, executar
+```bash
+yarn add react-native-web react-dom @expo/metro-runtime
+```
 
 
