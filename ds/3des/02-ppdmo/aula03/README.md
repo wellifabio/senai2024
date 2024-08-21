@@ -1,4 +1,8 @@
-# PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS
+<div align = center>
+  <img src = "https://github.com/user-attachments/assets/71c30019-46e5-49c1-ad11-eaba8db85322>
+    </div>
+    
+
 # Aula 03 - Utilizando Firebase
 https://meet.google.com/ibk-cpoi-oja
 
