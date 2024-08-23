@@ -1,3 +1,9 @@
+
+<div align = center>
+  <img src = "https://github.com/user-attachments/assets/2474ae50-4076-4907-ac2a-c77ef2e59a86">
+</div>  
+
+
 # Aula 04 - CRUD e Storage
 
 Fazendo CRUD no Pets
@@ -26,7 +32,7 @@ Logo após crie um banco no modo Produção
 
 Após Criar va em regras e coloque a seguinte regra
 
-```json
+```bash
 rules_version = '2';
 
 // Craft rules based on data in your Firestore database
