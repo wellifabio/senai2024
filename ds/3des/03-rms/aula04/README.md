@@ -1,3 +1,8 @@
+<div align = "center">
+<img src = "https://github.com/user-attachments/assets/801b602c-b0b6-4404-8761-10099b20f232">
+</div>
+
+
 # Diagrama de Sequência
 
 Um **Diagrama de Sequência** é um tipo de diagrama de interação que descreve como os objetos interagem entre si e a sequência das mensagens trocadas entre eles ao longo do tempo. É uma ferramenta útil para modelar o comportamento dinâmico de um sistema e entender como os processos ocorrem.
@@ -42,6 +47,4 @@ Aqui está um exemplo simples em pseudocódigo para um diagrama de sequência qu
 
 Os diagramas de sequência são essenciais para entender o fluxo de eventos em um sistema e são uma parte importante da modelagem UML (Unified Modeling Language). Eles ajudam a visualizar como os objetos interagem e facilitam a comunicação entre desenvolvedores e partes interessadas.
 
----
 
-Para mais informações sobre diagramas de sequência e outros tipos de diagramas UML, consulte a documentação oficial da UML ou tutoriais específicos sobre a ferramenta que você está utilizando.
