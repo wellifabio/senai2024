@@ -1,4 +1,4 @@
-# Aula06 - Acompanhamento do Projeto
+# Aula06 - Acompanhamento do Pré-projeto
 
 ## SCRUM
 - **SPRINT** - Acompanhamento semanal dos projetos e grupos
@@ -9,17 +9,18 @@
 - **Sprint Backlog** - Lista de tarefas da Sprint
 
 ## Equipes
-Projetos Open Source basta me enviar o link do diretório do projeto no GitHub. e caso seja privado, adicione o professor como colaborador. wellifabio@hotmail.com
+Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. **Projetos privados**, adicione o professor como colaborador pelo e-mail wellifabio@hotmail.com
 
-|Integrantes|Tema|Repositório|
-|-|-|-|
-|Camila, Erick, Leonardo, Jaqueline|E-Commerce|https://github.com/ericksilva232323/E-commerce.git|
-|Carla Mozena & Leticia Hofman|Gestão Financeira|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
-|Carlos Augusto e Vinícius|Utilidade Pública|https://github.com/Vinimanzano/PrototipoProjeto.git|
-|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias|https://github.com/Cisenai/MonkeyFeed.git|
-|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
-|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
-|João Colosso, Otavio, Richard|Fish Track - App Pescadores||
+|Check-list|Integrantes|Tema|Repositório|
+|-|-|-|-|
+|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce|https://github.com/ericksilva232323/E-commerce.git|
+|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|Gestão Financeira|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
+|[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública|https://github.com/Vinimanzano/PrototipoProjeto.git|
+|[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias|https://github.com/Cisenai/MonkeyFeed.git|
+|[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
+|[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
+|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores||
+|[Grupo 08](./grupo8.md)|Igor e Gabriela|Streaming de Música||
 
 ## Sprint 01 - Backlog
 - [ ] Definir o Tema do Projeto
