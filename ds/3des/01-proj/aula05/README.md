@@ -58,3 +58,9 @@
 		- Uber
 		- Bancos digitais
 		- Entre outros
+
+## Atividade - Pré-Projeto
+- Para o tema escolhido, reuna-se com sua equipe e elabore a EAP do projeto, identificando as atividades necessárias para a realização do projeto, os prazos e os responsáveis por cada atividade. Utilize a matriz SWOT para identificar os **riscos** do projeto e tome medidas para mitigá-los.
+
+## Entrega do Pré-Projeto
+- 19,20 de Setembro de 2024.

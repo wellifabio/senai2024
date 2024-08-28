@@ -72,6 +72,13 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - [ ] Apresentação do Projeto Mobile
     - [ ] Documento do Projeto
 
+
+## Atividade - Pré-Projeto
+- Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.
+
+## Entrega do Pré-Projeto
+- 19,20 de Setembro de 2024.
+
 ## Critérios de Avaliação
 |Criticidade|Capacidades|Critérios|
 |-|-|-|
