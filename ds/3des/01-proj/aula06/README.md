@@ -20,7 +20,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
 |[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
 |[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores||
-|[Grupo 08](./grupo8.md)|Igor e Gabriela|Streaming de Música||
+|[Grupo 08](./grupo8.md)|Igor|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|
 
 ## Sprint 01 - Backlog
 - [ ] Definir o Tema do Projeto
