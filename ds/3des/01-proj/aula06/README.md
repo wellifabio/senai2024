@@ -13,7 +13,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 
 |Check-list|Integrantes|Tema|Repositório|
 |-|-|-|-|
-|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce|https://github.com/ericksilva232323/E-commerce.git|
+|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|
 |[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|Gestão Financeira|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
 |[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública|https://github.com/Vinimanzano/PrototipoProjeto.git|
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias|https://github.com/Cisenai/MonkeyFeed.git|
