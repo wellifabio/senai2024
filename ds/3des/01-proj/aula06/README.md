@@ -15,7 +15,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |-|-|-|-|
 |[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|
 |[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|Gestão Financeira|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
-|[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública|https://github.com/Vinimanzano/PrototipoProjeto.git|
+|[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias|https://github.com/Cisenai/MonkeyFeed.git|
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
 |[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
