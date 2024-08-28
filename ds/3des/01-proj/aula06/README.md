@@ -77,7 +77,13 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.
 
 ## Entrega do Pré-Projeto
-- 19,20 de Setembro de 2024.
+- 01/08/2024 - Início do Pré-Projeto
+- Sprints de duas semanas
+    - Sprint01 - 01/08 - 15/08/2024 - Entrega - 15/08/2024
+    - Sprint02 - 16/08 - 29/08/2024 - Entrega - 29/08/2024
+    - Sprint03 - 30/08 - 12/09/2024 - Entrega - 12/09/2024
+    - Sprint04 - 13/09 - 19/09/2024 - Entrega - 19/09/2024
+- 19,20/09/2024 - Entrega - 2024.
 
 ## Critérios de Avaliação
 |Criticidade|Capacidades|Critérios|
