@@ -99,3 +99,6 @@ A análise PERT x CPM auxilia a criação do cronograma do projeto.
     - Definir os requisitos funcionais e não funcionais
 - Traçar o caminho crítico do projeto
 - Criar um cronograma do projeto
+
+## Entrega do Pré-Projeto
+- 19,20 de Setembro de 2024.
