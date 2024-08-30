@@ -17,6 +17,7 @@ Inicialmente vamos instalar alguma dependencias para poder armazenar juntamente 
 ```bash
 yarn add react-native-image-picker
 yarn add @react-native-firebase/storage
+yarn add react-native-vector-icons/FontAwesome
 ```
 
 ## Configurando o Firebase
