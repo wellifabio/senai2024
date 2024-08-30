@@ -1,4 +1,4 @@
-
+Aula Meet: https://meet.google.com/uwu-epuj-uzt
 <div align = center>
   <img src = "https://github.com/user-attachments/assets/2474ae50-4076-4907-ac2a-c77ef2e59a86">
 </div>  
@@ -17,6 +17,7 @@ Inicialmente vamos instalar alguma dependencias para poder armazenar juntamente 
 ```bash
 yarn add react-native-image-picker
 yarn add @react-native-firebase/storage
+yarn add react-native-vector-icons
 ```
 
 ## Configurando o Firebase
