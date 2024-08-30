@@ -1,4 +1,4 @@
-
+Aula Meet: https://meet.google.com/rrx-vjfi-mht
 <div align = center>
   <img src = "https://github.com/user-attachments/assets/2474ae50-4076-4907-ac2a-c77ef2e59a86">
 </div>  
