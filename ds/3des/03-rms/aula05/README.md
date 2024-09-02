@@ -82,4 +82,7 @@ Vou deixar aqui para auxilio um contexto que devem existir no diagrama de caso d
 ## Ao terminar a atividade enviar as respostas no form abaixo
 ### https://forms.gle/U4ocqG4yHrFpZTQ3A
 
+## LINK DO ALUNOS 
+### https://github.com/ericksilva232323/Estrutura-Anal-tica-do-Projeto.git
+
 
