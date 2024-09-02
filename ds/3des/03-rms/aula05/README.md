@@ -56,7 +56,7 @@ O sistema de gerenciamento da clínica precisa resolver os seguintes problemas e
 Deve ser realizado através desta situação problemas os 3 diagramas estudados durante a aula: 
  - Diagrama de Caso de Uso
  - Diagrama de Entidade
- - Diagrama de Relacionamento
+ - Diagrama de Classe
 
 Vou deixar aqui para auxilio um contexto que devem existir no diagrama de caso de Uso
 
