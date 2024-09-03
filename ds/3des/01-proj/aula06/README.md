@@ -19,7 +19,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
 |[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
-|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores||
+|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores|https://github.com/richardpns/fish-track.git|
 |[Grupo 08](./grupo8.md)|Igor, Gabriela|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|
 
 ## Sprint 01 - Backlog

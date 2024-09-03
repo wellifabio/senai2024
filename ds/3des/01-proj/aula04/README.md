@@ -17,18 +17,29 @@ O escopo do projeto é a definição do que será feito no projeto, ou seja, é 
     - [RN001] O sistema deve permitir o cadastro de clientes com nome, CPF e endereço
     - [RN002] O sistema deve permitir o cadastro de produtos com nome, preço e quantidade em estoque
     - [RN003] O sistema deve permitir a realização de vendas com a seleção de produtos e clientes
+    - [RN004] Para fazer qualquer cadastro, o usuário deve estar logado no sistema
+    - [RN005] O sistema deve permitir a visualização de relatórios de vendas
+    - [RN006] O sistema deve ser Web Full-Stack e implantado em pelo menos dois servidores para aumentar a segurança.
+    - [RN007] O sistema deve ser responsivo possuir uma versão mobile.
 - **Requisitos funcionais**
     - [RF001] Tela de cadastro de clientes ![RN001](./rf001.png)
         - Prioridade: [X]Essencial, [ ]Importante, [ ]Desejável
+        - Referência: [RN001], [RN004]
     - [RF002] Tela de o cadastro de produtos ![RN002](./rf002.png)
         - Prioridade: [X]Essencial, [ ]Importante, [ ]Desejável
+        - Referência: [RN002], [RN004]
     - [RF003] Tela de registro de vendas de vendas ![RN003](./rf003.png)
         - Prioridade: [ ]Essencial, [X]Importante, [ ]Desejável
+        - Referência: [RN003], [RN004]
 - **Requisitos não funcionais**
-    - [RNF001] O back-end deve ser desenvolvido em NodeJS
-    - [RNF002] O front-end deve ser desenvolvido em React
-    - [RNF003] O sistema deve ser responsivo
-    - [RNF004] A versão mobile deve ser desenvolvida em React Native
+    - [NF001] O back-end deve ser desenvolvido em NodeJS
+        - Referência: [RN006]
+    - [NF002] O front-end deve ser desenvolvido em React
+        - Referência: [RN006]
+    - [NF003] O sistema deve ser responsivo
+        - Referência: [RN006]
+    - [NF004] A versão mobile deve ser desenvolvida em React Native.
+        - Referência: [RN007]
 
 Para ilustrar cada requisito funcional é possível a utilização de **wireframes**, **protótipos**, **fluxogramas** ou **diagramas de caso de uso**. Em nosso projeto, utilizamos diagramas de caso de uso e protótipos.  
 
