@@ -22,13 +22,13 @@ O escopo do projeto é a definição do que será feito no projeto, ou seja, é 
     - [RN006] O sistema deve ser Web Full-Stack e implantado em pelo menos dois servidores para aumentar a segurança.
     - [RN007] O sistema deve ser responsivo possuir uma versão mobile.
 - **Requisitos funcionais**
-    - [RF001] Tela de cadastro de clientes ![RN001](./rf001.png)
+    - [RF001] Tela de cadastro de clientes<br>![RN001](./rf001.png)
         - Prioridade: [X]Essencial, [ ]Importante, [ ]Desejável
         - Referência: [RN001], [RN004]
-    - [RF002] Tela de o cadastro de produtos ![RN002](./rf002.png)
+    - [RF002] Tela de o cadastro de produtos<br>![RN002](./rf002.png)
         - Prioridade: [X]Essencial, [ ]Importante, [ ]Desejável
         - Referência: [RN002], [RN004]
-    - [RF003] Tela de registro de vendas de vendas ![RN003](./rf003.png)
+    - [RF003] Tela de registro de vendas de vendas<br>![RN003](./rf003.png)
         - Prioridade: [ ]Essencial, [X]Importante, [ ]Desejável
         - Referência: [RN003], [RN004]
 - **Requisitos não funcionais**

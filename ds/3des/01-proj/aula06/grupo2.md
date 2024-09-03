@@ -13,7 +13,7 @@
 - [x] Desenvolver um Cronograma - Gantt
 - [x] Traçar o caminho crítico - PERT/CPM
 - [ ] EAP - Estrutura Analítica do Projeto
-    - [ ] Criar o Documento de Requisitos
+    - [x] Criar o Documento de Requisitos
     - [x] Diagrama de Caso de Uso - Corrigir
 - [ ] Criar o Documento de Arquitetura
     - [x] Diagrama de Classes
