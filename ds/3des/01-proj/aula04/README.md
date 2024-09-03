@@ -13,6 +13,7 @@ O escopo do projeto é a definição do que será feito no projeto, ou seja, é 
 - Requisitos não funcionais (NF)
 
 ### Exemplo de Documento de Requisitos
+#### Sistema de registro de vendas
 - **Regras de negócio**
     - [RN001] O sistema deve permitir o cadastro de clientes com nome, CPF e endereço
     - [RN002] O sistema deve permitir o cadastro de produtos com nome, preço e quantidade em estoque
