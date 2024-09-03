@@ -8,9 +8,9 @@
 
 ## Escopo do projeto
 O escopo do projeto é a definição do que será feito no projeto, ou seja, é a **descrição detalhada do que será entregue ao final do projeto**. O escopo do projeto deve ser claro, objetivo e bem definido, para que todos os envolvidos no projeto saibam exatamente o que será feito e o que será entregue.<br><br>Para auxiliar a definição do escopo do projeto, é importante criar um **documento de requisitos**, que é um documento que descreve as necessidades e expectativas do cliente em relação ao projeto. O documento de requisitos deve conter informações como:
-- Regras de negócio
-- Requisitos funcionais
-- Requisitos não funcionais
+- Regras de negócio (RN)
+- Requisitos funcionais (RF)
+- Requisitos não funcionais (NF)
 
 ### Exemplo de Documento de Requisitos
 - **Regras de negócio**
