@@ -34,12 +34,16 @@ O escopo do projeto é a definição do que será feito no projeto, ou seja, é 
         - Referência: [RN003], [RN004]
 - **Requisitos não funcionais**
     - [NF001] O back-end deve ser desenvolvido em NodeJS
+        - Prioridade: [ ]Essencial, [X]Importante, [ ]Desejável
         - Referência: [RN006]
     - [NF002] O front-end deve ser desenvolvido em React
+        - Prioridade: [ ]Essencial, [ ]Importante, [x]Desejável
         - Referência: [RN006]
     - [NF003] O sistema deve ser responsivo
+        - Prioridade: [x]Essencial, []Importante, [ ]Desejável
         - Referência: [RN006]
     - [NF004] A versão mobile deve ser desenvolvida em React Native.
+        - Prioridade: [ ]Essencial, []Importante, [x]Desejável    
         - Referência: [RN007]
 
 Para ilustrar cada requisito funcional é possível a utilização de **wireframes**, **protótipos**, **fluxogramas** ou **diagramas de caso de uso**. Em nosso projeto, utilizamos diagramas de caso de uso e protótipos.  
