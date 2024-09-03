@@ -9,9 +9,9 @@
 - [x] Criar o Wireframe/Protótipo do Projeto
 
 ## Sprint 02 - Backlog
-- [ ] Fazer uma análise de Risco - Matriz SWOT
+- [x] Fazer uma análise de Risco - Matriz SWOT
 - [x] Desenvolver um Cronograma - Gantt
-- [ ] Traçar o caminho crítico - PERT/CPM
+- [x] Traçar o caminho crítico - PERT/CPM
 - [ ] EAP - Estrutura Analítica do Projeto
     - [ ] Criar o Documento de Requisitos
     - [ ] Diagrama de Caso de Uso
