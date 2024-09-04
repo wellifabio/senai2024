@@ -30,7 +30,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - [ ] Criar o repositório do projeto no GitHub
 - [ ] Adicionar o professor como colaborador
 - [ ] Criar a Identidade Visual do Projeto
-- [ ] Criar o Wireframe/Protótipo do Projeto
+- [ ] Criar o Wireframe/Protótipo do Projeto<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
 
 ## Sprint 02 - Backlog
 - [ ] Fazer uma análise de Risco - Matriz SWOT
@@ -42,7 +42,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - [ ] Criar o Documento de Arquitetura
     - [ ] Diagrama de Classes
     - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento
+    - [ ] DER - Diagrama de Entidade Relacionamento<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código
@@ -50,10 +50,10 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - [ ] Banco de Dados
     - [ ] Back-End
     - [ ] Mobile
-    - [ ] Testes unitários
+    - [ ] Testes unitários<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
 - [ ] Criar o Documento do Projeto
     - [ ] ABNT
-    - [ ] Dicionário de Dados
+    - [ ] Dicionário de Dados<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 04 - Backlog
 - [ ] Criar o Documento de Teste
