@@ -72,9 +72,55 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - [ ] Apresentação do Projeto Mobile
     - [ ] Documento do Projeto
 
-
 ## Atividade - Pré-Projeto
 - Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.
+
+### Elementos do Documento do Projeto
+- **Capa**
+    - Nome da Instituição
+    - Nome do Curso
+    - Nome do Aluno
+    - Título do Projeto
+    - Local e Data
+- **Folha de Rosto**
+    - Nome do Aluno
+    - Título do Projeto
+    - Subtítulo
+    - Local e Data
+- **Agradecimentos, Prefácio ou Dedicatória**(Opcional)
+- **Lista de Figuras**
+- **Lista de Tabelas**
+- **Lista de Abreviaturas e Siglas**
+- **Resumo  e Abstract**
+- **Sumário**
+- **Introdução**
+- **1 TAP (Termo de Abertura do Projeto)**
+    - Objetivo
+    - Justificativa
+    - Metodologia
+    - Resultados Esperados
+- **2 Protótipo**
+    - Wireframe
+    - Mockup
+    - Protótipo
+- **3 EAP (Estrutura Analítica do Projeto)**
+    - Análise de Risco
+    - Documento de Requisitos
+        - Diagrama de Caso de Uso
+    - Cronograma
+    - Orçamento
+- **4 Documento de Arquitetura**
+    - Diagrama de Classes
+    - Diagrama de Atividades
+    - MER - DER (Diagrama de Entidade Relacionamento)
+    - MER - DD (Dicionário de Dados)
+- **5 Conclusão/Entrega**
+    - Evidências
+        - Front End (Prints de Tela)
+        - Mobile (Prints de Tela)
+    - Fotos da Apresentação
+- **Referências Bibliográficas**
+- **Anexos**
 
 ## Entrega do Pré-Projeto
 - 01/08/2024 - Início do Pré-Projeto
