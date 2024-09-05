@@ -75,7 +75,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 ## Atividade - Pré-Projeto
 - Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.
 
-### Elementos do Documento do Projeto
+### Elementos do Documento do Projeto - [Exemplo](./projeto-modelo-generico.docx)
 - **Capa**
     - Nome da Instituição
     - Nome do Curso
