@@ -9,16 +9,16 @@
 - [x] Criar o Wireframe/Protótipo do Projeto
 
 ## Sprint 02 - Backlog
-- [ ] Fazer uma análise de Risco - Matriz SWOT
+- [x] Fazer uma análise de Risco - Matriz SWOT
 - [x] Desenvolver um Cronograma - Gantt
-- [ ] Traçar o caminho crítico - PERT/CPM
+- [x] Traçar o caminho crítico - PERT/CPM
 - [ ] EAP - Estrutura Analítica do Projeto
     - [ ] Criar o Documento de Requisitos
-    - [ ] Diagrama de Caso de Uso
+    - [x] Diagrama de Caso de Uso
 - [ ] Criar o Documento de Arquitetura
-    - [ ] Diagrama de Classes
-    - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento
+    - [x] Diagrama de Classes
+    - [x] Diagrama de Atividades
+    - [x] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código

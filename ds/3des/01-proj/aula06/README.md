@@ -19,7 +19,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
 |[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
-|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores||
+|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores|https://github.com/richardpns/fish-track.git|
 |[Grupo 08](./grupo8.md)|Igor, Gabriela|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|
 
 ## Sprint 01 - Backlog
@@ -30,7 +30,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - [ ] Criar o repositório do projeto no GitHub
 - [ ] Adicionar o professor como colaborador
 - [ ] Criar a Identidade Visual do Projeto
-- [ ] Criar o Wireframe/Protótipo do Projeto
+- [ ] Criar o Wireframe/Protótipo do Projeto<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
 
 ## Sprint 02 - Backlog
 - [ ] Fazer uma análise de Risco - Matriz SWOT
@@ -42,7 +42,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - [ ] Criar o Documento de Arquitetura
     - [ ] Diagrama de Classes
     - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento
+    - [ ] DER - Diagrama de Entidade Relacionamento<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código
@@ -50,10 +50,10 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - [ ] Banco de Dados
     - [ ] Back-End
     - [ ] Mobile
-    - [ ] Testes unitários
+    - [ ] Testes unitários<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
 - [ ] Criar o Documento do Projeto
     - [ ] ABNT
-    - [ ] Dicionário de Dados
+    - [ ] Dicionário de Dados<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 04 - Backlog
 - [ ] Criar o Documento de Teste
@@ -72,9 +72,55 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - [ ] Apresentação do Projeto Mobile
     - [ ] Documento do Projeto
 
-
 ## Atividade - Pré-Projeto
 - Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.
+
+### Elementos do Documento do Projeto - [Exemplo](./projeto-modelo-generico.docx)
+- **Capa**
+    - Nome da Instituição
+    - Nome do Curso
+    - Nome do Aluno
+    - Título do Projeto
+    - Local e Data
+- **Folha de Rosto**
+    - Nome do Aluno
+    - Título do Projeto
+    - Subtítulo
+    - Local e Data
+- **Agradecimentos, Prefácio ou Dedicatória**(Opcional)
+- **Lista de Figuras**
+- **Lista de Tabelas**
+- **Lista de Abreviaturas e Siglas**
+- **Resumo  e Abstract**
+- **Sumário**
+- **Introdução**
+- **1 TAP (Termo de Abertura do Projeto)**
+    - Objetivo
+    - Justificativa
+    - Metodologia
+    - Resultados Esperados
+- **2 Protótipo**
+    - Wireframe
+    - Mockup
+    - Protótipo
+- **3 EAP (Estrutura Analítica do Projeto)**
+    - Análise de Risco
+    - Documento de Requisitos
+        - Diagrama de Caso de Uso
+    - Cronograma
+    - Orçamento
+- **4 Documento de Arquitetura**
+    - Diagrama de Classes
+    - Diagrama de Atividades
+    - MER - DER (Diagrama de Entidade Relacionamento)
+    - MER - DD (Dicionário de Dados)
+- **5 Conclusão/Entrega**
+    - Evidências
+        - Front End (Prints de Tela)
+        - Mobile (Prints de Tela)
+    - Fotos da Apresentação
+- **Referências Bibliográficas**
+- **Anexos**
 
 ## Entrega do Pré-Projeto
 - 01/08/2024 - Início do Pré-Projeto
