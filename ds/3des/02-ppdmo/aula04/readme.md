@@ -60,3 +60,7 @@ export const storage = getStorage();
 ```
 Va em seu arquivo App.js e vamos adicionar as alterações de storage e o CRUD juntos
 
+
+# Atividade Livros Lidos
+
+Enviar link do livro aqui: https://forms.gle/3RvbcVNkN9n8pK9W6
