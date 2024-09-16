@@ -36,7 +36,7 @@
 
 ## Exemplo - Relatório de Teste de Caixa Preta - Sistema Mobile de Petshop
 
-1. Introdução
+* 1. Introdução
 
 1.1 Objetivo do Teste
 O objetivo deste teste é verificar a funcionalidade do aplicativo móvel de petshop sem considerar a implementação interna, garantindo que as funcionalidades básicas de navegação, busca de produtos, compra e gerenciamento de conta funcionem conforme o esperado.
