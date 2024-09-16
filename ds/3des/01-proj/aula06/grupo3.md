@@ -13,20 +13,20 @@
 - [x] Desenvolver um Cronograma - Gantt
 - [x] Traçar o caminho crítico - PERT/CPM
 - [ ] EAP - Estrutura Analítica do Projeto
-    - [ ] Criar o Documento de Requisitos
-    - [ ] Diagrama de Caso de Uso
+    - [x] Criar o Documento de Requisitos
+    - [x] Diagrama de Caso de Uso
 - [ ] Criar o Documento de Arquitetura
     - [ ] Diagrama de Classes
     - [ ] Diagrama de Atividades
     - [x] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
-- [ ] Desenvolver o Código
-    - [ ] Front-End
-    - [ ] Banco de Dados
-    - [ ] Back-End
-    - [ ] Mobile
-    - [ ] Testes unitários
+- [x] Desenvolver o Código
+    - [x] Front-End - Desenvolvimento
+    - [x] Banco de Dados
+    - [x] Back-End - Desenvolvimento
+    - [x] Mobile - Desenvolvimento
+    - [x] Testes unitários
 - [ ] Criar o Documento do Projeto
     - [ ] ABNT
     - [ ] Dicionário de Dados

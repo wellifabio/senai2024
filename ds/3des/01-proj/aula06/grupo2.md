@@ -21,23 +21,23 @@
     - [x] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
-- [ ] Desenvolver o Código
-    - [x] Front-End - Desenvolvimento
-    - [x] Banco de Dados - Desenvolvimento
-    - [x] Back-End - Desenvolvimento
-    - [x] Mobile - Desenvolvimento
-    - [x] Testes unitários - Desenvolvimento
-- [ ] Criar o Documento do Projeto
-    - [ ] ABNT
-    - [ ] Dicionário de Dados
+- [x] Desenvolver o Código
+    - [x] Front-End
+    - [x] Banco de Dados
+    - [x] Back-End
+    - [x] Mobile
+    - [x] Testes unitários
+- [x] Criar o Documento do Projeto
+    - [x] ABNT - Desenvolvimento
+    - [x] Dicionário de Dados
 
 ## Sprint 04 - Backlog
 - [ ] Criar o Documento de Teste
-    - [ ] Teste de Unidade
-    - [ ] Teste de Integração
-    - [ ] Teste de Sistema - Ponto a Ponto
-    - [ ] Teste de Aceitação
-- [ ] Revisar o documento do projeto
+    - [x] Teste de Unidade
+    - [x] Teste de Integração
+    - [x] Teste de Sistema - Ponto a Ponto
+    - [x] Teste de Aceitação
+- [x] Revisar o documento do projeto
 - [ ] Criar o Documento de Implantação
     - [ ] Manual do Usuário
     - [ ] Manual do Administrador se houver

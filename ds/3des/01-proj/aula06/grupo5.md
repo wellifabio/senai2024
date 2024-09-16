@@ -12,24 +12,24 @@
 - [x] Fazer uma análise de Risco - Matriz SWOT
 - [x] Desenvolver um Cronograma - Gantt
 - [x] Traçar o caminho crítico - PERT/CPM - Traçar o caminho crítico
-- [ ] EAP - Estrutura Analítica do Projeto
-    - [ ] Criar o Documento de Requisitos
+- [x] EAP - Estrutura Analítica do Projeto
+    - [x] Criar o Documento de Requisitos
     - [x] Diagrama de Caso de Uso
-- [ ] Criar o Documento de Arquitetura
+- [x] Criar o Documento de Arquitetura
     - [x] Diagrama de Classes
-    - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento
+    - [x] Diagrama de Atividades
+    - [x] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código
-    - [ ] Front-End
-    - [ ] Banco de Dados
-    - [ ] Back-End
-    - [ ] Mobile
-    - [ ] Testes unitários
+    - [x] Front-End - Em andamento
+    - [x] Banco de Dados
+    - [x] Back-End
+    - [x] Mobile - Em andamento
+    - [x] Testes unitários
 - [ ] Criar o Documento do Projeto
-    - [ ] ABNT
-    - [ ] Dicionário de Dados
+    - [x] ABNT - Em andamento
+    - [x] Dicionário de Dados - Traduzir para o portugues
 
 ## Sprint 04 - Backlog
 - [ ] Criar o Documento de Teste
