@@ -36,21 +36,21 @@
 
 ## Exemplo - Relatório de Teste de Caixa Preta - Sistema Mobile de Petshop
 
-* 1. Introdução
+ - 1. Introdução
 
-1.1 Objetivo do Teste
+ - 1.1 Objetivo do Teste
 O objetivo deste teste é verificar a funcionalidade do aplicativo móvel de petshop sem considerar a implementação interna, garantindo que as funcionalidades básicas de navegação, busca de produtos, compra e gerenciamento de conta funcionem conforme o esperado.
 
-1.2 Escopo do Teste
+- 1.2 Escopo do Teste
 O teste inclui as funcionalidades principais do aplicativo móvel, como a navegação pelos produtos, a realização de pedidos, o gerenciamento da conta do usuário, e a visualização de histórico de compras.
 
-1.3 Referências
+ - 1.3 Referências
 
 Documento de Requisitos do Aplicativo de Petshop (Versão 1.2)
 Especificação Funcional do Sistema Mobile de Petshop
-2. Ambiente de Teste
+ - 2. Ambiente de Teste
 
-2.1 Configuração do Ambiente
+ - 2.1 Configuração do Ambiente
 
 Dispositivos Testados: iPhone 13 (iOS 16), Samsung Galaxy S21 (Android 13)
 Versão do Aplicativo: 2.5.1
