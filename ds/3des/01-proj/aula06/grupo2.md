@@ -38,12 +38,12 @@
     - [x] Teste de Sistema - Ponto a Ponto
     - [x] Teste de Aceitação
 - [x] Revisar o documento do projeto
-- [ ] Criar o Documento de Implantação
-    - [ ] Manual do Usuário
-    - [ ] Manual do Administrador se houver
+- [x] Criar o Documento de Implantação
+    - [x] Manual do Usuário
+    - [x] Manual do Administrador se houver
 
 ## Apresentação
-- [ ] Apresentação do Projeto
-    - [ ] Apresentação do Projeto Web
-    - [ ] Apresentação do Projeto Mobile
-    - [ ] Documento do Projeto
+- [x] Apresentação do Projeto
+    - [x] Apresentação do Projeto Web
+    - [x] Apresentação do Projeto Mobile
+    - [x] Documento do Projeto

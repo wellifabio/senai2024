@@ -23,54 +23,54 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |[Grupo 08](./grupo8.md)|Igor|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|
 
 ## Sprint 01 - Backlog
-- [ ] Definir o Tema do Projeto
-- [ ] Definir o Scrum Master / Gerenete de Projeto
-- [ ] Criar um breve Orçamento
-- [ ] TAP - Termo de Abertura do Projeto
-- [ ] Criar o repositório do projeto no GitHub
-- [ ] Adicionar o professor como colaborador
-- [ ] Criar a Identidade Visual do Projeto
-- [ ] Criar o Wireframe/Protótipo do Projeto<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
+- [x] Definir o Tema do Projeto
+- [x] Definir o Scrum Master / Gerenete de Projeto
+- [x] Criar um breve Orçamento
+- [x] TAP - Termo de Abertura do Projeto
+- [x] Criar o repositório do projeto no GitHub
+- [x] Adicionar o professor como colaborador
+- [x] Criar a Identidade Visual do Projeto
+- [x] Criar o Wireframe/Protótipo do Projeto<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
 
 ## Sprint 02 - Backlog
-- [ ] Fazer uma análise de Risco - Matriz SWOT
-- [ ] Desenvolver um Cronograma - Gantt
-- [ ] Traçar o caminho crítico - PERT/CPM
-- [ ] EAP - Estrutura Analítica do Projeto
-    - [ ] Criar o Documento de Requisitos
-    - [ ] Diagrama de Caso de Uso
-- [ ] Criar o Documento de Arquitetura
-    - [ ] Diagrama de Classes
-    - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
+- [x] Fazer uma análise de Risco - Matriz SWOT
+- [x] Desenvolver um Cronograma - Gantt
+- [x] Traçar o caminho crítico - PERT/CPM
+- [x] EAP - Estrutura Analítica do Projeto
+    - [x] Criar o Documento de Requisitos
+    - [x] Diagrama de Caso de Uso
+- [x] Criar o Documento de Arquitetura
+    - [x] Diagrama de Classes
+    - [x] Diagrama de Atividades
+    - [x] DER - Diagrama de Entidade Relacionamento<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 03 - Backlog
-- [ ] Desenvolver o Código
-    - [ ] Front-End
-    - [ ] Banco de Dados
-    - [ ] Back-End
-    - [ ] Mobile
-    - [ ] Testes unitários<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
-- [ ] Criar o Documento do Projeto
-    - [ ] ABNT
-    - [ ] Dicionário de Dados<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
+- [x] Desenvolver o Código
+    - [x] Front-End
+    - [x] Banco de Dados
+    - [x] Back-End
+    - [x] Mobile
+    - [x] Testes unitários<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo.git)
+- [x] Criar o Documento do Projeto
+    - [x] ABNT
+    - [x] Dicionário de Dados<br>[Exemplo](https://github.com/wellifabio/projetofullexemplo/tree/main/docs/projeto)
 
 ## Sprint 04 - Backlog
-- [ ] Criar o Documento de Teste
-    - [ ] Teste de Unidade
-    - [ ] Teste de Integração
-    - [ ] Teste de Sistema - Ponto a Ponto
-    - [ ] Teste de Aceitação
-- [ ] Revisar o documento do projeto
-- [ ] Criar o Documento de Implantação
-    - [ ] Manual do Usuário
-    - [ ] Manual do Administrador se houver
+- [x] Criar o Documento de Teste
+    - [x] Teste de Unidade
+    - [x] Teste de Integração
+    - [x] Teste de Sistema - Ponto a Ponto
+    - [x] Teste de Aceitação
+- [x] Revisar o documento do projeto
+- [x] Criar o Documento de Implantação
+    - [x] Manual do Usuário
+    - [x] Manual do Administrador se houver
 
 ## Apresentação
-- [ ] Apresentação do Projeto
-    - [ ] Apresentação do Projeto Web
-    - [ ] Apresentação do Projeto Mobile
-    - [ ] Documento do Projeto
+- [x] Apresentação do Projeto
+    - [x] Apresentação do Projeto Web
+    - [x] Apresentação do Projeto Mobile
+    - [x] Documento do Projeto
 
 ## Atividade - Pré-Projeto
 - Eleja o Scrum Master, Product Owner e equipe de desenvolvimento e aplicaremos a metodologia SCRUM para acompanhamento do projeto.

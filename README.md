@@ -55,5 +55,5 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 ## Faculdades SENAI
 - Faculdade de Tecnologia SENAI Anchieta
 - Faculdade de Tecnologia SENAI Roberto Mange
-- [FACULDADE SENAI - CAMPUS ESCOLA SENAI PAULO ANTONIO SKAF](https://sp.senai.br/cursos/graduacao/0?unidade=134)
+- [Faculdade SENAI - Campus Escola SENAI Paulo Antonio Skaf](https://sp.senai.br/cursos/graduacao/0?unidade=134)
 
