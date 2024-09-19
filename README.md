@@ -57,12 +57,3 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 - Faculdade de Tecnologia SENAI Roberto Mange
 - [FACULDADE SENAI - CAMPUS ESCOLA SENAI PAULO ANTONIO SKAF](https://sp.senai.br/cursos/graduacao/0?unidade=134)
 
-## [Pesquisa MESEP](https://institutoconsultingdobrasil.questionpro.com/aluno)
-|ID|Aluno|
-|-|-|
-|ALSP82395ISE|Camila|
-|ALSP05134OXN|Carla|
-|ALSP61097LVK|Leticia|
-|ALSP42657TNE|Vinicius|
-|ALSP08961XOJ|Otavio Bueno|
-|ALSP06845IAD|Bruno|
