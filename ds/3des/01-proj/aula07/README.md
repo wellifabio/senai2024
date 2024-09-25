@@ -34,7 +34,7 @@ Você deverá desenvolver o diagrama de caso de uso representando os atores, cas
 Você deverá desenvolver o diagrama entidade e relacionamento (DER) contendo as tabelas, relacionamentos, campos, chaves primárias e estrangeiras e os tipos de dados de acordo com o SGBD (Sistema de Gerenciamento de Banco de Dados) utilizado, para atender ao desafio proposto. O DER deve ser entregue em formato de imagem (.png, .jpeg) na pasta **./docs**.
 
 ### 3. Script de criação e população do banco de dados
-Você deverá desenvolver o script de criação do banco de dados contendo a criação do banco de dados **“saep_db”** e das tabelas de acordo com o diagrama entidade e relacionamento desenvolvido na entrega 2. No script deverão existir pelo menos **três registros** para todas as tabelas criadas, respeitando os tipos de dados, chaves primárias e estrangeiras.
+Você deverá desenvolver o script de criação do banco de dados contendo a criação do banco de dados **“turmas_db”** e das tabelas de acordo com o diagrama entidade e relacionamento desenvolvido na entrega 2. No script deverão existir pelo menos **três registros** para todas as tabelas criadas, respeitando os tipos de dados, chaves primárias e estrangeiras.
 O script do banco de dados deverá ser entregue no formato .sql e salvo na pasta **./docs**.
 
 ### 4. Tela de autenticação de usuários (login)
