@@ -91,6 +91,7 @@ Você deverá desenvolver uma lista de requisitos de infraestrutura para a insta
 - Qual servidor de aplicação e versão ou sistema operacional é indicado para a execução do sistema.
 - Quais a linguagem e versão são utilizadas no sistema desenvolvido.
 - A lista de requisitos deverá ser escrita no arquivo README.md do projeto, utilizando a lnguagem Markdown.
+- Tutorial de como testar o aplicativo
 
 ## Entregas:
 Você deverá efetuar as entregas nos seguinte formato:
