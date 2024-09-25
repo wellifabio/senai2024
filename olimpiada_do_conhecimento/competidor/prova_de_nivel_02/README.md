@@ -191,10 +191,6 @@ Desenvolvimento da API com arquivos JSON anexos **./docs**.
 ]
 ```
 
-### 3. Dados JSON Server
-Você deverá desenvolver o script de criação do banco de dados contendo a criação do banco de dados **“turmas_db”** e das tabelas de acordo com o diagrama entidade e relacionamento desenvolvido na entrega 2. No script deverão existir pelo menos **três registros** para todas as tabelas criadas, respeitando os tipos de dados, chaves primárias e estrangeiras.
-O script do banco de dados deverá ser entregue no formato .sql e salvo na pasta **./docs**.
-
 ### 4. Tela de autenticação de usuários (login)
 Você deverá desenvolver uma tela de autenticação de usuários contendo um campo para informar o e-mail, um campo para informar a senha e um botão “entrar”. Essa deverá ser a tela principal que o usuário verá ao acessar o sistema.<br>O botão “entrar” deverá dar acesso a “tela principal do professor” caso o e-mail e senha informados sejam autenticados no banco de dados, criando então uma sessão. Caso o e-mail e senha não sejam autenticados, o usuário deverá ser redirecionado novamente à tela de autenticação. A imagem a seguir demonstra um exemplo do que deve ser desenvolvido nessa tela. O design do layout é de sua escolha, porém, deverá contemplar os elementos solicitados.
 - ![Wireframe da tela de autenticação](./wireframes/wireframe01.png)
