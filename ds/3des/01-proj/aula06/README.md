@@ -134,7 +134,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 ## Critérios de Avaliação
 |Criticidade|Capacidades|Critérios|
 |-|-|-|
-|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a sequência das atividades para desenvolvimento dos componentes, de acordo com os requisitos do sistema|O cronograma foi cumprido conforme planejado|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a sequência das atividades para desenvolvimento dos componentes, de acordo com os requisitos do sistema|O cronograma foi cumprido segundo o planejamento exceto prazos, e ao menos os requisitos críticos|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a infraestrutura física a ser utilizada no desenvolvimento dos componentes|Escolheu e desenvolveu nas linguagens de programação ou frameworks estudados|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Projetar os componentes do sistema considerando as plataformas computacionais|A solução proposta foi desenvolvida nas plataformas escolhidas|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir os recursos humanos e materiais para o desenvolvimento dos componentes|Criou o Cronograma - Gráfico Gant listando as tarefas e os integrantes do grupo|
