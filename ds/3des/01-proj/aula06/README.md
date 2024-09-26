@@ -147,5 +147,5 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstra atenção a detalhes|A documentação, protótipo e diagramas representam a solução prática apresentada|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Manter relacionamento interpessoal|Trabalhou em equipe e respeitou os prazos|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades|O documento é claro (Resumo e Conclusão da entrega), tirou dúvidas de colegas de outras turmas|
-|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar visão sistêmica|Compreendeu onde a solução se aplica no mundo dos negócios|
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar visão sistêmica|Compreendeu onde a solução se aplica no mundo dos negócios, cumpriu os prazos conforme cronograma|
 
