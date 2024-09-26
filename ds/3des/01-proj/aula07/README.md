@@ -101,3 +101,19 @@ Você deverá efetuar as entregas nos seguinte formato:
     - Pasta **./front** com os arquivos das entregas 4, 5, 6, 7, 8, 9, 10, 11 e 12.
     - Arquivo README.md com a lista de requisitos de infraestrutura (entrega 13).
 - **[Formulário para colar o link do repositório](https://forms.gle/hV3nXEJgufm8kQ1b7)**
+
+|Nº|Nome da entrega|Pontos|Pontos obtidos|
+|-|-|-|-|
+|1|Diagrama de caso de uso|5||
+|2|Diagrama entidade relacionamento (DER)|10||
+|3|Script de criação e população do banco de dados|10||
+|4|Tela de autenticação de usuários (login)|5||
+|5|Tela principal do professor|15||
+|6|Cadastro de turma|5||
+|7|Listar turmas do professor|5||
+|8|Exclusão de turma|10||
+|9|Tela de atividades da turma|10||
+|10|Listar atividades da turma|5||
+|11|Cadastro de atividade para a turma|10||
+|12|Sair do sistema (logout)|5||
+|13|Lista de requisitos de infraestrutura|5||
