@@ -1,4 +1,4 @@
-Aula Meet: https://meet.google.com/ngz-kfaw-cor
+Aula Meet: https://meet.google.com/paw-bfwn-zhu
 <div align = center>
   <img src = "https://github.com/user-attachments/assets/7ac58188-a626-4b09-9af2-a989c2790169">
   
