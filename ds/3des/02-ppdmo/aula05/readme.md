@@ -1,6 +1,8 @@
-Aula Meet: https://meet.google.com/uwu-epuj-uzt
+Aula Meet: https://meet.google.com/ngz-kfaw-cor
 <div align = center>
-  <img src = "https://github.com/user-attachments/assets/2474ae50-4076-4907-ac2a-c77ef2e59a86">
+  <img src = "https://github.com/user-attachments/assets/7ac58188-a626-4b09-9af2-a989c2790169">
+  
+
 </div>  
 
 
