@@ -5,7 +5,7 @@
 **Objetivo:** Verificar se o sistema permite adicionar um compromisso corretamente.
 
 ### Passos:
-- [ ] Acesse a aplicação.
+- [x] Acesse a aplicação.
 - [ ] Preencha o campo "Título do Compromisso" com um título válido.
 - [ ] Preencha o campo "Data/Hora" com uma data e hora válidas.
 - [ ] Clique no botão "Adicionar Compromisso".
