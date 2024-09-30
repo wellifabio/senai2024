@@ -51,3 +51,9 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 |https://ideogram.ai/|Gerador de imagens|
 |https://www.blackbox.ai/|Especialista em códigos, programação|
 |https://openai.com/chatgpt/|Famoso chat GPT, ia generativa geral|
+
+## Faculdades SENAI
+- Faculdade de Tecnologia SENAI Anchieta
+- Faculdade de Tecnologia SENAI Roberto Mange
+- [Faculdade SENAI - Campus Escola SENAI Paulo Antonio Skaf](https://sp.senai.br/cursos/graduacao/0?unidade=134)
+
