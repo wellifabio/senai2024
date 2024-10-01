@@ -57,3 +57,4 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 - Faculdade de Tecnologia SENAI Roberto Mange
 - [Faculdade SENAI - Campus Escola SENAI Paulo Antonio Skaf](https://sp.senai.br/cursos/graduacao/0?unidade=134)
 
+## [GP de Inovação SENAI 2024](https://gp2024.senai.br/)
