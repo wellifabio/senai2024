@@ -58,3 +58,4 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 - [Faculdade SENAI - Campus Escola SENAI Paulo Antonio Skaf](https://sp.senai.br/cursos/graduacao/0?unidade=134)
 
 ## [GP de Inovação SENAI 2024](https://gp2024.senai.br/)
+Segue o link para o GP de Inovação SENAI 2024, onde vocês poderão se inscrever e participar de um dos maiores eventos de inovação do SENAI. Até dia 23 de outubro de 2024. Grupos de 2 a 5 integrantes. O evento ocorrerá nos dias 04, 05, 06, 07 e 08 de novembro (Uma semana).
