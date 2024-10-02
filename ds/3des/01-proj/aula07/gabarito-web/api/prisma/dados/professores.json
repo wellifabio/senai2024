@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Reenye Lima",
+        "email": "reenye@gmail.com",
+        "senha": "123456"
+    },
+    {
+        "id": 2,
+        "nome": "Lucas Paiva",
+        "email": "paiva@gmail.com",
+        "senha": "123456"
+    },
+    {
+        "id": 3,
+        "nome": "Matheus Pignata",
+        "email": "pignata@gmail.com",
+        "senha": "123456"
+    }
+]

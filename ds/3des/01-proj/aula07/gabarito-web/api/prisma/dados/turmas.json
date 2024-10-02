@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "Desenvolvimento de Sistemas 2DES",
+        "professorId": 1
+    },
+    {
+        "id": 2,
+        "nome": "Desenvolvimento de Sistemas 3DES",
+        "professorId": 1
+    },
+    {
+        "id": 3,
+        "nome": "Eletrônica 3EA",
+        "professorId": 1
+    }
+]

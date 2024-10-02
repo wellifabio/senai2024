@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "descricao": "Desenvolver um sistema de controle de estoque",
+        "turmaId": 1
+    },
+    {
+        "id": 2,
+        "descricao": "Desenvolver uma Análise de Risco SWOT",
+        "turmaId": 1
+    },
+    {
+        "id": 3,
+        "descricao": "Criar um Cronograma de Atividades",
+        "turmaId": 2
+    }
+]

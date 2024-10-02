@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Turmas e Atividades</title>
+</head>
+
+<body>
+    <header>
+        <h1>Turmas e Atividades</h1>
+    </header>
+    <main>
+        <div class="faixa">
+            <h3 id="professor"></h3>
+            <button onclick="logout()">Sair</button>
+        </div>
+        <div class="conteudo">
+            <button onclick="novo.classList.remove('oculto')">Cadastrar turma</button>
+            <h2>Turmas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Nome</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="turmas">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h4>By wellfabio</h4>
+    </footer>
+    <div id="novo" class="modal oculto">
+        <div class="janela">
+            <form id="create">
+                <h2>Cadastrar turma</h2>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <button type="submit">Cadastrar</button>
+                <button type="reset" onclick="novo.classList.add('oculto')">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="home.js"></script>
+
+</html>
