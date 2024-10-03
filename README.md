@@ -21,11 +21,11 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 ![1 Semestre](./assets/calendario01.png)
 ![2 Semestre](./assets/calendario02.png)
 
-## Competências transversais - Cursos autoinstitucionais
+## Competências Transversais - Cursos Autoinstitucionais
 - Acessar o portal EAD https://ead.sp.senai.br
-- Verificar se está matriculado em algum curso e completar todos os que estiver matriculado
-- Portal de cursos EAD gratiutos do SENAI: https://jaguariuna.sp.senai.br/cursos/13/899/formacao-inicial-e-continuada?Parent=898 para se matricular
 - Tutorial de como acessar o Portal EAD a primeira vez https://ead.sp.senai.br/tutorial/comoacessar/
+- Verificar se está matriculado em algum curso e completar todos os que estiver matriculado
+- Para fezer mais cursos acesse o portal de cursos do **[SENAI JAGUARIÚNA](https://sp.senai.br/cursos?unidade=513)** para se matricular-se
 
 ## Banco de talentos
 - Se você é:
