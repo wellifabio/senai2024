@@ -87,4 +87,8 @@ O avaliador entregará o arquivo da planta que você deve reproduzir, e os arqui
 
 ## [Avaliação](./avaliacao.md)
 
+## Questionários para fixação da teoria sobre Desenvolvimento de Sistemas
 
+|Assunto|Questões|Link|
+|-|:-:|-|
+|Testes, Lógica, UML, BD e Excel|20|https://forms.office.com/r/R9T5K9TcZr|
