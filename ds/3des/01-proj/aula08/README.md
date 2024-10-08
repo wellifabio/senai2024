@@ -64,7 +64,7 @@ Atente que essa imagem é apenas um exemplo, sinta-se livre para criar seu próp
 - 3.1 Quando o usuário clicar nesse botão, então a venda do automóvel deve ser efetuada e as informações de estoque do automóvel deve ser atualizada no banco de dados decrementando em 1 o valor previamente existente.
 
 ## Formato de entrega
-O projeto deve ser entregue em um repositorio público git, com a seguinte estrutura de pastas:
+O projeto deve ser entregue em um repositorio público git com o nome que preferir ex: "fabricaautos, automoveis...", com a seguinte estrutura de pastas:
 - ./docs: contendo os arquivos de documentação solicitados.
 - ./api: contendo o código fonte do backend do projeto.
 - ./web: contendo o código fonte do frontend do projeto.
