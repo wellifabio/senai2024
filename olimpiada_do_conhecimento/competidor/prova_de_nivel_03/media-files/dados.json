@@ -1,0 +1,630 @@
+{
+	"concessionarias": [
+		{
+			"id": 1,
+			"concessionaria": "Atena concessionaria"
+		},
+		{
+			"id": 2,
+			"concessionaria": "Demitir concessionaria"
+		},
+		{
+			"id": 3,
+			"concessionaria": "Hera concessionaria"
+		},
+		{
+			"id": 4,
+			"concessionaria": "Estia concessionaria"
+		},
+		{
+			"id": 5,
+			"concessionaria": "Persefone concessionaria"
+		}
+	],
+	"clientes": [
+		{
+			"Id": 1,
+			"Nome": "Adalberto Martins da Silva"
+		},
+		{
+			"Id": 2,
+			"Nome": "Adan Roger Guimar�es Dias"
+		},
+		{
+			"Id": 3,
+			"Nome": "Adão Walter Gomes de Sousa"
+		},
+		{
+			"Id": 4,
+			"Nome": "Adelson Fernandes Sena"
+		},
+		{
+			"Id": 5,
+			"Nome": "Ademir Augusto Simões"
+		},
+		{
+			"Id": 6,
+			"Nome": "Ademir Borges dos Santos"
+		},
+		{
+			"Id": 7,
+			"Nome": "Adilio José da Silva Santos"
+		},
+		{
+			"Id": 8,
+			"Nome": "Adriana Ferreira de Lima Teodoro"
+		},
+		{
+			"Id": 9,
+			"Nome": "Adriano Bezerra Apolinario"
+		},
+		{
+			"Id": 10,
+			"Nome": "Adriano Heleno Basso"
+		},
+		{
+			"Id": 11,
+			"Nome": "Adriano Lourenço do Rego"
+		},
+		{
+			"Id": 12,
+			"Nome": "Adriano Matos Santos"
+		},
+		{
+			"Id": 13,
+			"Nome": "Adriano Pires Caetano"
+		},
+		{
+			"Id": 14,
+			"Nome": "Adriano Prada de Campos"
+		},
+		{
+			"Id": 15,
+			"Nome": "Adriel Alberto dos Santos"
+		},
+		{
+			"Id": 16,
+			"Nome": "Agner Vinicius Marques de Camargo"
+		},
+		{
+			"Id": 17,
+			"Nome": "Agrinaldo Ferreira Soares"
+		},
+		{
+			"Id": 18,
+			"Nome": "Alan Jhonnes Banlian da Silva e Sá"
+		},
+		{
+			"Id": 19,
+			"Nome": "Alberto Ramos Rodrigues"
+		},
+		{
+			"Id": 20,
+			"Nome": "Alcides José Ramos"
+		},
+		{
+			"Id": 21,
+			"Nome": "Aldemir SantAna dos Santos"
+		},
+		{
+			"Id": 22,
+			"Nome": "Aleksandro Marcelo da Silva"
+		},
+		{
+			"Id": 23,
+			"Nome": "Alessandro Martins Silva"
+		},
+		{
+			"Id": 24,
+			"Nome": "Alessandro Sanches"
+		},
+		{
+			"Id": 25,
+			"Nome": "Alex dos Reis de Jesus"
+		},
+		{
+			"Id": 26,
+			"Nome": "Alex Ferreira Soares"
+		},
+		{
+			"Id": 27,
+			"Nome": "Alex Sandro Oliveira"
+		},
+		{
+			"Id": 28,
+			"Nome": "Alex Souza Farias"
+		},
+		{
+			"Id": 29,
+			"Nome": "Alexandra de Lima Silva"
+		},
+		{
+			"Id": 30,
+			"Nome": "Alexandre Clemente da Costa"
+		}
+	],
+	"automoveis": [
+		{
+			"id": 1,
+			"modelo": "Fiat Strada",
+			"preco": 43115.00
+		},
+		{
+			"id": 2,
+			"modelo": "Fiat Argo",
+			"preco": 47660.00
+		},
+		{
+			"id": 3,
+			"modelo": "Fiat Mobi",
+			"preco": 32102.00
+		},
+		{
+			"id": 4,
+			"modelo": "Jeep Compass",
+			"preco": 34950.00
+		},
+		{
+			"id": 5,
+			"modelo": "Hyundai HB20",
+			"preco": 49302.00
+		},
+		{
+			"id": 6,
+			"modelo": "Jeep Renegade",
+			"preco": 36661.00
+		},
+		{
+			"id": 7,
+			"modelo": "Volkswagen T-Cross",
+			"preco": 38182.00
+		},
+		{
+			"id": 8,
+			"modelo": "Fiat Toro",
+			"preco": 57733.00
+		},
+		{
+			"id": 9,
+			"modelo": "Hyundai Creta",
+			"preco": 55998.00
+		},
+		{
+			"id": 10,
+			"modelo": "Chevrolet S10",
+			"preco": 51035.00
+		},
+		{
+			"id": 11,
+			"modelo": "Toyota Corolla Cross",
+			"preco": 34544.00
+		},
+		{
+			"id": 12,
+			"modelo": "Toyota Hilux",
+			"preco": 53937.00
+		},
+		{
+			"id": 13,
+			"modelo": "Toyota Corolla",
+			"preco": 55022.00
+		},
+		{
+			"id": 14,
+			"modelo": "Volkswagen Gol",
+			"preco": 48253.00
+		},
+		{
+			"id": 15,
+			"modelo": "Honda HR-V",
+			"preco": 53438.00
+		},
+		{
+			"id": 16,
+			"modelo": "Renault Kwid",
+			"preco": 31810.00
+		},
+		{
+			"id": 17,
+			"modelo": "Volkswagen Nivus",
+			"preco": 35104.00
+		},
+		{
+			"id": 18,
+			"modelo": "Hyundai HB20S",
+			"preco": 31855.00
+		},
+		{
+			"id": 19,
+			"modelo": "Ford Ranger",
+			"preco": 48927.00
+		},
+		{
+			"id": 20,
+			"modelo": "Fiat Uno",
+			"preco": 38111.00
+		},
+		{
+			"id": 21,
+			"modelo": "Fiat Cronos",
+			"preco": 36515.00
+		},
+		{
+			"id": 22,
+			"modelo": "Citroen C4 Cactus",
+			"preco": 53654.00
+		},
+		{
+			"id": 23,
+			"modelo": "Toyota Yaris Hatchback",
+			"preco": 55869.00
+		},
+		{
+			"id": 24,
+			"modelo": "Volkswagen Voyage",
+			"preco": 30954.00
+		},
+		{
+			"id": 25,
+			"modelo": "Honda Civic",
+			"preco": 30871.00
+		},
+		{
+			"id": 26,
+			"modelo": "Volkswagen Saveiro",
+			"preco": 32306.00
+		},
+		{
+			"id": 27,
+			"modelo": "Caoa Chery Tiggo 5x",
+			"preco": 30069.00
+		},
+		{
+			"id": 28,
+			"modelo": "Volkswagen Virtus",
+			"preco": 40689.00
+		},
+		{
+			"id": 29,
+			"modelo": "Fiat Grand Siena",
+			"preco": 33469.00
+		},
+		{
+			"id": 30,
+			"modelo": "Caoa Chery Tiggo 8",
+			"preco": 48481.00
+		},
+		{
+			"id": 31,
+			"modelo": "Chevrolet Tracker",
+			"preco": 30648.00
+		},
+		{
+			"id": 32,
+			"modelo": "Peugeot 208",
+			"preco": 46934.00
+		},
+		{
+			"id": 33,
+			"modelo": "Toyota SW4",
+			"preco": 54252.00
+		},
+		{
+			"id": 34,
+			"modelo": "Nissan Frontier",
+			"preco": 32596.00
+		},
+		{
+			"id": 35,
+			"modelo": "Honda WR-V",
+			"preco": 35139.00
+		},
+		{
+			"id": 36,
+			"modelo": "Volkswagen Taos",
+			"preco": 47546.00
+		},
+		{
+			"id": 37,
+			"modelo": "Mitsubishi L200",
+			"preco": 57049.00
+		},
+		{
+			"id": 38,
+			"modelo": "Renault Oroch",
+			"preco": 48756.00
+		},
+		{
+			"id": 39,
+			"modelo": "Toyota Yaris Sedan",
+			"preco": 43077.00
+		},
+		{
+			"id": 40,
+			"modelo": "Renault Duster",
+			"preco": 52641.00
+		}
+	],
+	"alocacao": [
+		{
+			"id": 1,
+			"area": 1,
+			"automovel": 1,
+			"concessionaria": 1,
+			"quantidade": 8
+		},
+		{
+			"id": 2,
+			"area": 2,
+			"automovel": 2,
+			"concessionaria": 2,
+			"quantidade": 1
+		},
+		{
+			"id": 3,
+			"area": 4,
+			"automovel": 3,
+			"concessionaria": 3,
+			"quantidade": 4
+		},
+		{
+			"id": 4,
+			"area": 7,
+			"automovel": 4,
+			"concessionaria": 4,
+			"quantidade": 6
+		},
+		{
+			"id": 5,
+			"area": 8,
+			"automovel": 5,
+			"concessionaria": 5,
+			"quantidade": 4
+		},
+		{
+			"id": 6,
+			"area": 9,
+			"automovel": 6,
+			"concessionaria": 1,
+			"quantidade": 4
+		},
+		{
+			"id": 7,
+			"area": 10,
+			"automovel": 7,
+			"concessionaria": 2,
+			"quantidade": 1
+		},
+		{
+			"id": 8,
+			"area": 1,
+			"automovel": 8,
+			"concessionaria": 2,
+			"quantidade": 7
+		},
+		{
+			"id": 9,
+			"area": 2,
+			"automovel": 9,
+			"concessionaria": 3,
+			"quantidade": 2
+		},
+		{
+			"id": 10,
+			"area": 4,
+			"automovel": 10,
+			"concessionaria": 4,
+			"quantidade": 6
+		},
+		{
+			"id": 11,
+			"area": 7,
+			"automovel": 11,
+			"concessionaria": 5,
+			"quantidade": 3
+		},
+		{
+			"id": 12,
+			"area": 8,
+			"automovel": 12,
+			"concessionaria": 1,
+			"quantidade": 9
+		},
+		{
+			"id": 13,
+			"area": 9,
+			"automovel": 13,
+			"concessionaria": 2,
+			"quantidade": 9
+		},
+		{
+			"id": 14,
+			"area": 10,
+			"automovel": 14,
+			"concessionaria": 3,
+			"quantidade": 6
+		},
+		{
+			"id": 15,
+			"area": 1,
+			"automovel": 15,
+			"concessionaria": 3,
+			"quantidade": 4
+		},
+		{
+			"id": 16,
+			"area": 2,
+			"automovel": 16,
+			"concessionaria": 4,
+			"quantidade": 1
+		},
+		{
+			"id": 17,
+			"area": 4,
+			"automovel": 17,
+			"concessionaria": 5,
+			"quantidade": 8
+		},
+		{
+			"id": 18,
+			"area": 7,
+			"automovel": 18,
+			"concessionaria": 1,
+			"quantidade": 4
+		},
+		{
+			"id": 19,
+			"area": 8,
+			"automovel": 19,
+			"concessionaria": 2,
+			"quantidade": 10
+		},
+		{
+			"id": 20,
+			"area": 9,
+			"automovel": 20,
+			"concessionaria": 3,
+			"quantidade": 10
+		},
+		{
+			"id": 21,
+			"area": 10,
+			"automovel": 21,
+			"concessionaria": 4,
+			"quantidade": 7
+		},
+		{
+			"id": 22,
+			"area": 1,
+			"automovel": 22,
+			"concessionaria": 4,
+			"quantidade": 3
+		},
+		{
+			"id": 23,
+			"area": 2,
+			"automovel": 23,
+			"concessionaria": 5,
+			"quantidade": 5
+		},
+		{
+			"id": 24,
+			"area": 4,
+			"automovel": 24,
+			"concessionaria": 1,
+			"quantidade": 4
+		},
+		{
+			"id": 25,
+			"area": 7,
+			"automovel": 25,
+			"concessionaria": 2,
+			"quantidade": 3
+		},
+		{
+			"id": 26,
+			"area": 8,
+			"automovel": 26,
+			"concessionaria": 3,
+			"quantidade": 3
+		},
+		{
+			"id": 27,
+			"area": 9,
+			"automovel": 27,
+			"concessionaria": 4,
+			"quantidade": 10
+		},
+		{
+			"id": 28,
+			"area": 10,
+			"automovel": 28,
+			"concessionaria": 5,
+			"quantidade": 4
+		},
+		{
+			"id": 29,
+			"area": 1,
+			"automovel": 29,
+			"concessionaria": 1,
+			"quantidade": 2
+		},
+		{
+			"id": 0,
+			"area": 2,
+			"automovel": 30,
+			"concessionaria": 2,
+			"quantidade": 3
+		},
+		{
+			"id": 31,
+			"area": 4,
+			"automovel": 31,
+			"concessionaria": 3,
+			"quantidade": 4
+		},
+		{
+			"id": 32,
+			"area": 7,
+			"automovel": 32,
+			"concessionaria": 4,
+			"quantidade": 2
+		},
+		{
+			"id": 33,
+			"area": 8,
+			"automovel": 33,
+			"concessionaria": 5,
+			"quantidade": 3
+		},
+		{
+			"id": 34,
+			"area": 9,
+			"automovel": 34,
+			"concessionaria": 1,
+			"quantidade": 4
+		},
+		{
+			"id": 35,
+			"area": 10,
+			"automovel": 35,
+			"concessionaria": 2,
+			"quantidade": 3
+		},
+		{
+			"id": 36,
+			"area": 1,
+			"automovel": 36,
+			"concessionaria": 3,
+			"quantidade": 2
+		},
+		{
+			"id": 37,
+			"area": 2,
+			"automovel": 37,
+			"concessionaria": 4,
+			"quantidade": 3
+		},
+		{
+			"id": 38,
+			"area": 4,
+			"automovel": 38,
+			"concessionaria": 5,
+			"quantidade": 3
+		},
+		{
+			"id": 39,
+			"area": 7,
+			"automovel": 39,
+			"concessionaria": 1,
+			"quantidade": 2
+		},
+		{
+			"id": 40,
+			"area": 8,
+			"automovel": 40,
+			"concessionaria": 2,
+			"quantidade": 1
+		}
+	]
+}
