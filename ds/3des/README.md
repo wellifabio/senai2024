@@ -72,3 +72,6 @@
 
 ## SAPES
 - Link da pesquisa para alunos concluíntes https://sapes.senai.br/questionario/
+
+## Curiosidade - Remover fundo de GIF
+- https://www.unscreen.com/?utm_campaign=product_update&utm_source=rbg_blog&utm_medium=cta_button
