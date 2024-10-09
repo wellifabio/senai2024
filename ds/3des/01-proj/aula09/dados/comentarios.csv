@@ -1,0 +1,12 @@
+﻿id;comentario;equipamento;perfil;data
+1;Deverá fazer o download do aplicativo da Razer para alterar a cor do mouse.;2;4;2020-09-07 18:00:00.000
+2;Problema de aquecimento no processador após 1 ano de uso.;2;2;2020-05-04 10:30:00.000
+3;Problema de aquecimento no processador após 3 anos de uso.;3;4;2021-03-04 15:30:00.000
+4;Realizada a manutenção preventiva;3;1;2021-06-05 09:30:00.000
+5;Realizada a manutenção corretiva;4;1;2021-07-10 08:00:00.000
+6;Realizada a manutenção corretiva;5;2;2021-07-13 09:00:00.000
+7;Realizada a manutenção corretiva;3;2;2021-08-10 10:00:00.000
+8;Realizada a manutenção corretiva;4;3;2021-09-18 17:00:00.000
+9;Realizada a manutenção corretiva;5;3;2021-10-11 11:00:00.000
+10;Realizada a manutenção corretiva;3;4;2021-11-21 12:00:00.000
+11;Realizada a manutenção corretiva;5;4;2021-12-22 13:00:00.000
