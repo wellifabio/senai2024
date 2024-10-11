@@ -4,9 +4,9 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 export default function HomeScreen({ navigation }) {
     return (
         <View style={style.container}>
-                <Text style = {style.text}>Contador de Passos</Text>
+                <Text style = {style.title}>Contador de Passos</Text>
                 <Button title = "Iniciar contador" onPress = {() => navigation.navigate('Contador')} />
-                <Button title = "Iniciar Acelerômetro" onPress = {() => navigation.navigate('Acelerometro')} />
+                {/* <Button title = "Iniciar Acelerômetro" onPress = {() => navigation.navigate('Acelerometro')} /> */}
         </View>
     );
 }
