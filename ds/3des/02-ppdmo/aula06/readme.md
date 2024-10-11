@@ -1,7 +1,7 @@
-Aula Meet: https://meet.google.com/paw-bfwn-zhu
+Aula Meet: https://meet.google.com/qrn-gfcj-gua
 <div align = center>
-  <img src = "https://github.com/user-attachments/assets/7ac58188-a626-4b09-9af2-a989c2790169">
-  
+  <img src = "https://github.com/user-attachments/assets/f7268869-8d81-407d-a650-3363b1eff0d5">
+ 
 
 </div>  
 
