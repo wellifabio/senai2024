@@ -1,4 +1,4 @@
-Aula Meet: https://meet.google.com/ykr-pfxy-sjk
+Aula Meet: https://meet.google.com/ugk-uuxc-qcu
 <div align = center>
   <img src = "https://github.com/user-attachments/assets/f7268869-8d81-407d-a650-3363b1eff0d5">
  
