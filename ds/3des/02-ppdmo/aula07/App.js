@@ -83,3 +83,50 @@ Animated.timing(backgroundColor, {
   useNativeDriver: false,
 }).start();
 };
+
+const playRandomMusic = async () => {
+  const musicTracks = [
+    require('./assets/musica1.mp3'),
+    require('./assets/musica2.mp3'),
+    require('./assets/musica3.mp3'),
+  ];
+  const randomTrack = musicTracks[Math.floor(Math.random() * musicTracks.length)];
+
+  if (sound) {
+    await sound.stopAsync();
+    await sound.unloadAsync();
+  }
+
+  const {sound: newSound} = await Audio.Sound.createAsync(randomTrack);
+  setSound(newSound);
+  await sound.playAsync();
+};
+useEffect(() => {
+  (async ()  => {
+    let {status} = await Location.requestForegroundPermissionsAsync();
+    if (status !== 'granted') {
+      setErrorMsg('Permissão para acessar a localização negada');
+      return;
+    }
+
+    let location = await Location.getCurrentPositionAsync({
+      accuracy: Location.Accuracy.BestForNavigation,
+    });
+    setLocation(location.coords);
+    generateRandomTreasure(location.coords);
+
+    const locationWatcher = await Location.watchPositionAsync(
+      {
+        accuracy: Location.Accuracy.BestForNavigation,
+        timeInterval: 1000,
+        distanceInterval: 1,
+      },
+      (newLocation) => {
+        setLocation(newLocation.coords);
+      }
+    };
+
+    setWatcher(locationWatcher);
+  })();
+
+return
