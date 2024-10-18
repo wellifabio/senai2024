@@ -1,0 +1,66 @@
+import React, {useState, useEffect} from 'react';
+import { Stylesheet, Text, View, TouchableOpacity, Animated, ImageBackground, Image } from 'react-native';
+import * as Location from 'expo-location';
+import { Magnetometer } from 'expo-sensors';
+import { Audio } from 'expo-av';
+
+export default function App() {
+  const {location, setLocation} = useState(null);
+  const {errorMsg, setErrorMsg} = useState(null);
+  const {treasure, setTreasure} = useState({latitude: 0, longitude: 0});
+  const {steps, setSteps} = useState(null);
+  const {hinr, setHinr} = useState(null);
+  const {backgroundColor} = useState(new Animated.Value(0));
+  const {watcher, setWatcher} = useState(null);
+  const {magnotometerData, setMagnetometerData} = useState([]);
+  const {sound, setSound} = useState();
+
+  //Função para converter radianos em graus
+  const radtoDeg = (rad) => (rad * 180) / Math.PI;
+
+  const calculateDirection = (loc1, loc2) => {
+    const deltaLon = loc2.longitude - loc1.longitude;
+    const y = Math.sin(deltaLon) * Math.cos(loc2.latitude);
+    const x = 
+      Math.cos(loc1.latitude) * Math.sin(loc2.latitude) -
+      Math.sin(loc1.latitude) * Math.cos(loc2.latitude) * Math.cos(deltaLon);
+    const angle = Math.atan2(y, x);
+    return radtoDeg(angle);
+  };
+
+  const calculateDistance = (loc1, loc2) => {
+    const R = 6371e3;
+    const lat1 = loc1.latitude * (Math.PI / 180);
+    const lat2 = loc2.latitude * (Math.PI / 180);
+    const deltaLat = (loc2.latitude - loc1.latitude) * (Math.PI / 180);
+    const deltaLon = (loc2.longitude - loc1.longitude) * (Math.PI / 180);
+
+    const a = 
+      Math.sin(deltaLat / 2) * Math.sin(deltaLat / 2) +
+      Math.cos(lat1) * Math.cos(lat2) * Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
+
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+      const distanceInMeters = R * c;
+      const steps = distanceInMeters / 0.8;
+      return steps;
+  };
+
+  const generateRandomTreasure = (currentLocation) => {
+    const radius = 16;
+    const angle = Math.random() * 2 * Math.PI;
+    const offsetDistance = Math.random() * radius;
+
+    const deltaLatitude = (offsetDistance / 6371000) * (180 / Math.PI);
+    const deltaLongitude = (offsetDistance / 6371000) * (180 / Math.PI) / Math.cos(currentLocation.latitude * (Math.PI / 180));
+
+    const newTreasureLat = currenteLocation.latitude + deltaLatitude * Math.sin(angle);
+    const newTreasureLon = currenteLocation.longitude + deltaLongitude * Math.cos(angle);
+
+    setTreasure({latitude: newTreasureLat, longitude: newTreasureLon});
+
+  };
+
+const updateHint = (steps) => {
+  
+}
