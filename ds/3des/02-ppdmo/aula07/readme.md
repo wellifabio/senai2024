@@ -40,6 +40,7 @@ Todos os arquivos que vamos utilizar em aula estad disponiveis no repositório d
 ```bash
 
 Agora vamos codificar!
+```
 
 # Como vai ficar nosso aplicativo
 
