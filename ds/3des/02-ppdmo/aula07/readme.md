@@ -40,7 +40,10 @@ Todos os arquivos que vamos utilizar em aula estad disponiveis no repositório d
 ```bash
 
 Agora vamos codificar!
+```
 
+# Como vai ficar nosso aplicativo
 
+https://drive.google.com/file/d/16AqbMev5XLVmVqZ8cxt7DzSbvNESF9jZ/view?usp=sharing
 
 

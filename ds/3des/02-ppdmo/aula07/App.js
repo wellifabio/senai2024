@@ -62,5 +62,24 @@ export default function App() {
   };
 
 const updateHint = (steps) => {
-  
-}
+  if (steps < 5) {
+    SpeechSynthesisEvent('Tesouro encontrado! 🎉');
+    playRandomMusic();
+  } else if (steps <20) setHint ('Quente 🔥');
+  else if (steps < 50) setHint('Morno 🌡');
+  else setHint('Frio ❄️');
+};
+const animateBackground = (steps) => {
+  let colorValue;
+  if (steps < 5) colorValue = 1;
+  else if (steps < 20) colorValue = 0.8;
+  else if (steps < 50) colorValue = 0.5;
+  else colorValue = 0;
+};
+
+Animated.timing(backgroundColor, {
+  toValue: colorValue,
+  duration: 500,
+  useNativeDriver: false,
+}).start();
+};
