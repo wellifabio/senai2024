@@ -1,6 +1,9 @@
 Aula Meet: https://meet.google.com/ugk-uuxc-qcu
 <div align = center>
-  <img src = "https://github.com/user-attachments/assets/f7268869-8d81-407d-a650-3363b1eff0d5">
+  <img src = "https://github.com/user-attachments/assets/2ea2acc2-d636-4f0f-9b3e-dcb4f8b6e447">
+  <img src = "https://github.com/user-attachments/assets/bf7151ea-dfcc-42d9-b4fe-6ede2e5f4649">
+
+
  
 
 </div>  
