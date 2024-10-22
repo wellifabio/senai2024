@@ -40,5 +40,6 @@ Próximo Workshop 31-07 01 e 02 - 08
 |![Calendario](./calendario.png)|**31 a 02 de Agosto**, WorkShop e Simulado<br>**21 a 25 de Outubro**, WorkShop de alterações nas provas<br>**28 a 31 de Outubro**, Estadual|
 
 ## Links úteis
-- [Pequenos vídeos para auxiliar designs](https://www.pexels.com/videos/)
+- [Pequenos vídeos para auxiliar designs - Pexels](https://www.pexels.com/videos/)
 - [Firebase - Base de dados](https://firebase.google.com/)
+- [Lista de ícones 3D - Sketchfab](https://sketchfab.com/)
