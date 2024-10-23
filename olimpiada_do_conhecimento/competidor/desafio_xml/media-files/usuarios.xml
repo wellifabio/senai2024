@@ -1,0 +1,20 @@
+<usuarios>
+    <usuario>
+        <id>1</id>
+        <nome>Emanuel Rego de Barros</nome>
+        <email>emanual@gmail.com</email>
+        <senha>123456</senha>
+    </usuario>
+    <usuario>
+        <id>2</id>
+        <nome>Maria da Silva</nome>
+        <email>maria@gmail.com</email>
+        <senha>123456</senha>
+    </usuario>
+    <usuario>
+        <id>3</id>
+        <nome>João da Silva</nome>
+        <email>joao@gmail.com</email>
+        <senha>123456</senha>
+    </usuario>
+</usuarios>

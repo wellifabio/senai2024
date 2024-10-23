@@ -2,7 +2,7 @@
 ## Contextualização
 A escola precisa de um App que manipule todos os alunos contidos na lista a seguir que está no formato XML, o aplicativo deve ler os dados do arquivo, permitir cadastrar um novo usuário e exportar para um novo arquivo XML.
 
-- usuarios.xml
+- media-files/usuarios.xml
 ```xml
 <usuarios>
     <usuario>
@@ -25,7 +25,7 @@ A escola precisa de um App que manipule todos os alunos contidos na lista a segu
     </usuario>
 </usuarios>
 ```
-![Wireframe](./wireframe.png)
+![Wireframe](./media-files/wireframe.png)
 ## Componentes visuais
 - 1 Ícone representando usuário
 - 2 Lista de usuários
