@@ -43,3 +43,5 @@ Próximo Workshop 31-07 01 e 02 - 08
 - [Pequenos vídeos para auxiliar designs - Pexels](https://www.pexels.com/videos/)
 - [Firebase - Base de dados](https://firebase.google.com/)
 - [Lista de ícones 3D - Sketchfab](https://sketchfab.com/)
+- [COmpartilhar print SNAG.GY](https://snipboard.io/)
+- [COmpartilhar código Code Share](https://codeshare.io/)
