@@ -2,15 +2,13 @@
 ## Modalidade 08 - Desenvolvimento de Aplicativos Moveis
 - World Skills 2026
 - São Paulo Skills 2024 (Documentos - Necessário estar logado com e-mail corporativo)
-  - [Regulamento](./regulamento/Regulamento_SP Skills_2024_v1.pdf)
-
-  - [Descritivo técnico](./regulamento/#08_Descritivo Técnico_SP Skills_2024)
+  - [Regulamento Geral e Descritivo técnico](./regulamento/)
 
 ## Githubs
 - https://github.com/paulobrandaodev
 - https://github.com/Seletiva-Nacional-2023
 - https://github.com/World-Skills-Senai-134
-- [Exemplo de Provas](https://github.com/Joaoopeedro/Modulos_WorkShop/tree/main)
+- [Exemplo de Provas - João Pedro](https://github.com/Joaoopeedro/Modulos_WorkShop/tree/main)
 
 
 |Provas|Provas|Peso|
