@@ -1,10 +1,10 @@
-# Olimpíada do Conhecimento
+# Olimpíada do Conhecimento - World Skills 2026 - SpSkills 2024
 ## Modalidade 08 - Desenvolvimento de Aplicativos Moveis
 - World Skills 2026
-- São Paulo Skills 2024 (Documentos - Necessário estar logado com e-mail corporativo)
-  - [Regulamento Geral e Descritivo técnico](./regulamento/)
+- São Paulo Skills 2024
+  - [Regulamento Geral e Descritivo técnico](./00-regulamento/)
 
-## Githubs
+## Githubs - Avaliador Lider + Expert e Competidor Campeão Brasileiro
 - https://github.com/paulobrandaodev
 - https://github.com/Seletiva-Nacional-2023
 - https://github.com/World-Skills-Senai-134
@@ -24,14 +24,16 @@
 
 ## Ferramentas
 - Design, Figma
-- Testes automatizados, Maestro by mobile dev, Robotium, Apium
+- Flutter, Dart
+- Flutter, Testes
 - JSON Server
+- GOGS - Git Server
 - API Google Maps, Distancies, metrics
 
 ## Próximo Workshop
 Próximo Workshop 31-07 01 e 02 - 08
 
-## Calendário oficial
+## Calendário oficial 2024 - SP Skills
 
 |Calendário|Legenda|
 |-|-|
@@ -43,3 +45,6 @@ Próximo Workshop 31-07 01 e 02 - 08
 - [Lista de ícones 3D - Sketchfab](https://sketchfab.com/)
 - [COmpartilhar print SNAG.GY](https://snipboard.io/)
 - [COmpartilhar código Code Share](https://codeshare.io/)
+
+## Resulados
+- Nosso competidor ficou em 6º lugar de 12 competidores, mesmo com apenas 5 meses de treinamento.
