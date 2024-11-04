@@ -46,5 +46,5 @@ Próximo Workshop 31-07 01 e 02 - 08
 - [COmpartilhar print SNAG.GY](https://snipboard.io/)
 - [COmpartilhar código Code Share](https://codeshare.io/)
 
-## Resulados
+## Resultados
 - Nosso competidor ficou em 6º lugar de 12 competidores, mesmo com apenas 5 meses de treinamento.
