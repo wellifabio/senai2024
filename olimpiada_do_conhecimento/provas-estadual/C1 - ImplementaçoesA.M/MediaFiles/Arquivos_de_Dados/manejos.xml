@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Manejos>
+  <Manejo>
+    <ID>47281</ID>
+    <Tipo>Vacinação: B12</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>92634</ID>
+    <Tipo>Inseminação: IA</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>38502</ID>
+    <Tipo>Tosa: Padrão</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>10756</ID>
+    <Tipo>Monta: Natural</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>64982</ID>
+    <Tipo>Vacinação: Raiva</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>73901</ID>
+    <Tipo>Castração: Laparoscópica</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>85943</ID>
+    <Tipo>Alimentação: Suplemento Mineral</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>19482</ID>
+    <Tipo>Medicamento: Antibiótico</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>67394</ID>
+    <Tipo>Banho: Antipulgas</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>58372</ID>
+    <Tipo>Desparasitação: Interna</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>90583</ID>
+    <Tipo>Vacinação: Clostridiose</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>28490</ID>
+    <Tipo>Vermifugação: Ivermectina</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>49275</ID>
+    <Tipo>Exame de Sangue: Hemograma</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>67932</ID>
+    <Tipo>Ultrassom: Prenhez</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>93482</ID>
+    <Tipo>Vacinação: Leptospirose</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>12485</ID>
+    <Tipo>Inseminação: FIV</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>59482</ID>
+    <Tipo>Tosa: Completa</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>38294</ID>
+    <Tipo>Monta: Assistida</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>92057</ID>
+    <Tipo>Vacinação: Brucelose</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>74102</ID>
+    <Tipo>Castração: Convencional</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>56378</ID>
+    <Tipo>Alimentação: Ração Balanceada</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>48930</ID>
+    <Tipo>Medicamento: Antiparasitário</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>76483</ID>
+    <Tipo>Banho: Hidratante</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>39285</ID>
+    <Tipo>Desparasitação: Externa</Tipo>
+  </Manejo>
+  <Manejo>
+    <ID>84792</ID>
+    <Tipo>Vacinação: Febre Aftosa</Tipo>
+  </Manejo>
+</Manejos>

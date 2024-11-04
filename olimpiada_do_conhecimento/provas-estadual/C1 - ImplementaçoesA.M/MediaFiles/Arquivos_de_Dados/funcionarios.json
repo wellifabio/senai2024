@@ -1,0 +1,166 @@
+[
+  {
+    "ID": "16284",
+    "nome": "Marcos Silva",
+    "latitude": -23.625035,
+    "longitude": -46.547743 
+  },
+  {
+    "ID": "94712",
+    "nome": "Pedro Souza",
+    "latitude": -23.618463,
+    "longitude": -46.552180 
+  },
+  {
+    "ID": "53901",
+    "nome": "José Santos",
+    "latitude": -23.632114,
+    "longitude": -46.554939 
+  },
+  {
+    "ID": "28463",
+    "nome": "Ricardo Oliveira",
+    "latitude": -23.629875,
+    "longitude": -46.540215 
+  },
+  {
+    "ID": "71590",
+    "nome": "Isabela Pereira",
+    "latitude": -23.615982,
+    "longitude": -46.539574 
+  },
+  {
+    "ID": "82635",
+    "nome": "Ana Oliveira",
+    "latitude": -23.635708,
+    "longitude": -46.545624 
+  },
+  {
+    "ID": "34791",
+    "nome": "Lucas Santos",
+    "latitude": -23.622553,
+    "longitude": -46.535484
+  },
+  {
+    "ID": "65124",
+    "nome": "Mariana Lima",
+    "latitude": -23.627694,
+    "longitude": -46.531291 
+  },
+  {
+    "ID": "98057",
+    "nome": "Felipe Rodrigues",
+    "latitude": -23.619057,
+    "longitude": -46.559017 
+  },
+  {
+    "ID": "23968",
+    "nome": "Juliana Costa",
+    "latitude": -23.630452,
+    "longitude": -46.557308
+  },
+  {
+    "ID": "41873",
+    "nome": "Bruno Gomes",
+    "latitude": -23.624380,
+    "longitude": -46.562347
+  },
+  {
+    "ID": "59012",
+    "nome": "Fernanda Ferreira",
+    "latitude": -23.634046,
+    "longitude": -46.538956
+  },
+  {
+    "ID": "72358",
+    "nome": "Rafael Almeida",
+    "latitude": -23.616578,
+    "longitude": -46.547035 
+  },
+  {
+    "ID": "85691",
+    "nome": "Camila Pereira",
+    "latitude": -23.621891,
+    "longitude": -46.564620 
+  },
+  {
+    "ID": "36047",
+    "nome": "Thiago Ribeiro",
+    "latitude": -23.636852,
+    "longitude": -46.541267 
+  },
+  {
+    "ID": "17482",
+    "nome": "Amanda Souza",
+    "latitude": -23.626796,
+    "longitude": -46.533775 
+  },
+  {
+    "ID": "93506",
+    "nome": "Gustavo Cunha",
+    "latitude": -23.617815,
+    "longitude": -46.555866 
+  },
+  {
+    "ID": "28139",
+    "nome": "Larissa Rodrigues",
+    "latitude": -23.631596,
+    "longitude": -46.549675 
+  },
+  {
+    "ID": "50274",
+    "nome": "Rodrigo Lima",
+    "latitude": -23.620325,
+    "longitude": -46.542892
+  },
+  {
+    "ID": "61738",
+    "nome": "Luciana Silva",
+    "latitude": -23.628942,
+    "longitude": -46.556134
+  },
+  {
+    "ID": "29503",
+    "nome": "Eduardo Costa",
+    "latitude": -23.633483,
+    "longitude": -46.544451
+  },
+  {
+    "ID": "74821",
+    "nome": "Bruna Santos",
+    "latitude": -23.619720,
+    "longitude": -46.550401
+  },
+  {
+    "ID": "40695",
+    "nome": "Victor Oliveira",
+    "latitude": -23.626133,
+    "longitude": -46.537461
+  },
+  {
+    "ID": "83157",
+    "nome": "Aline Ferreira",
+    "latitude": -23.630929,
+    "longitude": -46.553522
+  }
+
+  {
+    "ID": "12345",
+    "nome": "Daniel Mendes",
+    "latitude": -23.642500,
+    "longitude": -46.600000
+  },
+  {
+    "ID": "67890",
+    "nome": "Sofia Albuquerque",
+    "latitude": -23.653100,
+    "longitude": -46.610400
+  },
+  {
+    "ID": "54321",
+    "nome": "André Ribeiro",
+    "latitude": -23.660750,
+    "longitude": -46.620300
+  }
+  
+]

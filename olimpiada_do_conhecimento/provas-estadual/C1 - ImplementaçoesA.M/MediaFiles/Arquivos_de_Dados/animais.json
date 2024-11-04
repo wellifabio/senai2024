@@ -1,0 +1,187 @@
+[
+    {
+      "ID": "78412",
+      "Tipo": "Bovino",
+      "Nome": "Estrela",
+      "Sexo": "Fêmea",
+      "Mãe": "Lua",
+      "Pai": "Sol",
+      "Raça": "Nelore",
+      "Manejos": [
+        {
+          "Tipo": "Vacinação: B12",
+          "Descrição": "Vacinação contra Brucelose",
+          "Data e Hora": "2024-10-20 10:30"
+        },
+        {
+          "Tipo": "Inseminação: IA",
+          "Descrição": "Inseminação artificial com sêmen sexado",
+          "Data e Hora": "2023-01-15 08:45"
+        }
+      ],
+      "Midias": [
+        {
+          "Tipo": "Imagem",
+          "Nome": "ferida.png",
+          "Data e Hora": "2022-05-10 10:30"
+        },
+        {
+          "Tipo": "Imagem",
+          "Descrição": "vaca.png",
+          "Data e Hora": "2023-01-15 08:45"
+        },
+        {
+          "Tipo": "Audio",
+          "Descrição": "vaca.mp3",
+          "Data e Hora": "2023-01-15 08:45"
+        }
+      ]
+    },
+    {
+      "ID": "35798",
+      "Tipo": "Equino",
+      "Nome": "Relampago",
+      "Sexo": "Macho",
+      "Mãe": "Ventania",
+      "Pai": "Tornado",
+      "Raça": "Quarto de Milha",
+      "Manejos": [
+        {
+          "Tipo": "Vacinação: Raiva",
+          "Descrição": "Vacinação contra Influenza Equina",
+          "Data e Hora": "2024-10-02 14:00"
+        },
+        {
+          "Tipo": "Tosa: Padrão",
+          "Descrição": "Tosa geral",
+          "Data e Hora": "2023-06-20 09:15"
+        }
+      ],
+      "Midias": [
+        {
+          "Tipo": "Imagem",
+          "Nome": "carrapatos.png",
+          "Data e Hora": "2022-05-10 10:30"
+        },
+        {
+          "Tipo": "Imagem",
+          "Descrição": "cavalo.png",
+          "Data e Hora": "2023-01-15 08:45"
+        },
+        {
+          "Tipo": "Audio",
+          "Descrição": "cavalo.mp3",
+          "Data e Hora": "2023-01-15 08:45"
+        }
+      ]
+    },
+    {
+      "ID": "96412",
+      "Tipo": "Ovino",
+      "Nome": "Nevasca",
+      "Sexo": "Fêmea",
+      "Mãe": "Nevada",
+      "Pai": "Gelado",
+      "Raça": "Santa Ines",
+      "Manejos": [
+        {
+          "Tipo": "Vacinação: Clostridiose",
+          "Descrição": "Vacinação contra Clostridiose",
+          "Data e Hora": "2022-11-15 15:45"
+        },
+        {
+          "Tipo": "Monta: Natural",
+          "Descrição": "Monta natural",
+          "Data e Hora": "2024-10-05 06:30"
+        }
+      ],
+      "Midias": [
+        {
+          "Tipo": "Imagem",
+          "Nome": "tosa.png",
+          "Data e Hora": "2022-05-10 10:30"
+        },
+        {
+          "Tipo": "Imagem",
+          "Descrição": "ovelha.png",
+          "Data e Hora": "2023-01-15 08:45"
+        },
+        {
+          "Tipo": "Audio",
+          "Descrição": "ovelha.mp3",
+          "Data e Hora": "2023-01-15 08:45"
+        }
+      ]
+    },
+    {
+      "ID": "52147",
+      "Tipo": "Caprino",
+      "Nome": "Horácio",
+      "Sexo": "Macho",
+      "Mãe": "Aurora",
+      "Pai": "Crepúsculo",
+      "Raça": "Saanen",
+      "Manejos": [
+        {
+          "Tipo": "Vacinação: Febre Aftosa",
+          "Descrição": "Vacinação contra Febre Aftótica",
+          "Data e Hora": "2024-05-06 11:20"
+        },
+        {
+          "Tipo": "Tosa: Padrão",
+          "Descrição": "Tosa de lã",
+          "Data e Hora": "2023-05-12 16:00"
+        }
+      ],
+      "Midias": [
+        {
+          "Tipo": "Imagem",
+          "Nome": "mosca.png",
+          "Data e Hora": "2022-05-10 10:30"
+        },
+        {
+          "Tipo": "Imagem",
+          "Descrição": "bode.png",
+          "Data e Hora": "2023-01-15 08:45"
+        },
+        {
+          "Tipo": "Audio",
+          "Descrição": "bode.mp3",
+          "Data e Hora": "2023-01-15 08:45"
+        }
+      ]
+    },
+    {
+      "ID": "85473",
+      "Tipo": "Bovino",
+      "Nome": "Zebu",
+      "Sexo": "Macho",
+      "Mãe": "Helena",
+      "Pai": "Zeus",
+      "Raça": "Hereford",
+      "Manejos": [
+        {
+          "Tipo": "Vacinação: Raiva",
+          "Descrição": "Vacinação contra Raiva",
+          "Data e Hora": "2024-09-20 17:30"
+        }
+      ],
+      "Midias": [
+        {
+          "Tipo": "Imagem",
+          "Nome": "chifres.png",
+          "Data e Hora": "2024-05-10 10:30"
+        },
+        {
+          "Tipo": "Imagem",
+          "Descrição": "boi.png",
+          "Data e Hora": "2023-01-15 09:45"
+        },
+        {
+          "Tipo": "Audio",
+          "Descrição": "boi.mp3",
+          "Data e Hora": "2022-09-20 17:30"
+        }
+      ]
+    }
+  ]
