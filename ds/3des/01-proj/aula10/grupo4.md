@@ -1,34 +1,34 @@
 ## Sprint 01 - Backlog
-- [x] Definir o Tema do Projeto
-- [x] Definir o Scrum Master / Gerenete de Projeto
+- [ ] Definir o Tema do Projeto
+- [ ] Definir o Scrum Master / Gerenete de Projeto
 - [ ] Criar um breve Orçamento
-- [x] TAP - Termo de Abertura do Projeto - Adicionar orçamento e Gerente de Projeto
-- [x] Criar o repositório do projeto no GitHub
-- [x] Adicionar o professor como colaborador
-- [x] Criar a Identidade Visual do Projeto - Colocar dentro do repositório do github
-- [x] Criar o Wireframe/Protótipo do Projeto - Colocar dentro do repositório do github
+- [ ] TAP - Termo de Abertura do Projeto
+- [ ] Criar o repositório do projeto no GitHub
+- [ ] Adicionar o professor como colaborador
+- [ ] Criar a Identidade Visual do Projeto
+- [ ] Criar o Wireframe/Protótipo do Projeto
 
 ## Sprint 02 - Backlog
-- [x] Fazer uma análise de Risco - Matriz SWOT
-- [x] Desenvolver um Cronograma - Gantt
-- [x] Traçar o caminho crítico - PERT/CPM - Traçar o caminho crítico
-- [x] EAP - Estrutura Analítica do Projeto
-    - [x] Criar o Documento de Requisitos - Inverter flechas de extends
-    - [x] Diagrama de Caso de Uso - Inverter flechas de extends
-- [x] Criar o Documento de Arquitetura
-    - [x] Diagrama de Classes
-    - [x] Diagrama de Atividades
-    - [x] DER - Diagrama de Entidade Relacionamento
+- [ ] Fazer uma análise de Risco - Matriz SWOT
+- [ ] Desenvolver um Cronograma - Gantt
+- [ ] Traçar o caminho crítico - PERT/CPM
+- [ ] EAP - Estrutura Analítica do Projeto
+    - [ ] Criar o Documento de Requisitos
+    - [ ] Diagrama de Caso de Uso
+- [ ] Criar o Documento de Arquitetura
+    - [ ] Diagrama de Classes
+    - [ ] Diagrama de Atividades
+    - [ ] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código
-    - [x] Front-End - Desenvolvimento
-    - [x] Banco de Dados
-    - [x] Back-End
-    - [x] Mobile - Desenvolvimento
-    - [x] Testes unitários
+    - [ ] Front-End
+    - [ ] Banco de Dados - Iniciar
+    - [ ] Back-End - Iniciar
+    - [ ] Mobile - Iniciar
+    - [ ] Testes unitários
 - [ ] Criar o Documento do Projeto
-    - [ ] ABNT
+    - [ ] ABNT - Em desenvolvimento
     - [ ] Dicionário de Dados
 
 ## Sprint 04 - Backlog

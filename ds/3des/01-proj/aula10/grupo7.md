@@ -1,15 +1,15 @@
 ## Sprint 01 - Backlog
-- [x] Definir o Tema do Projeto
-- [x] Definir o Scrum Master / Gerenete de Projeto
-- [x] Criar um breve Orçamento
-- [x] TAP - Termo de Abertura do Projeto
-- [x] Criar o repositório do projeto no GitHub
-- [x] Adicionar o professor como colaborador
-- [x] Criar a Identidade Visual do Projeto
-- [x] Criar o Wireframe/Protótipo do Projeto
+- [ ] Definir o Tema do Projeto
+- [ ] Definir o Scrum Master / Gerenete de Projeto
+- [ ] Criar um breve Orçamento
+- [ ] TAP - Termo de Abertura do Projeto
+- [ ] Criar o repositório do projeto no GitHub
+- [ ] Adicionar o professor como colaborador
+- [ ] Criar a Identidade Visual do Projeto
+- [ ] Criar o Wireframe/Protótipo do Projeto
 
 ## Sprint 02 - Backlog
-- [x] Fazer uma análise de Risco - Matriz SWOT
+- [ ] Fazer uma análise de Risco - Matriz SWOT
 - [ ] Desenvolver um Cronograma - Gantt
 - [ ] Traçar o caminho crítico - PERT/CPM
 - [ ] EAP - Estrutura Analítica do Projeto
@@ -23,12 +23,12 @@
 ## Sprint 03 - Backlog
 - [ ] Desenvolver o Código
     - [ ] Front-End
-    - [ ] Banco de Dados
-    - [ ] Back-End
-    - [ ] Mobile
+    - [ ] Banco de Dados - Iniciar
+    - [ ] Back-End - Iniciar
+    - [ ] Mobile - Iniciar
     - [ ] Testes unitários
 - [ ] Criar o Documento do Projeto
-    - [ ] ABNT
+    - [ ] ABNT - Em desenvolvimento
     - [ ] Dicionário de Dados
 
 ## Sprint 04 - Backlog
