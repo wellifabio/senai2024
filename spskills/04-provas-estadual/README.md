@@ -12,7 +12,7 @@ Cada uma das provas possui um tempo de 3 horas para execução mais 15 minutos p
 |-|-|-|
 |[A1](./A1%20-%20Design%20-%20Agro.pdf)|Design para Celular - Figma| [MediaFiles](./A1%20-%20Design%20A.M/) |
 |[A2](./A2%20-%20Design%20-%20Agro.pdf)|Design para Tablet - Figma| [MediaFiles](./A2%20-%20Design%20P.M/) |
-|[B1](./B1%20-%20Funcionalidades%20-%20Agro.pdf)|Desenvolvimento Web - HTML, CSS e JS| [MediaFiles](./B1%20-%20Funcionalidades%20A.M/) |
-|[B2](./B2%20-%20Funcionalidades%20-%20Agro.pdf)|Desenvolvimento Web - HTML, CSS e JS| [MediaFiles](./B2%20-%20Funcionalidades%20P.M/) |
-|[C1](./C1%20-%20Implementações%20-%20Agro.pdf)|Banco de Dados - MySQL| [MediaFiles](./C1%20-%20ImplementaçoesA.M/) |
-|[D1](./D1%20-%20Testes%20-%20Agro.pdf)|Banco de Dados - MySQL| [MediaFiles](./D1%20-%20Testes%20P.M//) |
+|[B1](./B1%20-%20Funcionalidades%20-%20Agro.pdf)|Funcionalidades - consumir API - Celular| [MediaFiles](./B1%20-%20Funcionalidades%20A.M/) |
+|[B2](./B2%20-%20Funcionalidades%20-%20Agro.pdf)|Funcionalidades - consumir API - Tablet| [MediaFiles](./B2%20-%20Funcionalidades%20P.M/) |
+|[C1](./C1%20-%20Implementações%20-%20Agro.pdf)|Funcionalidades - sensores, câmera, mapas, json, xml, upload img| [MediaFiles](./C1%20-%20ImplementaçoesA.M/) |
+|[D1](./D1%20-%20Testes%20-%20Agro.pdf)|Funcionalidades - Testes Autmaizados| [MediaFiles](./D1%20-%20Testes%20P.M//) |
