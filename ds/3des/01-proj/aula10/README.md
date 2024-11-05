@@ -122,7 +122,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 - **Referências Bibliográficas**
 - **Anexos**
 
-## Entrega do Pré-Projeto
+## Entregas do Projeto Final
 - 01/08/2024 - Início do Pré-Projeto
 - Sprints de duas semanas
     - Sprint01 - 15/10 - 24/10/2024 - Entrega - 24/10/2024
