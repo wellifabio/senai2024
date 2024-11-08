@@ -1,1 +1,3 @@
-# Boa Sorte na Prova!
+# PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS
+# Aula 02 - Apresentação
+
