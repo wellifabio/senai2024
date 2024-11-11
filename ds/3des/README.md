@@ -75,3 +75,6 @@
 
 ## Curiosidade - Remover fundo de GIF
 - https://www.unscreen.com/?utm_campaign=product_update&utm_source=rbg_blog&utm_medium=cta_button
+
+# Link Torneio
+https://forms.gle/6a9XPVErVkQTR1QB8
