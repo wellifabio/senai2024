@@ -61,4 +61,6 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 Segue o link para o GP de Inovação SENAI 2024, onde vocês poderão se inscrever e participar de um dos maiores eventos de inovação do SENAI. Até dia 23 de outubro de 2024. Grupos de 2 a 5 integrantes. O evento ocorrerá nos dias 04, 05, 06, 07 e 08 de novembro (Uma semana).
 
 ## PROGRAMA DE ESTÁGIO DA CI&T
-Se voce conhece alguem que esteja *cursando ensino técnico, graduação, pós graduação na area de TI* e esta precisando de estagio a hora é essa. As inscrições estão disponiveis ate dia 14 de Outubro e mais informações neste link: https://ciandt.com/br/pt-br/carreiras/programa-de-estagio .
+Se voce conhece alguem que esteja *cursando ensino técnico, graduação, p
+
+## [Link Maturidade Digital](https://maturidadedigital.senai.br/respostas/eyJyZXNwb25kZW50Q2F0ZWdvcnlJZCI6MTUwMiwicmVzZWFyY2hJZCI6NTQyLCJ1bml0SWQiOjEyMjIsInJlZ2lvbmFsSWQiOjI2LCJrZXkiOiJTRU5BSSIsImJ1c2luZXNzSWQiOjEsImlhdCI6MTczMTMzMDM3NCwiZXhwIjoxNzMxNDE2Nzc0fQ.SnA5hO3OBY6rhwvEDS6bIB6wAcQlPMRs-TlwRmZ2ZtsbZZVvXNHgZjbNBD-xWyKl)
