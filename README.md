@@ -66,7 +66,9 @@ Se voce conhece alguem que esteja *cursando ensino técnico, graduação, p
 ## [Link Maturidade Digital](https://maturidadedigital.senai.br/respostas/eyJyZXNwb25kZW50Q2F0ZWdvcnlJZCI6MTUwMiwicmVzZWFyY2hJZCI6NTQyLCJ1bml0SWQiOjEyMjIsInJlZ2lvbmFsSWQiOjI2LCJrZXkiOiJTRU5BSSIsImJ1c2luZXNzSWQiOjEsImlhdCI6MTczMTMzMDM3NCwiZXhwIjoxNzMxNDE2Nzc0fQ.SnA5hO3OBY6rhwvEDS6bIB6wAcQlPMRs-TlwRmZ2ZtsbZZVvXNHgZjbNBD-xWyKl)
 
 # Inscrições Torneio Counter Strike 1.6 e Clash Royale
-<div align = "center"> 
+<div align = "center">
+
 [<img src="https://github.com/user-attachments/assets/60fd6a2d-a7a3-49a5-b0a7-69d0dd3620fe" width="300">](https://forms.gle/PYGbHJPq1ptknead8)
 [<img src="https://github.com/user-attachments/assets/bec3dfd6-e4bf-4521-bfb1-a3005349244f" width="300">](https://forms.gle/FpkEr7ztDJ5csu958)
+
 </div>
