@@ -63,38 +63,7 @@ Segue o link para o GP de Inovação SENAI 2024, onde vocês poderão se inscrev
 ## PROGRAMA DE ESTÁGIO DA CI&T
 Se voce conhece alguem que esteja *cursando ensino técnico, graduação, p
 
-
--
--
--
--
--
--
--
--
--
--
--
--
-
 ## [Link Maturidade Digital](https://maturidadedigital.senai.br/respostas/eyJyZXNwb25kZW50Q2F0ZWdvcnlJZCI6MTUwMiwicmVzZWFyY2hJZCI6NTQyLCJ1bml0SWQiOjEyMjIsInJlZ2lvbmFsSWQiOjI2LCJrZXkiOiJTRU5BSSIsImJ1c2luZXNzSWQiOjEsImlhdCI6MTczMTMzMDM3NCwiZXhwIjoxNzMxNDE2Nzc0fQ.SnA5hO3OBY6rhwvEDS6bIB6wAcQlPMRs-TlwRmZ2ZtsbZZVvXNHgZjbNBD-xWyKl)
-
-
--
--
--
--
--
--
--
--
--
--
--
--
-
-
-
 
 # Inscrições Torneio Counter Strike 1.6 e Clash Royale
 <div align = "center"> 
