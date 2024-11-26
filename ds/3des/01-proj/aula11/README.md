@@ -6,6 +6,13 @@ Todos os tipos de negócio que trabalham com fluxo de caixa necessitam de um sis
 
 ## Desafio
 Desenvolver um sistema que simule um livro caixa, onde o usuário poderá registrar as movimentações financeiras diárias de uma empresa. O sistema deverá permitir o registro de entradas e saídas de dinheiro, bem como a consulta do saldo atual da empresa.<br>As regras de negócio são:
+- Os dados do usuário são: id (numérico e incrementado automaticamente), nome completo e email (verificar se possui @ no campo para ser e-mail), totos os dados são obrigatórios
+- Os dados dos lançamentos são:  id (numérico e incrementado automaticamente), descrição (texto), valor (monetário), usuário (referencia o usuário que fez o lançamento), tipo ("Entrada","Saída"), Data (Data e hora do lançamento)
+- O sistema deve permitir:
+    - Criar usuários (Apenas criar e listar, não é necessário excluir ou alterar)
+    - Criar lançamentos
+    - Gerenciar lançamentos (Listar separados por tipo [Entrada e Saída]), Editar, Excluir e separados por Data.
+    - Calcular totais (entrada e saída) e saldos (anterior, atual e do dia)
 ![Lousa](./lousa.jpg)
 
 ## Entregas
@@ -15,7 +22,7 @@ Desenvolver um sistema que simule um livro caixa, onde o usuário poderá regist
 |UML - DCU|Diagrama de Caso de Uso do sistema|
 |Cadastro de usuários|Tela de cadastro de usuários do sistema|
 |Cadastro de Lançamentos|Tela de cadastro de lançamentos financeiros|
-|Tela principal|Tela principal do sistema com os lançamentos do dia, um filtro para escolher a data e as informações do saldo|
+|Tela principal|Tela principal do sistema com os lançamentos do dia, um filtro para escolher a data e as informações dos saldos|
 
 ## Identidade visual
 - Fonte: Courier New
