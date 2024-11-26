@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Usuario = require('./controllers/usuario.js/index.js');
+const Usuario = require('./controllers/usuario.js');
 const Lancamento = require('./controllers/lancamento.js');
 
 router.get('/', (req, res) => {

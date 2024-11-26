@@ -5,7 +5,7 @@ const create = async (req, res) => {
     const usuario = await prisma.usuario.create({
         data: req.body
     });
-    res.json(usuario);
+    res.status(201).json(usuario);
 }
 
 const read = async (req, res) => {
