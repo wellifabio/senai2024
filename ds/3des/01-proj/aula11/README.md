@@ -43,12 +43,15 @@ Desenvolver um sistema que simule um livro caixa, onde o usuário poderá regist
 - 3 Inicar o Back-end NodeJS com Prisma
     - 1 Abra a pasta **./livrocaixa** com VsCode e abra um terminal **cmd** ou **bash** CTRL + ", acesse a pasta **api**, instale o prisma globalmente, inicie o projeto e a biblioteca prisma para MySQL.
 ```bash
-npm i -g prisma
 cd api
-npm init -y
+npm i -g prisma
 prisma init --datasource-provider mysql
 ```
     - 2 Configure o arquivo **.env** com as informações do banco de dados
 ```env
-DATABASE_URL="mysql://root:root@localhost:3306/livrocaixa"
+DATABASE_URL="mysql://root:root@localhost:3306/livrocaixa?schema=public&timezone=utc"
+```
+    - 3 Execute o comando para criar o banco de dados
+```
+    - 3 Execute o comando para criar o banco de dados
 ```
