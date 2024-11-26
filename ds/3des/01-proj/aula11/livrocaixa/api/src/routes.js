@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const Usuario = require('./controllers/usuario');
-const Lancamento = require('./controllers/lancamento');
+const Usuario = require('./controllers/usuario.js/index.js');
+const Lancamento = require('./controllers/lancamento.js');
 
 router.get('/', (req, res) => {
     res.send('API Livro Caixa Respondendo');

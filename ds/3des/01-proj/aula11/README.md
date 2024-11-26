@@ -131,3 +131,27 @@ router.delete('/lancamentos/:id', Lancamento.del);
 
 module.exports = router;
 ```
+
+- 3.8 Crie a pasta **src/controllers** e os arquivos **usuario.js** e **lancamento.js** e adicione o código a seguir no arquivo **usuario.js**
+```js
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
+
+const create = async (req, res) => {
+    const usuario = await prisma.usuario.create({
+        data: req.body
+    });
+    res.json(usuario);
+}
+
+const read = async (req, res) => {
+    const usuarios = await prisma.usuario.findMany();
+    res.json(usuarios);
+}
+
+module.exports = { create, read };
+```
+- 3.9 Adicione o código a seguir no arquivo **lancamento.js**
+```js
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
