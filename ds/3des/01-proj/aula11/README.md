@@ -47,11 +47,11 @@ cd api
 npm i -g prisma
 prisma init --datasource-provider mysql
 ```
-    - 2 Configure o arquivo **.env** com as informações do banco de dados
+- 3.2 Configure o arquivo **.env** com as informações do banco de dados
 ```env
 DATABASE_URL="mysql://root:root@localhost:3306/livrocaixa?schema=public&timezone=utc"
 ```
-    - 3 Execute o comando para criar o banco de dados
-```
-    - 3 Execute o comando para criar o banco de dados
+- 3.3 Abra o XAMPP e inicie o MySQL
+- 3.4 Edite o arquivo **schema.prisma** e adicione o modelo de dados
+```prisma
 ```
