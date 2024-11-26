@@ -12,10 +12,42 @@
     --cor3: #ffffff;
     --cor4: #ff0000;
     --cor5: #0000ff;
-    --trasnparente: rgba(0, 0, 0, 0.5);
 }
 
-.oculto{
-    display: none;
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    min-height: 10vh;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+table{
+    width: 80%;
+    height: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
