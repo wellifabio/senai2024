@@ -41,7 +41,7 @@ Desenvolver um sistema que simule um livro caixa, onde o usuário poderá regist
 ![DER](./livrocaixa/docs/der.png)
 ![DCU](./livrocaixa/docs/uml-dcu.png)
 - 3 Inicar o Back-end NodeJS com Prisma
-    - 1 Abra a pasta **./livrocaixa** com VsCode e abra um terminal **cmd** ou **bash** CTRL + ", acesse a pasta **api**, instale o prisma globalmente, inicie o projeto e a biblioteca prisma para MySQL.
+- 3.1 Abra a pasta **./livrocaixa** com VsCode e abra um terminal **cmd** ou **bash** CTRL + ", acesse a pasta **api**, instale o prisma globalmente, inicie o projeto e a biblioteca prisma para MySQL.
 ```bash
 cd api
 npm i -g prisma
@@ -197,3 +197,11 @@ const del = async (req, res) => {
 
 module.exports = { create, read, readDia, update, del };
 ```
+- 3.10 Execute o projeto
+```bash
+node server.js
+#ou
+npx nodemon
+```
+- 4 Iniciar o Front-end com Vanilla JS
+- 4.1 Crie os arquivos **index.html**, **style.css** e **script.js** na pasta **web**
