@@ -54,4 +54,37 @@ DATABASE_URL="mysql://root:root@localhost:3306/livrocaixa?schema=public&timezone
 - 3.3 Abra o XAMPP e inicie o MySQL
 - 3.4 Edite o arquivo **schema.prisma** e adicione o modelo de dados
 ```prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario{
+  id Int @id @default(autoincrement())
+  nome String @db.VarChar(100)
+  email String @db.VarChar(255) @unique
+  lancamentos Lancamento[]
+}
+
+model Lancamento{
+  id Int @id @default(autoincrement())
+  usuario Int
+  descricao String @db.Text
+  valor Float
+  tipo Tipo @default(entrada)
+  data DateTime @db.DateTime @default(now())
+  user Usuario @relation(fields: [usuario], references: [id])
+}
+
+enum Tipo {
+  entrada
+  saida
+}
+```
+- 3.5 Crie o arquivo server.js e adicione o código
+```js
 ```
