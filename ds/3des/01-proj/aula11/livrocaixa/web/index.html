@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Livro Caixa</title>
 </head>
+
 <body>
     <header>
         <h1>Livro Caixa</h1>
@@ -38,9 +40,18 @@
     </main>
     <footer>
         <div>
-            
+            <label for="santerior">Saldo anterior</label>
+            <input type="number" id="santerior" step="0.01" readonly>
+            <label for="satual">Saldo atual</label>
+            <input type="number" id="satual"  step="0.01" readonly>
+        </div>
+        <input type="date" name="data" id="data">
+        <div>
+            <label for="sdia">Saldo do dia</label>
+            <input type="number" id="sdia"  step="0.01" readonly>
         </div>
     </footer>
 </body>
 <script src="script.js"></script>
+
 </html>
