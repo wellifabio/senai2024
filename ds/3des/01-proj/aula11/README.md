@@ -88,3 +88,10 @@ enum Tipo {
 - 3.5 Crie o arquivo server.js e adicione o código
 ```js
 ```
+- 3.6 Execute os comandos para criar o projeto e o banco de dados
+```bash
+npm init -y
+npm i prisma --save-dev
+npm i express cors dotenv
+npx prisma migrate dev --name init
+```
