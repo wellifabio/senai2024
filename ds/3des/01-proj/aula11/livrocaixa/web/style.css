@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-:root{
+:root {
     --cor1: #000000;
     --cor2: #eeeeee;
     --cor3: #ffffff;
@@ -14,7 +14,7 @@
     --cor5: #0000ff;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     background-color: var(--cor2);
@@ -25,17 +25,45 @@ body{
     justify-content: space-between;
 }
 
-header, footer{
+header,
+footer {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--cor1);
     color: var(--cor2);
     min-height: 10vh;
 }
 
-main{
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+nav button {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    box-shadow: 0 0 5px var(--cor3);
+}
+
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,10 +72,41 @@ main{
     min-height: 80vh;
 }
 
-table{
+table {
     width: 80%;
     height: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
 
+input, select {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.saldos {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form button{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
