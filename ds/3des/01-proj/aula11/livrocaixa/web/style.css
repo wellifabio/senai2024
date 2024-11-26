@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+:root{
+    --cor1: #000000;
+    --cor2: #eeeeee;
+    --cor3: #ffffff;
+    --cor4: #ff0000;
+    --cor5: #0000ff;
+    --trasnparente: rgba(0, 0, 0, 0.5);
+}
+
+.oculto{
+    display: none;
+}
+
