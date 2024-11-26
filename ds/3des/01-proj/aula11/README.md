@@ -87,6 +87,19 @@ enum Tipo {
 ```
 - 3.5 Crie o arquivo server.js e adicione o código
 ```js
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+const routes = require('./routes');
+
+app.use(express.json());
+app.use(cors());
+app.use('/', routes);
+
+app.listen(4000, () => {
+    console.log('API Livro Caixa respondendo em http://localhost:4000');
+});
 ```
 - 3.6 Execute os comandos para criar o projeto e o banco de dados
 ```bash
@@ -94,4 +107,27 @@ npm init -y
 npm i prisma --save-dev
 npm i express cors dotenv
 npx prisma migrate dev --name init
+```
+- 3.7 Crie o arquivo **src/routes.js** e adicione o código
+```js
+const express = require('express');
+const router = express.Router();
+
+const Usuario = require('./controllers/usuario');
+const Lancamento = require('./controllers/lancamento');
+
+router.get('/', (req, res) => {
+    res.send('API Livro Caixa Respondendo');
+});
+
+router.post('/usuarios', Usuario.create);
+router.get('/usuarios', Usuario.read);
+
+router.post('/lancamentos', Lancamento.create);
+router.get('/lancamentos', Lancamento.read);
+router.get('/lancamentos/:dia', Lancamento.readDia);
+router.put('/lancamentos', Lancamento.update);
+router.delete('/lancamentos/:id', Lancamento.del);
+
+module.exports = router;
 ```
