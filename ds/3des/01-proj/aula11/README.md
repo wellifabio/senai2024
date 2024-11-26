@@ -31,10 +31,12 @@ Desenvolver um sistema que simule um livro caixa, onde o usuário poderá regist
 
 ## Dicas de como executar o projeto:
 - 1 Criar uma pasta e suas subpastas conforme a estrutura do projeto
+```bash
 ./livrocaixa
 ./livrocaixa/api
 ./livrocaixa/web
 ./livrocaixa/docs
+```
 - 2 Criar os diagramas de entidade relacionamento e de caso de uso
 ![DER](./livrocaixa/docs/der.png)
 ![DCU](./livrocaixa/docs/uml-dcu.png)
