@@ -10,6 +10,7 @@ const santerior = document.getElementById("santerior");
 const sdia = document.getElementById("sdia");
 const data = document.getElementById("data");
 var usuarios = [];
+var lancamentos = [];
 
 //Listar os usuários
 fetch(uri + "usuarios")
@@ -21,24 +22,10 @@ fetch(uri + "usuarios")
 fetch(uri + "lancamentos")
     .then((resp) => resp.json())
     .then((resp) => {
-        resp.forEach(l => {
-            if (l.tipo === "entrada") {
-                entradas.innerHTML += `<div class="card">
-                    <p>Descrição: ${l.descricao}</p>
-                    <p>Valor: R$ ${l.valor}</p>
-                    <p>Data: ${new Date(l.data).toLocaleDateString("pt-BR")}</p>
-                    </div>`;
-            } else {
-                saidas.innerHTML += `<div class="card">
-                    <p>Descrição: ${l.descricao}</p>
-                    <p>Valor: R$ ${l.valor}</p>
-                    <p>Data: ${new Date(l.data).toLocaleDateString("pt-BR")}</p>
-                    </div>`;
-            }
-        });
+        lancamentos = resp;
     });
 
-//Cadastrar os usuários
+//Cadastrar os usuários (Tela01)
 function novoUsuario() {
     conteiner.innerHTML = `
     <form id="novoUsuario">
@@ -73,7 +60,7 @@ function novoUsuario() {
     });
 }
 
-//Cadastrar os lançamentos
+//Cadastrar os lançamentos (Tela02)
 function novoLancamento() {
     conteiner.innerHTML = `
     <form id="novoLancamento">
@@ -114,4 +101,44 @@ function novoLancamento() {
                 }
             });
     });
+}
+
+//Listar os lançamentos da data (Tela03)
+function listarLancamentos(data) {
+    entradas.innerHTML = "";
+    saidas.innerHTML = "";
+    if(data == undefined) data = new Date().toISOString().split("T")[0];
+    fetch(uri + "lancamentos/" + data)
+        .then((resp) => resp.json())
+        .then((resp) => {
+            resp.forEach(l => {
+                if (l.tipo === "entrada") {
+                    entradas.innerHTML += `<div class="card">
+                    <div class="areas">
+                        <p>Descrição: ${l.descricao}</p>
+                        <p>Valor: R$ ${l.valor}</p>
+                        <p>Data: ${new Date(l.data).toLocaleDateString("pt-BR")}</p> 
+                        <p>Hora: ${new Date(l.data).toLocaleTimeString("pt-BR")}</p>
+                    </div>
+                    <div class="areas">
+                        <button onclick="editarLancamento(${l.id})">Editar</button>
+                        <button class="excluir" onclick="excluirLancamento(${l.id})">Excluir</button>
+                    </div>
+                    </div>`;
+                } else {
+                    saidas.innerHTML += `<div class="card">
+                    <div class="areas">
+                        <p>Descrição: ${l.descricao}</p>
+                        <p>Valor: R$ ${l.valor}</p>
+                        <p>Data: ${new Date(l.data).toLocaleDateString("pt-BR")}</p> 
+                        <p>Hora: ${new Date(l.data).toLocaleTimeString("pt-BR")}</p>
+                    </div>
+                    <div class="areas">
+                        <button onclick="editarLancamento(${l.id})">Editar</button>
+                        <button class="excluir" onclick="excluirLancamento(${l.id})">Excluir</button>
+                    </div>
+                    </div>`;
+                }
+            });
+        });
 }

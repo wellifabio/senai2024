@@ -8,7 +8,7 @@
     <title>Livro Caixa</title>
 </head>
 
-<body>
+<body onload="listarLancamentos()">
     <header>
         <h1>Livro Caixa</h1>
         <nav>
@@ -27,8 +27,8 @@
             </thead>
             <tbody>
                 <tr>
-                    <td id="entradas"></td>
-                    <td id="saidas"></td>
+                    <td><div id="entradas"></div></td>
+                    <td><div id="saidas"></div></td>
                 </tr>
             </tbody>
             <tfooter>
@@ -46,7 +46,7 @@
             <label for="satual">Saldo atual</label>
             <input type="number" id="satual"  step="0.01" readonly>
         </div>
-        <input type="date" name="data" id="data">
+        <input type="date" name="data" id="data" onchange="listarLancamentos(this.value)">
         <div class="saldos">
             <label for="sdia">Saldo do dia</label>
             <input type="number" id="sdia"  step="0.01" readonly>
