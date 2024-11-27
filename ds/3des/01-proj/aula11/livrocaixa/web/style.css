@@ -79,6 +79,10 @@ table {
     margin: 20px 0;
 }
 
+tfoot td{
+    max-height: 5vh;
+}
+
 input,
 select {
     width: 100%;
@@ -115,7 +119,7 @@ form button {
 #entradas,
 #saidas {
     height: 100%;
-    max-height: 75vh;
+    max-height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: baseline;
