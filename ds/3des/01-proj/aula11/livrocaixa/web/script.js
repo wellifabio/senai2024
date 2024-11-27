@@ -112,6 +112,8 @@ async function listarLancamentos(data) {
     let totalEntradas = 0;
     let totalSaidas = 0;
     let saldoDia = 0;
+    let saldoAtual = 0;
+    let saldoAnterior = 0;
     if (data == undefined) data = new Date().toISOString().split("T")[0];
     await fetch(uri + "lancamentos/" + data)
         .then((resp) => resp.json())
@@ -155,28 +157,20 @@ async function listarLancamentos(data) {
             totSaidas.innerHTML = 'Total de saídas: ' + totalSaidas.toFixed(2).replace('.',',');
             saldoDia = totalEntradas - totalSaidas;
             sdia.value = saldoDia.toFixed(2);
-        }).then(() => { calcularSaldos(data) });
-}
-
-async function calcularSaldos(data) {
-    let saldoAtual = 0;
-    let saldoAnterior = 0;
-    for (let i = 0; i < lancamentos.length; i++) {
-        if (lancamentos[i].tipo == "entrada") {
-            saldoAtual += lancamentos[i].valor;
-        } else {
-            saldoAtual -= lancamentos[i].valor;
-        }
-        if (new Date(lancamentos[i].data) <= new Date(data)) {
-            if (lancamentos[i].tipo == "entrada") {
-                saldoAnterior += lancamentos[i].valor;
-            } else {
-                saldoAnterior -= lancamentos[i].valor;
+        }).then(() => {
+            for (let i = 0; i < lancamentos.length; i++) {
+                if (new Date(lancamentos[i].data) < new Date(data)) {
+                    if (lancamentos[i].tipo == "entrada") {
+                        saldoAnterior += lancamentos[i].valor;
+                    } else {
+                        saldoAnterior -= lancamentos[i].valor;
+                    }
+                }
             }
-        }
-    }
-    santerior.value = saldoAnterior.toFixed(2);
-    satual.value = saldoAtual.toFixed(2);
+            santerior.value = saldoAnterior.toFixed(2);
+            saldoAtual = saldoAnterior + saldoDia;
+            satual.value = saldoAtual.toFixed(2);
+        });
 }
 
 function excluirLancamento(id) {
