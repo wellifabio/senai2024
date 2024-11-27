@@ -79,7 +79,7 @@ table {
     margin: 20px 0;
 }
 
-tfoot td{
+tfoot td {
     max-height: 5vh;
 }
 
@@ -164,4 +164,61 @@ form button {
     background-color: var(--cor4);
     color: var(--cor3);
     box-shadow: 0 0 5px var(--cor4);
+}
+
+.abrenav {
+    display: none;
+}
+
+.navmobile {
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    min-height: 10vh;
+    padding: 10px;
+}
+
+.oculto {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .abrenav {
+        display: block;
+    }
+
+    .navweb {
+        display: none;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        max-height: 70vh;
+        overflow: auto;
+    }
+
+    .saldos {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px;
+    }
 }
