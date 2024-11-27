@@ -24,6 +24,15 @@ Desenvolver um sistema que simule um livro caixa, onde o usuário poderá regist
 |Cadastro de Lançamentos|Tela de cadastro de lançamentos financeiros|
 |Tela principal|Tela principal do sistema com os lançamentos do dia, um filtro para escolher a data e as informações dos saldos|
 
+## Wireframes
+- Tela de cadastro de usuários
+![Tela01](./wireframe1.png)
+- Tela de cadastro de lançamentos
+![Tela02](./wireframe2.png)
+- Tela principal
+![Tela03A](./wireframe3.png)
+- Tela principal com filtro de data
+![Tela03B](./wireframe4.png)
 ## Identidade visual
 - Fonte: Courier New
 - Paleta de cores:
@@ -222,7 +231,3 @@ npx nodemon
 ```
 - 4 Iniciar o Front-end com Vanilla JS
 - 4.1 Crie os arquivos **index.html**, **style.css** e **script.js** na pasta **web**
-![Tela01](./wireframe1.png)
-![Tela02](./wireframe2.png)
-![Tela03A](./wireframe3.png)
-![Tela03B](./wireframe4.png)
