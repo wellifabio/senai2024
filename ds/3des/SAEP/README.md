@@ -1,3 +1,4 @@
+# SAEP- Objetiva
 # Orientações para os Estudantes – Navegador Seguro
 
 Prezado(a) Estudante,
@@ -41,19 +42,6 @@ Neste ano de 2024, a Avaliação de Desempenho dos Estudantes do SAEP possibilit
 ## Informações Importantes
 
 - A avaliação **não é compatível com dispositivos móveis** e deve ser realizada em um computador **DESKTOP** com sistemas operacionais **Windows** ou **Mac OS**.
+- [Tabulação de acertos e erros](./tabulacao-acertos-erros.xlsx)
 
-## Dúvidas e Contato
-
-Em caso de dúvidas, entre em contato com o seu Coordenador de Avaliação.
-
-**Contatos do Coordenador de Avaliação:**
-
-Coordenação Nacional do SAEP
-
-
-| NOME                                        | USUÁRIO          | SENHA    |
-|:--------------------------------------------|:-----------------|:---------|
-| Bryan Beckham de Alencar de Souza           | 51353154890-V43K | e019j2fb |
-| Jaqueline de Faria Rodrigues                | 49021329824-9D7Y | d4ly2e08 |
-| Pedro Henrique Pereira Sanches              | 45545361812-DA62 | 9ybz67d2 |
-| Richard Matheus Pinesi                      | 54619094854-7J8Y | 9h4u5y8i |
+## [Prova práctica](./pratica/README.md)
