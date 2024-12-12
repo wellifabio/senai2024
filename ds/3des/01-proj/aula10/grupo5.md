@@ -40,7 +40,7 @@
 - [x] Revisar o documento do projeto
 - [x] Criar o Documento de Implantação
     - [x] Manual do Usuário
-    - [x] Manual do Administrador se houver
+    - [ ] Manual do Administrador se houver
 
 ## Apresentação
 - [x] Apresentação do Projeto
@@ -60,7 +60,7 @@
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Elaborar documentação técnica do sistema (2)|Elaborou o TAP, EAP e Documento do Projeto seguindo o padrão ABNT|1|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Implementar as funcionalidades de acordo com os requisitos definidos|Implementou ao menos as funcionalidades essenciais|1|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Apresentar tecnicamente ao cliente o sistema de software desenvolvido, sanando as possíveis dúvidas sobre o funcionamento do mesmo|Apresentou o projeto de forma clara e sanando as dúvidas dos colegas|1|
-|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software|Pesquisou recursos técnicos além dos vistos em aulas|1|
+|![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Pesquisar em diversas fontes de informação tendo em vista as melhores práticas de mercado considerando, inclusive, a performance e a qualidade de software|Pesquisou recursos técnicos além dos vistos em aulas|0|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstra atenção a detalhes|A documentação, protótipo e diagramas representam a solução prática apresentada|1|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Manter relacionamento interpessoal|Trabalhou em equipe e respeitou opiniões dos colegas|1|
 |![Desejavel](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar capacidade de comunicação com profissionais de diferentes áreas e especialidades|O documento é claro (Resumo e Conclusão da entrega), tirou dúvidas de colegas de outras turmas|1|
