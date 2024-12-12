@@ -50,7 +50,7 @@
      
 ## Avaliação
 |Criticidade|Capacidades|Critérios|Avaliação|
-|-|-|-|-|
+|-|-|-|:-:|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a sequência das atividades para desenvolvimento dos componentes, de acordo com os requisitos do sistema|O cronograma foi cumprido segundo o planejamento exceto prazos, e ao menos os requisitos críticos|1|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a infraestrutura física a ser utilizada no desenvolvimento dos componentes|Escolheu e desenvolveu nas linguagens de programação ou frameworks estudados|1|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Projetar os componentes do sistema considerando as plataformas computacionais|A solução proposta foi desenvolvida nas plataformas escolhidas|1|
