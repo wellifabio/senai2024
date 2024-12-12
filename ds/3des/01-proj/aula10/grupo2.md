@@ -9,47 +9,47 @@
 - [x] Criar o Wireframe/Protótipo do Projeto
 
 ## Sprint 02 - Backlog
-- [ ] Fazer uma análise de Risco - Matriz SWOT
-- [ ] Desenvolver um Cronograma - Gantt
-- [ ] Traçar o caminho crítico - PERT/CPM
-- [ ] EAP - Estrutura Analítica do Projeto
-    - [ ] Criar o Documento de Requisitos
-    - [ ] Diagrama de Caso de Uso
-- [ ] Criar o Documento de Arquitetura
-    - [ ] Diagrama de Classes
-    - [ ] Diagrama de Atividades
-    - [ ] DER - Diagrama de Entidade Relacionamento
+- [x] Fazer uma análise de Risco - Matriz SWOT
+- [x] Desenvolver um Cronograma - Gantt
+- [x] Traçar o caminho crítico - PERT/CPM
+- [x] EAP - Estrutura Analítica do Projeto
+    - [x] Criar o Documento de Requisitos
+    - [x] Diagrama de Caso de Uso
+- [x] Criar o Documento de Arquitetura
+    - [x] Diagrama de Classes
+    - [x] Diagrama de Atividades
+    - [x] DER - Diagrama de Entidade Relacionamento
 
 ## Sprint 03 - Backlog
-- [ ] Desenvolver o Código
-    - [ ] Front-End
-    - [ ] Banco de Dados - Iniciar
-    - [ ] Back-End - Iniciar
-    - [ ] Mobile - Iniciar
-    - [ ] Testes unitários
-- [ ] Criar o Documento do Projeto
-    - [ ] ABNT - Em desenvolvimento
-    - [ ] Dicionário de Dados
+- [x] Desenvolver o Código
+    - [x] Front-End
+    - [x] Banco de Dados - Iniciar
+    - [x] Back-End - Iniciar
+    - [x] Mobile - Iniciar
+    - [x] Testes unitários
+- [x] Criar o Documento do Projeto
+    - [x] ABNT - Em desenvolvimento
+    - [x] Dicionário de Dados
 
 ## Sprint 04 - Backlog
-- [ ] Criar o Documento de Teste
-    - [ ] Teste de Unidade
-    - [ ] Teste de Integração
-    - [ ] Teste de Sistema - Ponto a Ponto
-    - [ ] Teste de Aceitação
-- [ ] Revisar o documento do projeto
-- [ ] Criar o Documento de Implantação
-    - [ ] Manual do Usuário
-    - [ ] Manual do Administrador se houver
+- [x] Criar o Documento de Teste
+    - [x] Teste de Unidade
+    - [x] Teste de Integração
+    - [x] Teste de Sistema - Ponto a Ponto
+    - [x] Teste de Aceitação
+- [x] Revisar o documento do projeto
+- [x] Criar o Documento de Implantação
+    - [x] Manual do Usuário
+    - [x] Manual do Administrador se houver
 
 ## Apresentação
-- [ ] Apresentação do Projeto
-    - [ ] Apresentação do Projeto Web
-    - [ ] Apresentação do Projeto Mobile
-    - [ ] Documento do Projeto
+- [x] Apresentação do Projeto
+    - [x] Apresentação do Projeto Web
+    - [x] Apresentação do Projeto Mobile
+    - [x] Documento do Projeto
      
 ## Avaliação
-|Criticidade|Capacidades|Critérios|
+|Criticidade|Capacidades|Critérios|Avaliação|
 |-|-|-|-|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a sequência das atividades para desenvolvimento dos componentes, de acordo com os requisitos do sistema|O cronograma foi cumprido segundo o planejamento exceto prazos, e ao menos os requisitos críticos||
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Definir a infraestrutura física a ser utilizada no desenvolvimento dos componentes|Escolheu e desenvolveu nas linguagens de programação ou frameworks estudados||
