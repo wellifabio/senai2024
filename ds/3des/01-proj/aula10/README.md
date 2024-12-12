@@ -14,7 +14,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |Check-list|Integrantes|Tema|Repositório|
 |-|-|-|-|
 |[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|
-|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|LEKA - Educacional|[https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git](https://github.com/Carla-coder/Leka)|
+|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|[LEKA - Educacional](https://carla-coder.github.io/Leka/Web-2.0/welcome.html)|https://github.com/Carla-coder/Leka.git|
 |[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
