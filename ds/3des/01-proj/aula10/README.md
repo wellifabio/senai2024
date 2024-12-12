@@ -14,7 +14,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 |Check-list|Integrantes|Tema|Repositório|
 |-|-|-|-|
 |[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|
-|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|Gestão Financeira|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
+|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|LEKA - Educacional|https://github.com/Carla-coder/proj1.git<br>https://github.com/lehhofman/FinTrack.git|
 |[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|
 |[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
@@ -128,8 +128,8 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
     - Sprint01 - 15/10 - 24/10/2024 - Entrega - 24/10/2024
     - Sprint02 - 29/10 - 07/11/2024 - Entrega - 07/11/2024
     - Sprint03 - 12/11 - 20/11/2024 - Entrega - 20/11/2024
-    - Sprint04 - 26/11 - 12/12/2024 - Entrega - 19/09/2024
-- 19,20/09/2024 - Entrega - 2024.
+    - Sprint04 - 26/11 - 12/12/2024 - Entrega - 12/12/2024
+- 16,17/12/2024 - Entrega - 2024.
 
 ## Critérios de Avaliação
 |Criticidade|Capacidades|Critérios|
