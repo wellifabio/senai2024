@@ -40,7 +40,7 @@
 - [x] Revisar o documento do projeto
 - [x] Criar o Documento de Implantação
     - [x] Manual do Usuário
-    - [x] Manual do Administrador se houver
+    - [ ] Manual do Administrador se houver
 
 ## Apresentação
 - [x] Apresentação do Projeto
