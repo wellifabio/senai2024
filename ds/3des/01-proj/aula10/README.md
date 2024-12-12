@@ -11,16 +11,16 @@
 ## Equipes
 Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. **Projetos privados**, adicione o professor como colaborador pelo e-mail wellifabio@hotmail.com
 
-|Check-list|Integrantes|Tema|Repositório|
-|-|-|-|-|
-|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|
-|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|[LEKA - Educacional](https://carla-coder.github.io/Leka/Web-2.0/welcome.html)|https://github.com/Carla-coder/Leka.git|
-|[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|
-|[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|
-|[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|
-|[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git|
-|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores|https://github.com/richardpns/fish-track.git|
-|[Grupo 08](./grupo8.md)|Igor|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|
+|Check-list|Integrantes|Tema|Repositório|Apresentado|Avaliado|
+|-|-|-|-|-|-|
+|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git||[]|
+|[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|[LEKA - Educacional](https://carla-coder.github.io/Leka/Web-2.0/welcome.html)|https://github.com/Carla-coder/Leka.git|12/12/20224|[x]|
+|[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|12/12/20224|[x]|
+|[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|12/12/20224|[x]|
+|[Grupo 05](./grupo5.md)|Carlos, João, Fernanda, Otavio|Rotina e organização para neurodivergentes|https://github.com/fefemattoso/EPONA.git|12/12/20224|[x]|
+|[Grupo 06](./grupo6.md)|Ana Ortiz, Bryan, Gabriella, Mirella França, Rafael|Fit Fusion - Saúde e Academia|https://github.com/avilagabriella/PREprojeto.git||[]|
+|[Grupo 07](./grupo7.md)|João Colosso, Otavio, Richard|Fish Track - App Pescadores|https://github.com/richardpns/fish-track.git||[]|
+|[Grupo 08](./grupo8.md)|Igor|Streaming de Música|https://github.com/JustSaturno/Aura-Development.git|12/12/20224|[x]|
 
 ## Sprint 01 - Backlog
 - [x] Definir o Tema do Projeto
