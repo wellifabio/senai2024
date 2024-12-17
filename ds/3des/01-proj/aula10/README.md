@@ -7,7 +7,7 @@ Para projetos **Open Source** enviar o link do diretório do projeto no GitHub. 
 
 |Check-list|Integrantes|Tema|Repositório|Apresentado|Avaliado|
 |:-:|-|:-:|-|-|:-:|
-|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git||Não|
+|[Grupo 01](./grupo1.md)|Camila, Erick, Leonardo, Jaqueline|E-Commerce - E-Flow|https://github.com/ericksilva232323/E-commerce.git|17/12/2024|Sim|
 |[Grupo 02](./grupo2.md)|Carla Mozena & Leticia Hofman|[LEKA - Educacional](https://carla-coder.github.io/Leka/Web-2.0/welcome.html)|https://github.com/Carla-coder/Leka.git|12/12/20224|Sim |
 |[Grupo 03](./grupo3.md)|Carlos Augusto e Vinícius|Utilidade Pública - SISUR|https://github.com/Vinimanzano/PrototipoProjeto.git|12/12/20224|Sim|
 |[Grupo 04](./grupo4.md)|Alefe, Bruno, Cicero, Guilherme, Pedro|Agregado de sites de notícias - MonkeyFeed|https://github.com/Cisenai/MonkeyFeed.git|12/12/20224|Sim|
